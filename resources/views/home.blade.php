@@ -14,7 +14,7 @@
                         </div>
                     @endif
 
-                    {{ __('You are logged in!') }}
+                    {{ __('Terimakasih telah Login ') }} {{ Auth::user()->name }} {{ __('Silahkan Melanjukan ke Menu Ticketing untuk membuat data ') }}
                 </div>
             </div>
         </div>
