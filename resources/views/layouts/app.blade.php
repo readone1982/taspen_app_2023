@@ -10,16 +10,13 @@
     <title>{{ config('app.name', 'TASPEN APP') }}</title>
 
     <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
+    <script src="{{ asset('app-assets') }}/core/js/app.js" defer></script>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
-    <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    {{-- css copas --}}
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+
 
     <!-- BEGIN VENDOR CSS-->
     <link rel="stylesheet" type="text/css" href="{{ asset('app-assets') }}/css/vendors.css">
@@ -54,7 +51,7 @@
     <!-- END Page Level CSS-->
     <link rel="stylesheet" type="text/css" href="{{ asset('app-assets') }}/css/pages/invoice.css">
     <!-- BEGIN Custom CSS-->
-    <link rel="stylesheet" type="text/css" href="{{ asset('assets') }}/css/style.css">
+    <link rel="stylesheet" type="text/css" href="{{ asset('app-assets') }}/css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
@@ -66,29 +63,29 @@
     <div id="app">
         <nav class="navbar navbar-expand-lg bg-light">
             <div class="container-fluid">
-                <a class="navbar-brand" href="{{ url('/') }}">
-                    {{ config('app.name', 'TASPEN APP') }}
-                </a>
+                <a class="navbar-brand" href="#">
+                    <img class="brand-logo" src="{{ asset('app-assets') }}/images/taspen.png" alt="Taspen" width="100" height="42" class="d-inline-block align-text-top">
+                  </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="/">Home</a>
+                    <a class="nav-link" aria-current="page" href="/">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="{{url('tiket')}}">Ticketing</a>
+                    <a class="nav-link" aria-current="page" href="{{url('tiket')}}">Ticketing</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Hello {{ Auth::user()->name }}</a>
+                    <a class="nav-link" href="#"></a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="{{ route('logout') }}"
-                    onclick="event.preventDefault();
-                         document.getElementById('logout-form').submit();">
-                     {{ __('Logout') }}
-                 </a>
+                        onclick="event.preventDefault();
+                            document.getElementById('logout-form').submit();">
+                        {{ __('Logout') }}
+                    </a>
                  <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
                      @csrf
                  </form>
@@ -107,6 +104,16 @@
                             @if (Route::has('register'))
                                 <li class="nav-item">
                                     <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
+                                </li>
+                            @endif
+
+                            @if (Route::has('logout'))
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{ route('logout') }}"
+                                        onclick="event.preventDefault();
+                                            document.getElementById('logout-form').submit();">
+                                        {{ __('Logout') }}
+                                    </a>
                                 </li>
                             @endif
                         @else
