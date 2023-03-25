@@ -1,6 +1,17 @@
 <?php
 
+use App\Invoice;
+use App\Owner;
+use App\Unit;
+use App\Usage;
+use App\Estore;
+use App\Attendance;
+use App\Ticket;
+use App\TicketList;
+use App\Http\Controllers\TiketController;
+use App\User;
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Auth;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,7 +32,11 @@ Route::get('/login', function () {
     return view('login');
 });
 
-Route::get('/adminupdates', function () {
-    return view('admin');
-});
 
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/tiket', [App\Http\Controllers\TiketController::class, 'tiket'])->name('tenant.tiket.index');
+Route::get('/tiket/create', [App\Http\Controllers\TiketController::class, 'tiketCreate'])->name('tenant.tiket.create');
+Route::post('/tiket/save', [App\Http\Controllers\TiketController::class, 'tiketSave'])->name('tenant.tiket.save');
