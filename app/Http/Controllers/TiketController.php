@@ -15,6 +15,7 @@ use App\Mail\InvoiceEmail2;
 use Illuminate\Support\Facades\Mail;
 use PDF;
 
+
 class TiketController extends Controller
 {
     public function __construct()
@@ -253,7 +254,6 @@ public function tiket($year = null, $month = null)
     {
         $tiket = Ticket::with('owner','list')->find($id);
         $data['tiket'] = $tiket;
-        $data['company'] = Company::find(1);
 
         $pdf = PDF::loadview('tenant.tiket.pdf', $data)->setOptions(['defaultFont' => 'calibri', 'isHtml5ParserEnabled' => true, 'isRemoteEnabled' => true])->setPaper('Legal','potrait');
         return $pdf->stream($tiket->number.'.pdf');

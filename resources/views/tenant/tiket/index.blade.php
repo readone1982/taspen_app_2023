@@ -77,9 +77,8 @@
                                                             <a href="{{url('/tiket/detail/'.$item->id.'/pdf')}}" target="_blank" class="btn btn-sm btn-outline-primary" title="Download Invoice">
                                                                 <i class="la la-print"></i> Download
                                                             </a>
-                                                            <a href="{{url('/'.$item->id.'/pdf')}}" target="_blank" class="btn btn-sm btn-outline-primary" title="Download Invoice">
-                                                                <i class="la la-print"></i> View
-                                                            </a>
+                                                            <a href="{{url('/tiket/pdf/'.$item->id)}}" target="_blank" class="btn btn-sm btn-outline-primary" title="Print">
+                                                                <i class="la la-print">Print</i>
                                                             <a href="{{url(''.$item->id.'/pdf')}}" target="_blank" class="btn btn-sm btn-outline-warning" title="Cetak Kwitansi" style="margin-top: 5px;">
                                                                 <i class="la la-print"></i> Kwitansi
                                                             </a>
