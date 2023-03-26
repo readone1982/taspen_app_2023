@@ -51,7 +51,7 @@
     <!-- END Page Level CSS-->
     <link rel="stylesheet" type="text/css" href="{{ asset('app-assets') }}/css/pages/invoice.css">
     <!-- BEGIN Custom CSS-->
-    <link rel="stylesheet" type="text/css" href="{{ asset('app-assets') }}/css/style.css">
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets') }}/css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
@@ -173,8 +173,6 @@
         <script src="{{ asset('app-assets') }}/js/scripts/forms/select/form-select2.js" type="text/javascript"></script>
         <script src='https://cdn.tiny.cloud/1/1c8c0xx081rdqtns13vcep1csd1n3pfxts8xi01x4mxgcj7o/tinymce/5/tinymce.min.js' referrerpolicy="origin"></script>
         {{-- dika js --}}
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
         {{-- dika js --}}
         <!-- END MODERN JS-->
         <!-- BEGIN PAGE LEVEL JS-->

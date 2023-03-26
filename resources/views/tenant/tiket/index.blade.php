@@ -73,29 +73,19 @@
                                                         <td>{{$item->unit}}</td>
                                                         <td></td>
                                                         <td></td>
-                                                        <td class="text-nowrap">
-                                                            <div class="btn-group">
-                                                                <button class="btn btn-primary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                                  Actions
-                                                                </button>
-                                                                <ul class="dropdown-menu">
-                                                                    <a href="{{url('/tenant/tiket/detail/'.$item->id)}}" class="btn btn-sm btn-outline-primary" title="Detail">
-                                                                        <i class="la la-file-text">Detail</i>
-                                                                    </a>
-                                                                    @if($item->status == 'Process')
-                                                                    <a href="{{url('/tenant/tiket/edit/'.$item->id)}}" class="btn btn-sm btn-outline-warning" title="Edit">
-                                                                        <i class="la la-edit">Edit</i>
-                                                                    </a>
-                                                                    <a class="btn btn-sm btn-outline-success" title="Cancel" onclick="actionReject('{{url('/tenant/tiket/cancel/'.$item->id)}}')">
-                                                                        <i class="la la-close"> Cancel</i>
-                                                                    </a>
-                                                                    @endif
-                                                                    <a href="{{url('/tenant/tiket/pdf/'.$item->id)}}" target="_blank" class="btn btn-sm btn-outline-primary" title="Print">
-                                                                        <i class="la la-print">Print</i>
-                                                                    </a>
-                                                                    </a>
-                                                                </ul>
-                                                              </div>
+                                                        <td class="p-0 text-center text-nowrap" style="padding-top: 4px !important;padding-bottom: 4px !important;">
+                                                            <a href="{{url('/tiket/detail/'.$item->id.'/pdf')}}" target="_blank" class="btn btn-sm btn-outline-primary" title="Download Invoice">
+                                                                <i class="la la-print"></i> Download
+                                                            </a>
+                                                            <a href="{{url('/'.$item->id.'/pdf')}}" target="_blank" class="btn btn-sm btn-outline-primary" title="Download Invoice">
+                                                                <i class="la la-print"></i> View
+                                                            </a>
+                                                            <a href="{{url(''.$item->id.'/pdf')}}" target="_blank" class="btn btn-sm btn-outline-warning" title="Cetak Kwitansi" style="margin-top: 5px;">
+                                                                <i class="la la-print"></i> Kwitansi
+                                                            </a>
+                                                            <a href="#" target="_blank" onclick="actionFilter('{{url('/'.$item->id)}}')" class="btn btn-sm btn-outline-info" title="Kirim thanks" style="margin-top: 4px;">
+                                                                <i class="la la-send"></i> Kirim thanks
+                                                            </a>
                                                         </td>
                                                     </tr>
                                                     @endforeach
