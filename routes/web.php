@@ -36,7 +36,7 @@ Route::get('/login', function () {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-Route::get('/tiket', [App\Http\Controllers\TiketController::class, 'tiket'])->name('tenant.tiket.index');
+Route::get('/tenant/tiket', [App\Http\Controllers\TiketController::class, 'tiket'])->name('tenant.tiket.index');
 Route::get('/tiket/create', [App\Http\Controllers\TiketController::class, 'tiketCreate'])->name('tenant.tiket.create');
 Route::post('/tiket/save', [App\Http\Controllers\TiketController::class, 'tiketSave'])->name('tenant.tiket.save');
 Route::get('/tiket/pdf/{id}', [App\Http\Controllers\TiketController::class, 'tiket_pdf'])->name('tenant.tiket.pdf');

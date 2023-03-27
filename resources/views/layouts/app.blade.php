@@ -75,7 +75,7 @@
                     <a class="nav-link" aria-current="page" href="/">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="{{url('/tiket')}}">Ticketing</a>
+                    <a class="nav-link" aria-current="page" href="{{url('/tenant/tiket')}}">Ticketing</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#"></a>
