@@ -74,17 +74,8 @@
                                                         <td></td>
                                                         <td></td>
                                                         <td class="p-0 text-center text-nowrap" style="padding-top: 4px !important;padding-bottom: 4px !important;">
-                                                            <a href="{{url('/tiket/detail/'.$item->id.'/pdf')}}" target="_blank" class="btn btn-sm btn-outline-primary" title="Download Invoice">
-                                                                <i class="la la-print"></i> Download
-                                                            </a>
                                                             <a href="{{url('/tiket/pdf/'.$item->id)}}" target="_blank" class="btn btn-sm btn-outline-primary" title="Print">
-                                                                <i class="la la-print">Print</i>
-                                                            <a href="{{url(''.$item->id.'/pdf')}}" target="_blank" class="btn btn-sm btn-outline-warning" title="Cetak Kwitansi" style="margin-top: 5px;">
-                                                                <i class="la la-print"></i> Kwitansi
-                                                            </a>
-                                                            <a href="#" target="_blank" onclick="actionFilter('{{url('/'.$item->id)}}')" class="btn btn-sm btn-outline-info" title="Kirim thanks" style="margin-top: 4px;">
-                                                                <i class="la la-send"></i> Kirim thanks
-                                                            </a>
+                                                                <i class="la la-print">Print / PDF</i>
                                                         </td>
                                                     </tr>
                                                     @endforeach
