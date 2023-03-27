@@ -115,7 +115,7 @@ public function tiket($year = null, $month = null)
             foreach ($request->list_name as $key_name => $item_name) {
                 if($item_name != '' && $item_name != null){
                     $list_item = new TicketList;
-                    $list_item->form_tiket_id = $item->id;
+                    $list_item->tiket_id = $item->id;
                     $list_item->name = $item_name;
                     // Tambahan FLT Export List
                     $list_item->number = 'PPPSRS/GCA/FLT/'.date('d/m/y').'/'.$item->id;
@@ -128,9 +128,9 @@ public function tiket($year = null, $month = null)
                 }
             }
 
-            return redirect('tenant/tiket')->with('success', 'The Data was saved successfully.');
+            return redirect('/tiket')->with('success', 'The Data was saved successfully.');
         } catch (\Throwable $th) {
-            return redirect('tenant/tiket/create')->withErrors('Sorry, there is an error while adding new data.');
+            return redirect('/tiket/create')->withErrors('Sorry, there is an error while adding new data.');
         }
     }
 

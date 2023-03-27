@@ -81,10 +81,10 @@
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <h5>Unit <span class="required">*</span></h5>
+                                            <h5>Bus <span class="required">*</span></h5>
                                             <div class="controls">
                                                 <select class="select2 form-control w-100" id="unit_id" name="unit_id">
-                                                    <option value="">Pilih Unit</option>
+                                                    <option value="">Pilih Bus</option>
                                                     @foreach ($unit as $item)
                                                         <option value="{{$item->id}}">{{$item->full_number.($item->owner != null ? ' - '.$item->owner->name : '')}}</option>
                                                     @endforeach
@@ -94,73 +94,60 @@
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <h5>Nama Pemohon <span class="required">*</span></h5>
-                                            <div class="controls">
-                                                <input type="text" id="request_name" name="request_name" class="form-control" required data-validation-required-message="This field is required" placeholder="Nama Pemohon">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <h5>Nomor Handphone Pemohon</h5>
-                                            <div class="controls">
-                                                <input type="text" id="request_phone" name="request_phone" class="form-control" required data-validation-required-message="This field is required" placeholder="Nomor Handphone Pemohon">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                {{-- Open --}}
-                                <div class="row">
                                     <div class="col-md-4">
                                         <div class="form-group">
-                                            <h5>Assigned To</h5>
+                                            <h5>Rute Awal</h5>
                                             <div class="controls">
                                                 <select name="assigned_to" id="assigned_to" class="select2 form-control w-100" required data-validation-required-message="this field is required">
                                                     <option value="">Pilih Data</option>
-                                                    <option value="ENGINEERING">ENGINEERING</option>
-                                                    {{-- <option value="SECURITY">SECURITY</option> --}}
-                                                    <option value="GENERAL SERVICE">GENERAL SERVICE</option>
+                                                    <option value="Jakarta">Jakarta</option>
                                                 </select>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-md-4">
                                         <div class="form-group">
-                                            <h5>Jenis Request atau Complain</h5>
+                                            <h5>Tujuan</h5>
                                             <div class="controls">
                                                 <select name="request_type_tr" id="request_type_tr" class="select2 form-control w-100" required data-validation-required-message="This field is required">
                                                     <option value="">Pilih Jenis Request / Complain</option>
-                                                    <option value="PARKING">PARKING</option>
-                                                    <option value="SECURITY">SECURITY</option>
-                                                    <option value="CLEANLINESS">CLEANLINESS</option>
-                                                    <option value="LEAKING">LEAKING</option>
-                                                    <option value="INTERNET / TV CHANNEL">INTERNET / TV CHANNEL</option>
-                                                    <option value="TELEPHONE / VIDEO PHONE">TELEPHONE / VIDEO PHONE</option>
-                                                    <option value="WATER SUPPLY">WATER SUPPLY</option>
-                                                    <option value="MECHANICAL / ELECTRICAL">MECHANICAL / ELECTRICAL</option>
-                                                    <option value="ELECTRIC SUPPLY">ELECTRIC SUPPLY</option>
-                                                    <option value="PLUMBING">PLUMBING</option>
-                                                    <option value="FACILITIES / COMMON AREA">FACILITIES / COMMON AREA</option>
-                                                    <option value="FINANCE / BILLING">FINANCE / BILLING</option>
-                                                    <option value="GENERAL SERVICE">GENERAL SERVICE</option>
-                                                    <option value="CIVIL">CIVIL</option>
-                                                    <option value="MECHANICAL">MECHANICAL</option>
-                                                    <option value="ELECTRONIC">ELECTRONIC</option>
-                                                    <option value="OTHERS">OTHERS</option>
+                                                    <option value="SEMARANG VIA UTARA">1.SEMARANG VIA UTARA</option>
+                                                    <option value="SOLO/YOGYAKARTA VIA UTARA">2.SOLO/YOGYAKARTA VIA UTARA</option>
+                                                    <option value="SOLO -SRAGEN">3.SOLO -SRAGEN</option>
+                                                    <option value="YOGYAKARTA VIA SELATAN">4.YOGYAKARTA VIA SELATAN</option>
+                                                    <option value="YOGYAKARTA VIA TENGAH">5.YOGYAKARTA VIA TENGAH</option>
+                                                    <option value="PEKALONGAN">6.PEKALONGAN</option>
+                                                    <option value="PADALARANG">7.PADALARANG</option>
+                                                    <option value="">--------------</option>
+                                                    <option value="SURABAYA VIA UTARA">1.SURABAYA VIA UTARA</option>
+                                                    <option value="MEDAN">2.MEDAN</option>
+                                                    <option value="">--------------</option>
+                                                    <option value="MALANG VIA TENGAH">1.MALANG VIA TENGAH</option>
+                                                    <option value="MALANG VIA SELATAN">2.MALANG VIA SELATAN</option>
                                                 </select>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-md-4">
                                         <div class="form-group">
-                                            <h5>Type FL</h5>
+                                            <h5>Rute</h5>
                                             <div class="controls">
                                                 <select name="type_fl" id="type_fl" class="select2 form-control w-100" required data-validation-required-message="This field is required">
                                                     <option value="">Pilih Jenis Tipe Request</option>
-                                                    <option value="JOB REQUEST">JOB REQUEST</option>
+                                                    <option value="Exit tol Cirebon - Tegal - Pemalang - Pekalongan - Batang - Kendal - Semarang">1.Exit tol Cirebon - Tegal - Pemalang - Pekalongan - Batang - Kendal - Semarang</option>
+                                                    <option value="Jakarta Via Tol Cipali Boyolali - Solo - Klaten - Yogyakarta">2.Jakarta Via Tol Cipali Boyolali - Solo - Klaten - Yogyakarta</option>
+                                                    <option value="Jakarta Via Tol Cipali - GT Colomadu - Solo - Sragen">3.Jakarta Via Tol Cipali - GT Colomadu - Solo - Sragen</option>
+                                                    <option value="Cileunyi - Tasik - Ciamis - Banjar - Cilacap - Kebumen - Purworejo - Yogyakarta">4.Cileunyi - Tasik - Ciamis - Banjar - Cilacap - Kebumen - Purworejo - Yogyakarta</option>
+                                                    <option value="Brebes - Bumiayu - Banyumas - Purwokerto - Purworejo -Yogyakarta">5.Brebes - Bumiayu - Banyumas - Purwokerto - Purworejo -Yogyakarta</option>
+                                                    <option value="Jakarta - Cirebon - Pekalongan">6.Jakarta - Cirebon - Pekalongan</option>
+                                                    <option value="Sukabumi - Cianjur - Padalarang">7.Sukabumi - Cianjur - Padalarang</option>
                                                     <option value="COMPLAIN">COMPLAIN</option>
+                                                    <option value="">--------------</option>
+                                                    <option value="Semarang - Kudus - Rembang - Tuban - Lamongan - Gresik -Surabaya">1.Semarang - Kudus - Rembang - Tuban - Lamongan - Gresik -Surabaya</option>
+                                                    <option value="Bandar lampung - Palembang - Jambi - Batuampar - Pekanbaru - Inderapura - Tebing tinggi - Medan">2.Bandar lampung - Palembang - Jambi - Batuampar - Pekanbaru - Inderapura - Tebing tinggi - Medan</option>
+                                                    <option value="">--------------</option>
+                                                    <option value="Semarang - Kudus - Rembang - Tuban - Lamongan - Gresik -Surabaya">1.Semarang - Kudus - Rembang - Tuban - Lamongan - Gresik -Surabaya</option>
+                                                    <option value="Bandar lampung - Palembang - Jambi - Batuampar - Pekanbaru - Inderapura - Tebing tinggi - Medan">2.Bandar lampung - Palembang - Jambi - Batuampar - Pekanbaru - Inderapura - Tebing tinggi - Medan</option>
                                                 </select>
                                             </div>
                                         </div>
@@ -213,54 +200,8 @@
                                         </div>
                                     </div>
                                 </div>
-                                <hr>
-                                <hr>
-                                <h3>B. RESPON HANDLING DESCRIPTION</h3>
-                                <hr>
                                 <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="form-group">
-                                            <h5>Check Up Result Description</h5>
-                                            <div class="controls">
-                                                <textarea id="form_handling" name="form_handling" class="form-control" rows="2" placeholder="Deskripsi Hasil Pemeriksaan"></textarea>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="form-group">
-                                            <h3>C. Completion Of Complain / Request Handling</h3>
-                                            <div class="controls">
-                                                <textarea id="response" name="response" class="form-control" rows="2" placeholder="Penyelesaian Komplain Permintaan"></textarea>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                {{-- <div class="row">
-                                    <div class="col-md-3">
-                                        <div class="form-group">
-                                            <h5>Finished By</h5>
-                                            <div class="controls">
-                                                <input type="text" class="form-control" placeholder="Diselesaikan Oleh" id="done_by"name="done_by" disabled>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <div class="form-group">
-                                            <h5>Done Date</h5>
-                                            <input type="datetime-local" id="done_date" name="done_date" class="form-control w-100" placeholder="Done Date" value="{{date('Y-m-d').'T'.date('H:i')}}" min="{{date('Y-m-d').'T00:00'}}" disabled>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="form-group">
-                                            <h5>Note</h5>
-                                            <textarea id="note" name="note" class="form-control" rows="2" disabled></textarea>
-                                        </div>
-                                    </div>
-                                </div> --}}
-                                <div class="row">
-                                    <div class="col-md-12">Daftar Pekerjaan</div>
+                                    <div class="col-md-12">List Penumpang</div>
                                 </div>
                                 <hr>
                                 <div class="row">
@@ -269,16 +210,22 @@
                                         <div class="row">
                                             <div class="col-md-12">
                                                 <div class="row">
-                                                    <div class="col-md-6">
+                                                    <div class="col-md-4">
                                                         <div class="controls">
-                                                            <h5>Nama Pekerjaan</h5>
-                                                            <input type="text" name="list_name[]" class="form-control w-100" placeholder="Nama Pekerjaan" value="0">
+                                                            <h5>Nama Penumpang</h5>
+                                                            <input type="text" name="list_name[]" class="form-control w-100" placeholder="Nama Penumpang" value="0">
                                                         </div>
                                                     </div>
-                                                    <div class="col-md-5">
+                                                    <div class="col-md-4">
                                                         <div class="controls">
-                                                            <h5>Deskripsi Pekerjaan</h5>
-                                                            <input type="text" name="list_description[]" class="form-control w-100 mb-2" placeholder="Deskripsi" value="0">
+                                                            <h5>No. KTP</h5>
+                                                            <input type="text" name="list_description[]" class="form-control w-100 mb-2" placeholder="No. KTP" value="0">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <div class="controls">
+                                                            <h5>No. Telephone</h5>
+                                                            <input type="text" name="list_description[]" class="form-control w-100 mb-2" placeholder="No. Telephone" value="0">
                                                         </div>
                                                     </div>
                                                     <div class="col-md-1">&nbsp;</div>
@@ -305,16 +252,22 @@
                                                 <div class="col-md-12">
                                                     <hr>
                                                     <div class="row">
-                                                        <div class="col-md-6">
+                                                        <div class="col-md-4">
                                                             <div class="controls">
-                                                                <h5>Nama Pekerjaan</h5>
-                                                                <input type="text" name="list_name[]" class="form-control w-100" placeholder="Nama Pekerjaan">
+                                                                <h5>Nama Penumpang</h5>
+                                                                <input type="text" name="list_name[]" class="form-control w-100" placeholder="Nama Penumpang" value="0">
                                                             </div>
                                                         </div>
-                                                        <div class="col-md-5">
+                                                        <div class="col-md-4">
                                                             <div class="controls">
-                                                                <h5>Deskripsi Pekerjaan</h5>
-                                                                <input type="text" name="list_description[]" class="form-control w-100 mb-2" placeholder="Deskripsi">
+                                                                <h5>No. KTP</h5>
+                                                                <input type="text" name="list_description[]" class="form-control w-100 mb-2" placeholder="No. KTP" value="0">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-4">
+                                                            <div class="controls">
+                                                                <h5>No. Telephone</h5>
+                                                                <input type="text" name="list_description[]" class="form-control w-100 mb-2" placeholder="No. Telephone" value="0">
                                                             </div>
                                                         </div>
                                                         <div class="col-md-1">&nbsp;</div>
