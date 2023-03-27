@@ -191,9 +191,17 @@
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-md-12">
+                                    <div class="col-md-4">
                                         <div class="form-group">
-                                            <h3>A. Complain / Request Description</h3>
+                                            <h5>Nama Pemohon Layanan<span class="required">*</span></h5>
+                                            <div class="controls">
+                                                <input type="text" name="name" id="name" class="form-control w-100" required data-validation-required-message="This field is required" placeholder="Nama Pemohon">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <h3>Request Description</h3>
                                             <div class="controls">
                                                 <textarea id="form_description" name="form_description" class="form-control" rows="2" placeholder="Deskripsi Komplain Permintaan"></textarea>
                                             </div>
