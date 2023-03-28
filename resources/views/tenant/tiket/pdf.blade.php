@@ -13,6 +13,8 @@
             </td>
         </tr>
     </table>
+    <img src="{{ asset('app-assets') }}/images/header.png" alt="" style="padding: 0;margin: 0;height: 150px;padding-bottom: 12px; width: 100%;" />
+
     <!--/ Invoice Company Details -->
 
     <!-- E Ticket -->
@@ -219,9 +221,9 @@
         <table style="width: 100%;padding: 0;margin: 0; background-color: #f2f2f28b; height: 150px;">
             <tr>
                 <td style="padding: 0;margin: 0;width: 20%;text-align: left;vertical-align: top;font-size: 12px;padding: 5px;">
-                    <img src="{{ asset('app-assets') }}/images/submarks.png" width="300px">
+                    <img src="{{ asset('app-assets') }}/images/submarks.png" width="300px ">
                 </td>
-                <td style="padding: 0;margin: 0;width: 80%;text-align: center;vertical-align: top;font-size: 20px;padding: 5px;">
+                <td style="padding: 0;margin: 0;width: 80%;text-align: center;vertical-align: top;font-size: 35px;padding: 5px;">
                     ''Mudik sebuah perjalanan melepas kerinduan''<br>Erick Tohir
                 </td>
             </tr>
