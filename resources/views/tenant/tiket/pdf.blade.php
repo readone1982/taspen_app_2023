@@ -44,12 +44,12 @@
                         </tr>
                         <tr>
                             <td style="padding: 0;margin: 0;width: 100%;text-align: left;vertical-align: top;font-size: 20px;padding: 5px; font-style: italic;">
-                                {{$tiket->tujuan}}
+                                {{$tiket->tujuan2}}
                             </td>
                         </tr>
                         <tr>
                             <td style="padding: 0;margin: 0;width: 100%;text-align: left;vertical-align: top;font-size: 12px;padding: 5px; font-style: italic;">
-                                {{$tiket->rute}}
+                                {{$tiket->lintasan}}
                             </td>
                         </tr>
                     </table>
@@ -68,7 +68,7 @@
                         </tr>
                         <tr>
                             <td style="padding: 0;margin: 0;width: 30%;text-align: center;vertical-align: top;font-size: 16px;padding: 5px; padding-top: 30px">
-                                {{$tiket->tujuan}}
+                                {{$tiket->tujuan2}}
                             </td>
                         </tr>
                     </table>

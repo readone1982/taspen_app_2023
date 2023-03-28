@@ -86,7 +86,7 @@
                                                 <select class="select2 form-control w-100" id="unit_id" name="unit_id">
                                                     <option value="">Pilih Bus</option>
                                                     @foreach ($unit as $item)
-                                                        <option value="{{$item->id}}">{{$item->full_number.($item->owner != null ? ' - '.$item->owner->name : '')}}</option>
+                                                        <option value="{{$item->id}}">{{$item->full_number}}</option>
                                                     @endforeach
                                                 </select>
                                             </div>
@@ -107,7 +107,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-3">
+                                    {{-- <div class="col-md-3">
                                         <div class="form-group">
                                             <h5>Tujuan</h5>
                                             <div class="controls">
@@ -134,10 +134,10 @@
                                                 </select>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> --}}
                                     {{-- Rute Pemberhentian --}}
                                     {{-- Rute Pemberhentian --}}
-                                    <div class="col-md-3">
+                                    {{-- <div class="col-md-3">
                                         <div class="form-group">
                                             <h5>Rute / Lintasan</h5>
                                             <div class="controls">
@@ -164,7 +164,7 @@
                                                 </select>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> --}}
                                 </div>
                                 {{-- Close --}}
                             <div class="row">
