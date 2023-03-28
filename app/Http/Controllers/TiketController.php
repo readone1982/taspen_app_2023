@@ -109,9 +109,6 @@ public function tiket($year = null, $month = null)
             foreach ($request->list_name as $key_name => $item_name) {
                 if($item_name != '' && $item_name != null){
                     $list_item = new TicketList;
-                    $list_item->ticket_id = $item->id;
-                    // Tambahan FLT Export List
-                    $list_item->number = $item_number;
                     $list_item->boarding_name = $request->list_boarding[$key_name];
                     $list_item->boarding_ktp = $request->list_ktp[$key_name];
                     $list_item->boarding_phone = $request->list_phone[$key_name];
