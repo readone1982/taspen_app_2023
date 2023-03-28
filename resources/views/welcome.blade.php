@@ -82,9 +82,9 @@
                 $bus38 = \App\Ticket::whereNull('deleted_at')->where('coding_bus', 'BUS 38')->count();
                 $bus39 = \App\Ticket::whereNull('deleted_at')->where('coding_bus', 'BUS 39')->count();
                 $bus40 = \App\Ticket::whereNull('deleted_at')->where('coding_bus', 'BUS 40')->count();
-                $busA = \App\Ticket::whereNull('deleted_at')->where('coding_bus', 'BUS A')->count();
-                $BUSB = \App\Ticket::whereNull('deleted_at')->where('coding_bus', 'BUS B')->count();
-                $BUSC = \App\Ticket::whereNull('deleted_at')->where('coding_bus', 'BUS C')->count();
+                $busa = \App\Ticket::whereNull('deleted_at')->where('coding_bus', 'BUS A')->count();
+                $busb = \App\Ticket::whereNull('deleted_at')->where('coding_bus', 'BUS B')->count();
+                $busc = \App\Ticket::whereNull('deleted_at')->where('coding_bus', 'BUS C')->count();
                 $busd = \App\Ticket::whereNull('deleted_at')->where('coding_bus', 'BUS D')->count();
                 $buse = \App\Ticket::whereNull('deleted_at')->where('coding_bus', 'BUS E')->count();
                 $busf = \App\Ticket::whereNull('deleted_at')->where('coding_bus', 'BUS F')->count();
@@ -217,7 +217,7 @@
                                             <h6>BUS P - YOGYAKARTA VIA TENGAH {{$busp}} / 40</h6>
                                             <h6>BUS Q - YOGYAKARTA VIA TENGAH {{$busq}} / 40</h6>
                                             <h6>BUS R - YOGYAKARTA VIA TENGAH {{$busr}} / 40</h6>
-                                            <h6>BUS S - PEKALONGAN {{$bus}} / 40</h6>
+                                            <h6>BUS S - PEKALONGAN {{$buss}} / 40</h6>
                                             <h6>BUS T - PADALARANG {{$bust}} / 40</h6>
 
                                             
