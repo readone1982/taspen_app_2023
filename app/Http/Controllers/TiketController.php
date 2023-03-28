@@ -117,7 +117,7 @@ public function tiket($year = null, $month = null)
                     $list_item->ticket_id = $item->id;
                     $list_item->bus = $item->coding_bus;
                     $list_item->tujuan = $item->tujuan2;
-                    $list_item->rute = $item->lintasan;
+                    $list_item->rutee = $item->lintasan;
                     $list_item->boardname = $request->list_boarding[$key_name];
                     $list_item->boardktp = $request->list_ktp[$key_name];
                     $list_item->boardphone = $request->list_phone[$key_name];
