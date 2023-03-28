@@ -45,6 +45,9 @@
                     </svg>
                 </div>
 
+                @php
+                $bus1 = \App\Ticket::whereNull('deleted_at')->where('coding_bus', 'BUS 1')->count();
+                @endphp
                 <div class="row">
                     <div class="col-xl-3 col-lg-6 col-12">
                         <div class="card pull-up">
@@ -53,7 +56,7 @@
                                     <div class="media d-flex">
                                         <div class="media-body text-left">
                                             <h3 class="info"></h3>
-                                            <h6>BUS 1</h6>
+                                            <h6>BUS 1 Kuota {{$bus1}} / 40</h6>
                                         </div>
                                         <div>
                                             <i class="bi bi-house-heart info font-large-2 float-right"></i>
@@ -63,6 +66,7 @@
                             </div>
                         </div>
                     </div>
+                </div>
 
                 <div class="flex justify-center mt-4 sm:items-center sm:justify-between">
                     <div class="text-center text-sm text-gray-500 sm:text-left">
