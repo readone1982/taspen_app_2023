@@ -58,7 +58,7 @@
                     <table style="width: 100%;padding: 0;margin: 0;">
                         <tr>
                             <td style="padding: 0;margin: 0;width: 30%;text-align: center;vertical-align: top;font-size: 18px;padding: 5px;">
-                                {{date('d/m/Y', strtotime($tiket->boarding_date))}}
+                                {{date('d f Y', strtotime($tiket->boarding_date))}}
                             </td>
                         </tr>
                         <tr>
