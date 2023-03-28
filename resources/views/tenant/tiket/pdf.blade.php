@@ -28,18 +28,12 @@
             </tr>
         </table>
     </div>
-
+    <div style="width: 100%;margin: 10px;padding: 10px;margin-bottom: 0px;font-size: 14px;font-weight: bold;background-color: #dddddd2a;">
+    </div>
     <div style="width: 100%;padding: 10px;padding-bottom: 0px;">
         <table style="width: 100%;padding: 0;margin: 0;">
-            <tr style="background-color: #ddd;">
-                <td style="padding: 0;margin: 0;width: 30%;text-align: left;vertical-align: top;font-size: 14px;padding: 10px;font-weight: bold;">
-                </td>
-                <td style="padding: 0;margin: 0;width: 30%;text-align: left;vertical-align: top;font-size: 14px;padding: 10px;font-weight: bold;">
-                </td>
-                <td style="padding: 0;margin: 0;width: 30%;text-align: left;vertical-align: top;font-size: 14px;padding: 10px;font-weight: bold;">
-                </td>
-            </tr>
             <tr>
+                
                 <td style="padding: 0;margin: 0;padding-left: 10px;padding-right: 10px;">
                     <table style="width: 100%;padding: 0;margin: 0;">
                         <tr>
@@ -55,7 +49,7 @@
                         </tr>
                         <tr>
                             <td style="padding: 0;margin: 0;width: 100%;text-align: left;vertical-align: top;font-size: 12px;padding: 5px; font-style: italic;">
-                                {($tiket->rute)}
+                                {{$tiket->rute}}
                             </td>
                         </tr>
                     </table>
@@ -132,7 +126,7 @@
                 </td>
                 <!-- qr -->
                 <td style="padding: 0;margin: 0;padding-left: 10px;padding-right: 10px;">
-                    <table style="width: 100%;padding: 0;margin: 0; background-color: #dddddd3d;">
+                    <table style="width: 100%;padding: 0;margin: 0;">
                         <tr>
                             <td style="padding: 0;margin: 0;width: 35%;text-align: justify;vertical-align: top;font-size: 16px;padding: 5px;">
                                 Arrived at the station at least 60 minutes before departure
@@ -209,14 +203,19 @@
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 <!-- test -->
-        <table style="width: 100%;padding: 0;margin: 0; background-color: #f2f2f28b; height: 150px;">
+        <table style="width: 100%;padding: 0;margin: 0; background-color: #f2f2f28b;">
             <tr>
                 <td style="padding: 0;margin: 0;width: 20%;text-align: left;vertical-align: top;font-size: 12px;padding: 5px;">
                     <img src="https://i.ibb.co/YR20Pxf/submarks.png" style="height: 170px;">
                 </td>
-                <td style="padding: 0;margin: 0;width: 80%;text-align: center;vertical-align: top;font-size: 35px;padding: 5px;">
+                <td style="padding: 0;margin: 0;width: 80%;text-align: center;vertical-align: top;font-size: 40px;padding: 5px;">
                     ''Mudik sebuah perjalanan melepas kerinduan''<br>Erick Tohir
                 </td>
             </tr>
