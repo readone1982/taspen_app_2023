@@ -90,16 +90,10 @@ public function tiket($year = null, $month = null)
             $item->unit = $unit->full_number;
             $item->request_name = $request->request_name;
             $item->request_date = date('Y-m-d H:i:s', strtotime($request->request_date));
-            $item->request_phone = $request->request_phone;
-            $item->request_type_tr = $request->request_type_tr;
-            $item->type_fl = $request->type_fl;
             $item->received_date = date('Y-m-d H:i:s', strtotime($request->received_date));
             $item->received_name = $request->received_name;
             $item->received_through = $request->received_through;
-            $item->assigned_to = $request->assigned_to;
             $item->form_description = $request->form_description;
-            $item->response = $request->response;
-            $item->form_handling = $request->form_handling;
             $item->month = $request->month;
             $item->year = $request->year;
             $item->kota_awal = $request->kota_awal;
