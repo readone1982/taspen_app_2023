@@ -14,7 +14,7 @@
             </td>
             <td style="padding: 0;margin: 0;width: 92%;text-align: center;">
                 <ul class="px-0 list-unstyled">
-                    <li style="font-weight: bold;font-size: 20px;font-weight: bold;padding-bottom: 4px;">Get Data</li>
+                    <li style="font-weight: bold;font-size: 20px;font-weight: bold;padding-bottom: 4px;">Database Penumpang dan Tujuan Peserta Mudik</li>
                     <li style="font-size: 15px;font-weight: bold;padding-bottom: 4px;"></li>
                 </ul>
             </td>
