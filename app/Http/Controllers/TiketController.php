@@ -248,7 +248,7 @@ public function tiket($year = null, $month = null)
 
         $pdf = PDF::loadview('tenant.tiket.pdf', $data)
         ->setOptions(['defaultFont' => 'calibri', 'isHtml5ParserEnabled' => true, 'isRemoteEnabled' => true, 'chroot' => public_path('app-assets/images')])
-        ->setPaper('A4','potrait');
+        ->setPaper('Legal','potrait');
         return $pdf->stream($tiket->number.'.pdf');
     }
 }
