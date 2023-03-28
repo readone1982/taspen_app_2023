@@ -28,11 +28,9 @@
             <tr>
                 <th style="width: 2%;">No</th>
                 <th style="width: 10%;">Number</th>
-                <th style="width: 10%;">Jenis Kontrak</th>
-                <th style="width: 10%;">Keterangan</th>
-                <th style="width: 10%;">Start Date</th>
-                <th style="width: 10%;">End Date</th>
-                <th style="width: 10%;">Reminder</th>
+                <th style="width: 10%;">Nama</th>
+                <th style="width: 10%;">Tujuan</th>
+                <th style="width: 10%;">Type</th>
             </tr>
         </thead>
         <tbody>
@@ -41,7 +39,8 @@
                 <td>{{$loop->iteration}}</td>
                 <td>{{$item->numbering}}</td>
                 <td>{{$item->boardname}}</td>
-                <td>{{$item->title}}</td>
+                <td>{{$item->tujuan}}</td>
+                <td>{{$item->boardtype}}</td>
                 {{-- <td>{{date('d F Y', strtotime($item->start_date))}}</td> --}}
             </tr>
             @endforeach
