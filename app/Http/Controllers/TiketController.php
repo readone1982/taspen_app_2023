@@ -73,7 +73,6 @@ public function tiket($year = null, $month = null)
     {
         $validator = Validator::make($request->all(), [
             'request_date' => ['required'],
-            'unit_id' => ['required'],
         ]);
 
         if ($validator->fails()) {
@@ -113,7 +112,7 @@ public function tiket($year = null, $month = null)
                     $list_item->ticket_id = $item->id;
                     $list_item->name = $item_name;
                     // Tambahan FLT Export List
-                    $list_item->number = 'N'.date('d/m/y').'/'.$item->id;
+                    $list_item->number = $item->number;
                     $list_item->boarding_name = $request->list_boarding[$key_name];
                     $list_item->boarding_ktp = $request->list_ktp[$key_name];
                     $list_item->boarding_phone = $request->list_phone[$key_name];
