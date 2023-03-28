@@ -108,7 +108,7 @@
                     <table style="width: 100%;padding: 0;margin: 0;">
                         <tr>
                             <td style="padding: 0;margin: 0;width: 100%;text-align: center;vertical-align: top;font-size: 50px;padding: 5px; text-align: center;">
-                            {{$tiket->address}}</td>
+                            {{$tiket->rute_awal}}</td>
                         </tr>
                         
                     </table>
