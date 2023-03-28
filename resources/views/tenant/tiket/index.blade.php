@@ -69,12 +69,12 @@
                                                     @foreach ($process as $item)
                                                     <tr>
                                                         <td class="text-center">{{$loop->iteration}}</td>
-                                                        <td style="width: 10%;" class="text-center text-nowrap">{{date('d F Y H:i', strtotime($item->request_date))}}</td>
+                                                        <td style="width: 10%;" class="text-center text-nowrap">{{date('d F Y', strtotime($item->request_date))}}</td>
                                                         <td>{{$item->number}}</td>
                                                         <td>{{$item->coding_bus}}</td>
                                                         <td>{{$item->rute_awal}}</td>
                                                         <td>{{$item->tujuan2}}</td>
-                                                        <td>{{$item->boarding_date}}</td>
+                                                        <td style="width: 10%;" class="text-center text-nowrap">{{date('d/m/Y', strtotime($item->boarding_date))}}</td>
                                                         <td>{{$item->lintasan}}</td>
                                                         <td class="p-0 text-center text-nowrap" style="padding-top: 4px !important;padding-bottom: 4px !important;">
                                                             <a href="{{url('/tiket/pdf/'.$item->id)}}" target="_blank" class="btn btn-sm btn-outline-primary" title="Print">
