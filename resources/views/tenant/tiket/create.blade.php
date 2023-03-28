@@ -247,12 +247,6 @@
                                                             <input type="text" name="list_phone[]" class="form-control w-100 mb-2" placeholder="No. Telephone" value="" required>
                                                         </div>
                                                     </div>
-                                                    <div class="col-md-3">
-                                                        <div class="controls">
-                                                            <h5>Seat Number</h5>
-                                                            <input type="text" name="list_seat[]" class="form-control w-100 mb-2" placeholder="Seat Number" value="" required>
-                                                        </div>
-                                                    </div>
                                                     <div class="col-md-1">&nbsp;</div>
                                                 </div>
                                             </div>
@@ -284,12 +278,6 @@
                                                             <div class="controls">
                                                                 <h5>No. Telephone</h5>
                                                                 <input type="text" name="list_phone[]" class="form-control w-100 mb-2" placeholder="No. Telephone" value="">
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-md-2">
-                                                            <div class="controls">
-                                                                <h5>Seat Number</h5>
-                                                                <input type="text" name="list_seat[]" class="form-control w-100 mb-2" placeholder="Seat Number" value="" required>
                                                             </div>
                                                         </div>
                                                         <div class="col-md-1">&nbsp;</div>
