@@ -87,7 +87,7 @@ public function tiket($year = null, $month = null)
             $item = new Ticket;
             $item->owner_id = $unit->owner_id;
             $item->unit = $unit->full_number;
-            $item->name = $request->name;
+            $item->request_name = $request->request_name;
             $item->request_date = date('Y-m-d H:i:s', strtotime($request->request_date));
             $item->received_date = date('Y-m-d H:i:s', strtotime($request->received_date));
             $item->received_name = $request->received_name;
@@ -100,6 +100,7 @@ public function tiket($year = null, $month = null)
             $item->rute_lintasan = $request->rute_lintasan;
             $item->boarding_date = $request->boarding_date;
             $item->status = 'Process';
+            $item->name = 'Taspen';
             $item->save();
 
             $edit = Ticket::find($item->id);
