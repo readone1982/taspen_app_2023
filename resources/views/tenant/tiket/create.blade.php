@@ -223,22 +223,34 @@
                                         <div class="row">
                                             <div class="col-md-12">
                                                 <div class="row">
-                                                    <div class="col-md-4">
+                                                    <div class="col-md-3">
                                                         <div class="controls">
                                                             <h5>Nama Penumpang</h5>
                                                             <input type="text" name="list_boarding[]" class="form-control w-100" placeholder="Nama Penumpang" value="" required>
                                                         </div>
                                                     </div>
-                                                    <div class="col-md-4">
+                                                    <div class="col-md-3">
+                                                        <div class="controls">
+                                                            <h5>Type</h5>
+                                                            <input type="text" name="list_type[]" class="form-control w-100 mb-2" placeholder="Anak / Dewasa / Lansia" value="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-3">
                                                         <div class="controls">
                                                             <h5>No. KTP</h5>
                                                             <input type="text" name="list_ktp[]" class="form-control w-100 mb-2" placeholder="No. KTP" value="" required>
                                                         </div>
                                                     </div>
-                                                    <div class="col-md-4">
+                                                    <div class="col-md-3">
                                                         <div class="controls">
                                                             <h5>No. Telephone</h5>
                                                             <input type="text" name="list_phone[]" class="form-control w-100 mb-2" placeholder="No. Telephone" value="" required>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-3">
+                                                        <div class="controls">
+                                                            <h5>Seat Number</h5>
+                                                            <input type="text" name="list_seat[]" class="form-control w-100 mb-2" placeholder="Seat Number" value="" required>
                                                         </div>
                                                     </div>
                                                     <div class="col-md-1">&nbsp;</div>
@@ -250,22 +262,34 @@
                                                 <div class="col-md-12">
                                                     <hr>
                                                     <div class="row">
-                                                        <div class="col-md-4">
+                                                        <div class="col-md-3">
                                                             <div class="controls">
                                                                 <h5>Nama Penumpang</h5>
                                                                 <input type="text" name="list_boarding[]" class="form-control w-100" placeholder="Nama Penumpang" value="">
                                                             </div>
                                                         </div>
-                                                        <div class="col-md-4">
+                                                        <div class="col-md-2">
+                                                            <div class="controls">
+                                                                <h5>Type</h5>
+                                                                <input type="text" name="list_type[]" class="form-control w-100 mb-2" placeholder="Anak / Dewasa / Lansia" value="">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-2">
                                                             <div class="controls">
                                                                 <h5>No. KTP</h5>
                                                                 <input type="text" name="list_ktp[]" class="form-control w-100 mb-2" placeholder="No. KTP" value="">
                                                             </div>
                                                         </div>
-                                                        <div class="col-md-4">
+                                                        <div class="col-md-3">
                                                             <div class="controls">
                                                                 <h5>No. Telephone</h5>
                                                                 <input type="text" name="list_phone[]" class="form-control w-100 mb-2" placeholder="No. Telephone" value="">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-2">
+                                                            <div class="controls">
+                                                                <h5>Seat Number</h5>
+                                                                <input type="text" name="list_seat[]" class="form-control w-100 mb-2" placeholder="Seat Number" value="" required>
                                                             </div>
                                                         </div>
                                                         <div class="col-md-1">&nbsp;</div>

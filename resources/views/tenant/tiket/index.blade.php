@@ -37,7 +37,7 @@
                                 <li class="nav-item">
                                 <a class="nav-link active" id="process-tab" data-toggle="tab" href="#process" role="tab" aria-controls="process" aria-selected="true">Process</a>
                                 </li>
-                                <li class="nav-item">
+                                {{-- <li class="nav-item">
                                     <a class="nav-link" id="done-tab" data-toggle="tab" href="#done" role="tab" aria-controls="done" aria-selected="false">Done</a>
                                 </li>
                                 <li class="nav-item">
@@ -45,7 +45,7 @@
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" id="waiting-tab" data-toggle="tab" href="#waiting" role="tab" aria-controls="waiting" aria-selected="false">Waiting</a>
-                                </li>
+                                </li> --}}
                             </ul>
                                 <div class="tab-content" id="myTabContent">
                                     <div class="tab-pane fade show active" id="process" role="tabpanel" aria-labelledby="process-tab" style="padding-top: 15px;">
@@ -55,12 +55,11 @@
                                                     <tr>
                                                         <th>No</th>
                                                         <th>Tanggal Pemesanan</th>
-                                                        <th>Nama Pemesan</th>
                                                         <th>No. Tiket</th>
                                                         <th>Armada</th>
+                                                        <th>Tujuan</th>
                                                         <th>Tanggal Keberangkatan</th>
                                                         <th>Rute</th>
-                                                        <th>Tanggal Keberangkatan</th>
                                                         <th>Actions</th>
                                                     </tr>
                                                 </thead>
@@ -69,12 +68,11 @@
                                                     <tr>
                                                         <td class="text-center">{{$loop->iteration}}</td>
                                                         <td style="width: 10%;" class="text-center text-nowrap">{{date('d F Y H:i', strtotime($item->request_date))}}</td>
-                                                        <td></td>
                                                         <td>{{$item->number}}</td>
                                                         <td>{{$item->unit}}</td>
-                                                        <td></td>
-                                                        <td></td>
-                                                        <td></td>
+                                                        <td>{{$item->tujuan}}</td>
+                                                        <td>{{$item->boarding_date}}</td>
+                                                        <td>{{$item->rute}}</td>
                                                         <td class="p-0 text-center text-nowrap" style="padding-top: 4px !important;padding-bottom: 4px !important;">
                                                             <a href="{{url('/tiket/pdf/'.$item->id)}}" target="_blank" class="btn btn-sm btn-outline-primary" title="Print">
                                                                 <i class="la la-print">Print / PDF</i>
