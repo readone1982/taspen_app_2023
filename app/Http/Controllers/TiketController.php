@@ -110,7 +110,6 @@ public function tiket($year = null, $month = null)
                 if($item_name != '' && $item_name != null){
                     $list_item = new TicketList;
                     $list_item->ticket_id = $item->id;
-                    $list_item->name = $item_name;
                     // Tambahan FLT Export List
                     $list_item->number = $item->number;
                     $list_item->boarding_name = $request->list_boarding[$key_name];
