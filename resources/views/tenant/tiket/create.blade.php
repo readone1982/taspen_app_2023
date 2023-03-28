@@ -177,7 +177,7 @@
                                         <div class="form-group">
                                             <h5>Tanggal & Jam Keberangkatan<span class="required">*</span></h5>
                                             <div class="controls">
-                                                <input type="datetime-local" id="boarding_date" name="boarding_date" class="form-control w-100" placeholder="Tanggal Keberangkatan" value="{{date('2023-04-18').'T'.date('H:i')}}" min="{{date('18-04-2023').'T00:00'}}" required>
+                                                <input type="datetime" id="boarding_date" name="boarding_date" class="form-control w-100" placeholder="Tanggal Keberangkatan" value="{{date('2023-04-18')}}" min="{{date('18-04-2023').'T00:00'}}" required>
                                             </div>
                                         </div>
                                     </div>
