@@ -9,7 +9,7 @@
     <table style="width: 100%;padding: 0;margin: 0;">
         <tr>
             <td style="padding: 0;margin: 0;width: 100%;text-align: left;">
-                <img class="header" src="{{ asset('app-assets') }}/images/header.png" alt="Taspen" width="100" height="42" class="d-inline-block align-text-top">
+                <img class="brand-logo" src="{{ asset('app-assets') }}/images/taspen.png" alt="Taspen" width="100" height="42" class="d-inline-block align-text-top">
             </td>
         </tr>
     </table>
