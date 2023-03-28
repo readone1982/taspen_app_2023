@@ -74,9 +74,6 @@ public function tiket($year = null, $month = null)
         $validator = Validator::make($request->all(), [
             'request_date' => ['required'],
             'unit_id' => ['required'],
-            'request_name' => ['required'],
-            'received_name' => ['required'],
-            'received_date' => ['required'],
         ]);
 
         if ($validator->fails()) {
@@ -105,11 +102,15 @@ public function tiket($year = null, $month = null)
             $item->form_handling = $request->form_handling;
             $item->month = $request->month;
             $item->year = $request->year;
+            $item->kota_awal = $request->kota_awal;
+            $item->tujuan = $request->tujuan;
+            $item->rute_lintasan = $request->rute_lintasan;
+            $item->boarding_date = $request->boarding_date;
             $item->status = 'Process';
             $item->save();
 
             $edit = Ticket::find($item->id);
-            $edit->number = 'PPPSRS/GCA/FLT/'.date('d/m/y').'/'.$item->id;
+            $edit->number = 'N'.date('d/m/y').'/'.$item->id;
             $edit->save();
 
             foreach ($request->list_name as $key_name => $item_name) {
@@ -118,11 +119,14 @@ public function tiket($year = null, $month = null)
                     $list_item->tiket_id = $item->id;
                     $list_item->name = $item_name;
                     // Tambahan FLT Export List
-                    $list_item->number = 'PPPSRS/GCA/FLT/'.date('d/m/y').'/'.$item->id;
+                    $list_item->number = 'N'.date('d/m/y').'/'.$item->id;
                     $list_item->unit = $item->unit;
                     $list_item->description = $request->list_description[$key_name];
                     $list_item->price = $request->list_price[$key_name];
                     $list_item->qty = $request->list_qty[$key_name];
+                    $list_item->boarding_name = $request->list_boarding[$key_name];
+                    $list_item->boarding_ktp = $request->list_ktp[$key_name];
+                    $list_item->boarding_phone = $request->list_phone[$key_name];
                     $list_item->jumlah = intval($request->list_price[$key_name]) * intval($request->list_qty[$key_name]);
                     $list_item->save();
                 }

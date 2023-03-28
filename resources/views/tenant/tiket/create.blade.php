@@ -174,7 +174,7 @@
                                         <div class="form-group">
                                             <h5>Tanggal & Jam Keberangkatan<span class="required">*</span></h5>
                                             <div class="controls">
-                                                <input type="datetime-local" id="received_date" name="received_date" class="form-control w-100" placeholder="Tanggal Keberangkatan" value="{{date('Y-m-d').'T'.date('H:i')}}" min="{{date('Y-m-d').'T00:00'}}" required>
+                                                <input type="datetime-local" id="boarding_date" name="boarding_date" class="form-control w-100" placeholder="Tanggal Keberangkatan" value="{{date('Y-m-d').'T'.date('H:i')}}" min="{{date('Y-m-d').'T00:00'}}" required>
                                             </div>
                                         </div>
                                     </div>
@@ -223,7 +223,7 @@
                                                     <div class="col-md-4">
                                                         <div class="controls">
                                                             <h5>Nama Penumpang</h5>
-                                                            <input type="text" name="list_name[]" class="form-control w-100" placeholder="Nama Penumpang" value="0">
+                                                            <input type="text" name="list_boarding[]" class="form-control w-100" placeholder="Nama Penumpang" value="0">
                                                         </div>
                                                     </div>
                                                     <div class="col-md-4">
@@ -250,7 +250,7 @@
                                                         <div class="col-md-4">
                                                             <div class="controls">
                                                                 <h5>Nama Penumpang</h5>
-                                                                <input type="text" name="list_name[]" class="form-control w-100" placeholder="Nama Penumpang" value="0">
+                                                                <input type="text" name="list_boarding[]" class="form-control w-100" placeholder="Nama Penumpang" value="0">
                                                             </div>
                                                         </div>
                                                         <div class="col-md-4">
