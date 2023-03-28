@@ -238,21 +238,6 @@
                                                     </div>
                                                     <div class="col-md-1">&nbsp;</div>
                                                 </div>
-                                                <div class="row">
-                                                    <div class="col-md-6">
-                                                        <div class="controls">
-                                                            <h5>Harga Satuan</h5>
-                                                            <input type="number" name="list_price[]" class="form-control w-100" placeholder="Harga" value="0">
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-md-5">
-                                                        <div class="controls">
-                                                            <h5>Quantity</h5>
-                                                            <input type="number" name="list_qty[]" class="form-control w-100" placeholder="Quantity" value="0">
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-md-1">&nbsp;</div>
-                                                </div>
                                             </div>
                                         </div>
                                         <div id="add_data" style="visibility: hidden;position: absolute;">
@@ -281,18 +266,6 @@
                                                         <div class="col-md-1">&nbsp;</div>
                                                     </div>
                                                     <div class="row">
-                                                        <div class="col-md-6">
-                                                            <div class="controls">
-                                                                <h5>Harga Satuan</h5>
-                                                                <input type="number" name="list_price[]" class="form-control w-100" placeholder="Harga">
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-md-5">
-                                                            <div class="controls">
-                                                                <h5>Quantity</h5>
-                                                                <input type="number" name="list_qty[]" class="form-control w-100" placeholder="Quantity">
-                                                            </div>
-                                                        </div>
                                                         <div class="col-md-1 p-0 m-0">
                                                             <button type="button" class="btn btn-sm btn-danger" onclick="delData(this)">
                                                                 <i class="ft-trash"></i>
