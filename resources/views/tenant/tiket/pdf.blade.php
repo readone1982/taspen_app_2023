@@ -8,8 +8,8 @@
     <!-- Invoice Company Details -->
     <table style="width: 100%;padding: 0;margin: 0;">
         <tr>
-            <td style="padding: 0;margin: 0;width: 8%;text-align: left;">
-                <img src="{{ asset('app-assets') }}/images/bumn.png" alt="" style="padding: 0;margin: 0;height: 90px;padding-bottom: 12px;" />
+            <td style="padding: 0;margin: 0;width: 100%;text-align: left;">
+                <img src="/img/header.png" alt="" style="padding: 0;margin: 0;height: 150px;padding-bottom: 12px; width: 100%;" />
             </td>
         </tr>
     </table>
@@ -22,42 +22,8 @@
     <div style="width: 100%;padding: 10px;padding-bottom: 0px;">
         <table style="width: 100%;padding: 0;margin: 0;">
             <tr>
-                <td style="padding: 0;margin: 0;width: 60%;text-align: left;vertical-align: top;font-size: 12px;padding: 5px;">
-                    &nbsp;
-                </td>
-                <td style="padding: 0;margin: 0;width: 40%;text-align: center;vertical-align: top;font-size: 15px;padding: 5px;font-weight: bold;background-color: #ddd;">
-                    TO
-                </td>
-            </tr>
-            <tr>
-                <td style="padding: 0;margin: 0;text-align: left;vertical-align: top;font-size: 12px;padding: 5px;">
-                    <table style="width: 100%;padding: 0;margin: 0;">
-                        <tr>
-                            <td style="padding: 0;margin: 0;width: 30%;text-align: left;vertical-align: top;font-size: 12px;padding: 5px;">
-                                Tenant
-                            </td>
-                            <td style="padding: 0;margin: 0;width: 2%;text-align: center;vertical-align: top;font-size: 10px;padding: 5px;">
-                                :
-                            </td>
-                            <td style="padding: 0;margin: 0;text-align: left;vertical-align: top;font-size: 12px;padding: 5px;font-weight: bold;">
-                                {{strtoupper($tiket->owner->name)}}
-                            </td>
-                        </tr>
-                        <tr>
-                            <td style="padding: 0;margin: 0;width: 30%;text-align: left;vertical-align: top;font-size: 12px;padding: 5px;">
-                                Tower/Unit
-                            </td>
-                            <td style="padding: 0;margin: 0;width: 2%;text-align: center;vertical-align: top;font-size: 10px;padding: 5px;">
-                                :
-                            </td>
-                            <td style="padding: 0;margin: 0;text-align: left;vertical-align: top;font-size: 12px;padding: 5px;font-weight: bold;">
-                                {{strtoupper($tiket->unit)}}
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-                <td style="padding: 0;margin: 0;text-align: center;vertical-align: top;font-size: 15px;padding: 5px;">
-                    {{strtoupper($tiket->assigned_to)}}
+                <td style="padding: 0;margin: 0;width: 100%;text-align: left;vertical-align: top;font-size: 20px;padding: 5px;font-weight: bold;background-color: #ffffff;">
+                    E - Ticket ( Departure Bus )
                 </td>
             </tr>
         </table>
@@ -84,12 +50,12 @@
                         </tr>
                         <tr>
                             <td style="padding: 0;margin: 0;width: 100%;text-align: left;vertical-align: top;font-size: 20px;padding: 5px; font-style: italic;">
-                                Jakarta - Yogyakarta
+                                {{$tiket->tujuan}}
                             </td>
                         </tr>
                         <tr>
                             <td style="padding: 0;margin: 0;width: 100%;text-align: left;vertical-align: top;font-size: 12px;padding: 5px; font-style: italic;">
-                                ( Brebes-Bumiayu Banyumas dll )
+                                {($tiket->rute)}
                             </td>
                         </tr>
                     </table>
@@ -98,7 +64,7 @@
                     <table style="width: 100%;padding: 0;margin: 0;">
                         <tr>
                             <td style="padding: 0;margin: 0;width: 30%;text-align: center;vertical-align: top;font-size: 18px;padding: 5px;">
-                                Minggu, 29 Januari 2023
+                                {{$tiket->boarding_date}}
                             </td>
                         </tr>
                         <tr>
@@ -107,8 +73,8 @@
                             </td>
                         </tr>
                         <tr>
-                            <td style="padding: 0;margin: 0;width: 30%;text-align: center;vertical-align: top;font-size: 16px;padding: 5px;">
-                                Bandung
+                            <td style="padding: 0;margin: 0;width: 30%;text-align: center;vertical-align: top;font-size: 16px;padding: 5px; padding-top: 30px">
+                                {{$tiket->tujuan}}
                             </td>
                         </tr>
                     </table>
@@ -118,17 +84,17 @@
                     <table style="width: 100%;padding: 0;margin: 0; background-color: #dddddd3d;">
                         <tr>
                             <td style="padding: 0;margin: 0;width: 30%;text-align: center;vertical-align: top;font-size: 18px;padding: 5px;">
-                                Minggu, 29 Januari 2023
+                                Booking Code
                             </td>
                         </tr>
                         <tr>
                             <td style="padding: 0;margin: 0;width: 30%;text-align: center;vertical-align: top;font-size: 16px;padding: 5px;">
-                                Jakarta
+                                {{$tiket->number}}
                             </td>
                         </tr>
                         <tr>
                             <td style="padding: 0;margin: 0;width: 30%;text-align: center;vertical-align: top;font-size: 16px;padding: 5px;">
-                                Bandung
+                                Your Booking ID is {{$tiket->number}}
                             </td>
                         </tr>
                     </table>
@@ -147,58 +113,29 @@
                 <td style="padding: 0;margin: 0;padding-left: 10px;padding-right: 10px;">
                     <table style="width: 100%;padding: 0;margin: 0;">
                         <tr>
-                            <td style="padding: 0;margin: 0;width: 100%;text-align: left;vertical-align: top;font-size: 24px;padding: 5px;">
-                                BIS
-                            </td>
-                            <td style="padding: 0;margin: 0;width: 100%;text-align: center;vertical-align: top;font-size: 10px;padding: 5px;">
-                        </tr>
-                        <tr>
-                            <td style="padding: 0;margin: 0;width: 100%;text-align: left;vertical-align: top;font-size: 20px;padding: 5px; font-style: italic;">
-                                Jakarta - Yogyakarta
+                            <td style="padding: 0;margin: 0;width: 35%;text-align: left;vertical-align: top;font-size: 16px;padding: 5px; text-align: justify;">
+                                Use E-Ticket to print the boarding pass at the station, as early as 7x24 hours before departure
                             </td>
                         </tr>
-                        <tr>
-                            <td style="padding: 0;margin: 0;width: 100%;text-align: left;vertical-align: top;font-size: 12px;padding: 5px; font-style: italic;">
-                                ( Brebes-Bumiayu Banyumas dll )
-                            </td>
-                        </tr>
+                        
                     </table>
                 </td>
                 <td style="padding: 0;margin: 0;padding-left: 10px;padding-right: 10px;">
                     <table style="width: 100%;padding: 0;margin: 0;">
                         <tr>
-                            <td style="padding: 0;margin: 0;width: 30%;text-align: center;vertical-align: top;font-size: 18px;padding: 5px;">
-                                Minggu, 29 Januari 2023
+                            <td style="padding: 0;margin: 0;width: 35%;text-align: center;vertical-align: top;font-size: 16px;padding: 5px; text-align: justify;">
+                                To board the train,bring your official identity documents as used in booking
                             </td>
                         </tr>
-                        <tr>
-                            <td style="padding: 0;margin: 0;width: 30%;text-align: center;vertical-align: top;font-size: 16px;padding: 5px;">
-                                Jakarta
-                            </td>
-                        </tr>
-                        <tr>
-                            <td style="padding: 0;margin: 0;width: 30%;text-align: center;vertical-align: top;font-size: 16px;padding: 5px;">
-                                Bandung
-                            </td>
-                        </tr>
+                        
                     </table>
                 </td>
                 <!-- qr -->
                 <td style="padding: 0;margin: 0;padding-left: 10px;padding-right: 10px;">
                     <table style="width: 100%;padding: 0;margin: 0; background-color: #dddddd3d;">
                         <tr>
-                            <td style="padding: 0;margin: 0;width: 30%;text-align: center;vertical-align: top;font-size: 18px;padding: 5px;">
-                                Minggu, 29 Januari 2023
-                            </td>
-                        </tr>
-                        <tr>
-                            <td style="padding: 0;margin: 0;width: 30%;text-align: center;vertical-align: top;font-size: 16px;padding: 5px;">
-                                Jakarta
-                            </td>
-                        </tr>
-                        <tr>
-                            <td style="padding: 0;margin: 0;width: 30%;text-align: center;vertical-align: top;font-size: 16px;padding: 5px;">
-                                Bandung
+                            <td style="padding: 0;margin: 0;width: 35%;text-align: justify;vertical-align: top;font-size: 16px;padding: 5px;">
+                                Arrived at the station at least 60 minutes before departure
                             </td>
                         </tr>
                     </table>
@@ -208,7 +145,7 @@
         </table>
     </div>
     <div style="width: 100%;margin: 10px;padding: 10px;margin-bottom: 0px;font-size: 14px;font-weight: bold;background-color: #ddd;">
-        WORKLIST
+        LIST PENUMPANG
     </div>
     <div style="width: 100%;margin: 10px;padding: 10px;margin-top: 0px;font-size: 12px;">
         <table style="width: 100%;padding: 0;margin: 0;" border="1">
@@ -223,10 +160,10 @@
                     Type
                 </td>
                 <td style="padding: 0;margin: 0;width: 10%;text-align: center;vertical-align: top;font-size: 12px;padding: 5px;font-weight: bold;">
-                    Quantity
+                    Qty
                 </td>
                 <td style="padding: 0;margin: 0;width: 20%;text-align: center;vertical-align: top;font-size: 12px;padding: 5px;font-weight: bold;">
-                    Amount
+                    ID Type & Number
                 </td>
                 <td style="padding: 0;margin: 0;width: 20%;text-align: center;vertical-align: top;font-size: 12px;padding: 5px;font-weight: bold;">
                     Seat Number
@@ -255,18 +192,55 @@
                     </td>
                 </tr>
             @endforeach
-
+            <br>
         </table>
-        <table style="width: 100%;padding: 0;margin: 0;">
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<br>
+<br>
+<br>
+
+<!-- test -->
+        <table style="width: 100%;padding: 0;margin: 0; background-color: #f2f2f28b;">
             <tr>
-                <td style="padding: 0;margin: 0;width: 25%;text-align: left;vertical-align: top;font-size: 12px;padding: 5px;">
-                    Signature:
+                <td style="padding: 0;margin: 0;width: 20%;text-align: left;vertical-align: top;font-size: 12px;padding: 5px;">
+                    <img src="/img/submarks.png" width="300px ">
                 </td>
-                <td style="padding: 0;margin: 0;width: 40%;text-align: left;vertical-align: top;font-size: 12px;padding: 5px;">
-                    Name:
-                </td>
-                <td style="padding: 0;margin: 0;text-align: left;vertical-align: top;font-size: 12px;padding: 5px;">
-                    Date/ Time:
+                <td style="padding: 0;margin: 0;width: 80%;text-align: center;vertical-align: top;font-size: 40px;padding: 5px;">
+                    ''Mudik sebuah perjalanan melepas kerinduan''<br>Erick Tohir
                 </td>
             </tr>
         </table>
