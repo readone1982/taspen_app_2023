@@ -119,7 +119,6 @@ public function tiket($year = null, $month = null)
                     $list_item->boardktp = $request->list_ktp[$key_name];
                     $list_item->boardphone = $request->list_phone[$key_name];
                     $list_item->boardtype = $request->list_type[$key_name];
-                    $list_item->boardseat = $request->list_seat[$key_name];
                     $list_item->save();
                 }
             }
