@@ -10,7 +10,7 @@
     <table style="width: 100%;padding: 0;margin: 0;">
         <tr>
             <td style="padding: 0;margin: 0;width: 8%;text-align: left;">
-                <img src="{{ asset('images') }}/logo.png" alt="Company Logo" style="padding: 0;margin: 0;height: 90px;padding-bottom: 12px;" />
+                <img src="{{ asset('app-assets') }}/images/logo.png" alt="Company Logo" style="padding: 0;margin: 0;height: 90px;padding-bottom: 12px;" />
             </td>
             <td style="padding: 0;margin: 0;width: 92%;text-align: center;">
                 <ul class="px-0 list-unstyled">
