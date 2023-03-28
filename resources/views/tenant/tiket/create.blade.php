@@ -94,7 +94,7 @@
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-md-4">
+                                    <div class="col-md-3">
                                         <div class="form-group">
                                             <h5>Rute Awal</h5>
                                             <div class="controls">
@@ -105,12 +105,36 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-4">
+                                    <div class="col-md-3">
+                                        <div class="form-group">
+                                            <h5>Tujuan Akhir</h5>
+                                            <div class="controls">
+                                                <select name="request_type_tr" id="request_type_tr" class="select2 form-control w-100" required data-validation-required-message="This field is required">
+                                                    <option value="">Pilih Data</option>
+                                                    <option value="SEMARANG">1.SEMARANG</option>
+                                                    <option value="SOLO/YOGYAKARTA">2.SOLO/YOGYAKARTA</option>
+                                                    <option value="SOLO">3.SOLO</option>
+                                                    <option value="YOGYAKARTA">4.YOGYAKARTA</option>
+                                                    <option value="YOGYAKARTA">5.YOGYAKARTA</option>
+                                                    <option value="PEKALONGAN">6.PEKALONGAN</option>
+                                                    <option value="PADALARANG">7.PADALARANG</option>
+                                                    <option value="">--------------</option>
+                                                    <option value="SURABAYA VIA UTARA">1.SURABAYA</option>
+                                                    <option value="MEDAN">2.MEDAN</option>
+                                                    <option value="">--------------</option>
+                                                    <option value="MALANG VIA TENGAH">1.MALANG</option>
+                                                    <option value="MALANG VIA SELATAN">2.MALANG</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    {{-- Rute Pemberhentian --}}
+                                    <div class="col-md-3">
                                         <div class="form-group">
                                             <h5>Tujuan</h5>
                                             <div class="controls">
                                                 <select name="request_type_tr" id="request_type_tr" class="select2 form-control w-100" required data-validation-required-message="This field is required">
-                                                    <option value="">Pilih Jenis Request / Complain</option>
+                                                    <option value="">Pilih Data</option>
                                                     <option value="SEMARANG VIA UTARA">1.SEMARANG VIA UTARA</option>
                                                     <option value="SOLO/YOGYAKARTA VIA UTARA">2.SOLO/YOGYAKARTA VIA UTARA</option>
                                                     <option value="SOLO -SRAGEN">3.SOLO -SRAGEN</option>
@@ -128,12 +152,13 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-4">
+                                    {{-- Rute Pemberhentian --}}
+                                    <div class="col-md-3">
                                         <div class="form-group">
                                             <h5>Rute</h5>
                                             <div class="controls">
                                                 <select name="type_fl" id="type_fl" class="select2 form-control w-100" required data-validation-required-message="This field is required">
-                                                    <option value="">Pilih Jenis Tipe Request</option>
+                                                    <option value="">Pilih Data</option>
                                                     <option value="Exit tol Cirebon - Tegal - Pemalang - Pekalongan - Batang - Kendal - Semarang">1.Exit tol Cirebon - Tegal - Pemalang - Pekalongan - Batang - Kendal - Semarang</option>
                                                     <option value="Jakarta Via Tol Cipali Boyolali - Solo - Klaten - Yogyakarta">2.Jakarta Via Tol Cipali Boyolali - Solo - Klaten - Yogyakarta</option>
                                                     <option value="Jakarta Via Tol Cipali - GT Colomadu - Solo - Sragen">3.Jakarta Via Tol Cipali - GT Colomadu - Solo - Sragen</option>
@@ -162,9 +187,9 @@
                                 <div class="row">
                                     <div class="col-md-4">
                                         <div class="form-group">
-                                            <h5>Tanggal Penerimaan<span class="required">*</span></h5>
+                                            <h5>Tanggal & Jam Keberangkatan<span class="required">*</span></h5>
                                             <div class="controls">
-                                                <input type="datetime-local" id="received_date" name="received_date" class="form-control w-100" placeholder="Tanggal Penerimaan" value="{{date('Y-m-d').'T'.date('H:i')}}" min="{{date('Y-m-d').'T00:00'}}" required>
+                                                <input type="datetime-local" id="received_date" name="received_date" class="form-control w-100" placeholder="Tanggal Keberangkatan" value="{{date('Y-m-d').'T'.date('H:i')}}" min="{{date('Y-m-d').'T00:00'}}" required>
                                             </div>
                                         </div>
                                     </div>
