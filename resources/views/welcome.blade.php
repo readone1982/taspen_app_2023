@@ -62,7 +62,7 @@
                                     <div class="media d-flex">
                                         <div class="media-body text-left">
                                             <h3 class="info"></h3>
-                                            <h6>BUS 1 Kuota {{$bus1}} / 40</h6>
+                                            <h6>BUS 1 - SEMARANG VIA UTARA Kuota {{$bus1}} / 40</h6>
                                         </div>
                                         <div>
                                             <i class="bi bi-house-heart info font-large-2 float-right"></i>
@@ -79,7 +79,7 @@
                                     <div class="media d-flex">
                                         <div class="media-body text-left">
                                             <h3 class="info"></h3>
-                                            <h6>BUS 2 Kuota {{$bus2}} / 40</h6>
+                                            <h6>BUS 2 - SEMARANG VIA UTARA Kuota {{$bus2}} / 40</h6>
                                         </div>
                                         <div>
                                             <i class="bi bi-house-heart info font-large-2 float-right"></i>
@@ -96,7 +96,7 @@
                                     <div class="media d-flex">
                                         <div class="media-body text-left">
                                             <h3 class="info"></h3>
-                                            <h6>BUS 3 Kuota {{$bus3}} / 40</h6>
+                                            <h6>BUS 3 - SEMARANG VIA UTARA Kuota {{$bus3}} / 40</h6>
                                         </div>
                                         <div>
                                             <i class="bi bi-house-heart info font-large-2 float-right"></i>
@@ -113,7 +113,7 @@
                                     <div class="media d-flex">
                                         <div class="media-body text-left">
                                             <h3 class="info"></h3>
-                                            <h6>BUS 4 Kuota {{$bus4}} / 40</h6>
+                                            <h6>BUS 4 - SOLO/YOGYAKARTA VIA UTARA Kuota {{$bus4}} / 40</h6>
                                         </div>
                                         <div>
                                             <i class="bi bi-house-heart info font-large-2 float-right"></i>
