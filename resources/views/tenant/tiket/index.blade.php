@@ -58,6 +58,7 @@
                                                         <th>Nama Pemesan</th>
                                                         <th>No. Tiket</th>
                                                         <th>Armada</th>
+                                                        <th>Tanggal Keberangkatan</th>
                                                         <th>Rute</th>
                                                         <th>Tanggal Keberangkatan</th>
                                                         <th>Actions</th>
@@ -71,6 +72,7 @@
                                                         <td></td>
                                                         <td>{{$item->number}}</td>
                                                         <td>{{$item->unit}}</td>
+                                                        <td></td>
                                                         <td></td>
                                                         <td></td>
                                                         <td class="p-0 text-center text-nowrap" style="padding-top: 4px !important;padding-bottom: 4px !important;">
