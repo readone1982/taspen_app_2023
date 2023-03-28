@@ -10,7 +10,7 @@
     <table style="width: 100%;padding: 0;margin: 0;">
         <tr>
             <td style="padding: 0;margin: 0;width: 8%;text-align: left;">
-                <img src="{{ asset('images') }}/taspen.png" alt="Company Logo" style="padding: 0;margin: 0;height: 90px;padding-bottom: 12px;" />
+                <img src="{{ asset('app-assets') }}/images/taspen.png" alt="Company Logo" style="padding: 0;margin: 0;height: 90px;padding-bottom: 12px;" />
             </td>
             <td style="padding: 0;margin: 0;width: 92%;text-align: center;">
                 <ul class="px-0 list-unstyled">
@@ -28,9 +28,11 @@
             <tr>
                 <th style="width: 2%;">No</th>
                 <th style="width: 10%;">Number</th>
+                <th style="width: 10%;">Bus</th>
                 <th style="width: 10%;">Nama</th>
                 <th style="width: 10%;">Tujuan</th>
                 <th style="width: 10%;">Type</th>
+                <th style="width: 10%;">Rute</th>
             </tr>
         </thead>
         <tbody>
@@ -38,9 +40,11 @@
             <tr>
                 <td>{{$loop->iteration}}</td>
                 <td>{{$item->numbering}}</td>
+                <td>{{$item->bus}}</td>
                 <td>{{$item->boardname}}</td>
                 <td>{{$item->tujuan}}</td>
                 <td>{{$item->boardtype}}</td>
+                <td>{{$item->rutee}}</td>
                 {{-- <td>{{date('d F Y', strtotime($item->start_date))}}</td> --}}
             </tr>
             @endforeach
