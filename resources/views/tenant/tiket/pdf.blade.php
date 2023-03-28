@@ -99,7 +99,7 @@
     </div>
 
     <div style="width: 100%;margin: 10px;padding: 10px;margin-bottom: 0px;font-size: 14px;font-weight: bold;background-color: #ddd;">
-        IMPORTANT PRE TRAVEL INFO
+        TITIK PENJEMPUTAN
     </div>
     <div style="width: 100%;padding: 10px;padding-bottom: 0px;">
         <table style="width: 100%;padding: 0;margin: 0;">
@@ -107,31 +107,10 @@
                 <td style="padding: 0;margin: 0;padding-left: 10px;padding-right: 10px;">
                     <table style="width: 100%;padding: 0;margin: 0;">
                         <tr>
-                            <td style="padding: 0;margin: 0;width: 35%;text-align: left;vertical-align: top;font-size: 16px;padding: 5px; text-align: justify;">
-                                Use E-Ticket to print the boarding pass at the station, as early as 7x24 hours before departure
-                            </td>
+                            <td style="padding: 0;margin: 0;width: 100%;text-align: center;vertical-align: top;font-size: 50px;padding: 5px; text-align: center;">
+                            {{$tiket->address}}</td>
                         </tr>
                         
-                    </table>
-                </td>
-                <td style="padding: 0;margin: 0;padding-left: 10px;padding-right: 10px;">
-                    <table style="width: 100%;padding: 0;margin: 0;">
-                        <tr>
-                            <td style="padding: 0;margin: 0;width: 35%;text-align: center;vertical-align: top;font-size: 16px;padding: 5px; text-align: justify;">
-                                To board the train,bring your official identity documents as used in booking
-                            </td>
-                        </tr>
-                        
-                    </table>
-                </td>
-                <!-- qr -->
-                <td style="padding: 0;margin: 0;padding-left: 10px;padding-right: 10px;">
-                    <table style="width: 100%;padding: 0;margin: 0;">
-                        <tr>
-                            <td style="padding: 0;margin: 0;width: 35%;text-align: justify;vertical-align: top;font-size: 16px;padding: 5px;">
-                                Arrived at the station at least 60 minutes before departure
-                            </td>
-                        </tr>
                     </table>
                 </td>
                 <!-- qr -->
