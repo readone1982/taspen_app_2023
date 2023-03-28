@@ -87,7 +87,7 @@ public function tiket($year = null, $month = null)
             $item = new Ticket;
             $item->owner_id = $unit->owner_id;
             $item->unit = $unit->full_number;
-            $item->request_name = $request->request_name;
+            $item->name = $request->name;
             $item->request_date = date('Y-m-d H:i:s', strtotime($request->request_date));
             $item->received_date = date('Y-m-d H:i:s', strtotime($request->received_date));
             $item->received_name = $request->received_name;

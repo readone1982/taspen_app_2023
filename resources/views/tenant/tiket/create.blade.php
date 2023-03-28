@@ -182,7 +182,7 @@
                                         <div class="form-group">
                                             <h5>Nama Penerima Layanan<span class="required">*</span></h5>
                                             <div class="controls">
-                                                <input type="text" name="received_name" id="received_name" class="form-control w-100" required data-validation-required-message="This field is required" placeholder="Nama Penerima" value="{{ Auth::user()->name }}" readonly>
+                                                <input type="text" name="name" id="name" class="form-control w-100" required data-validation-required-message="This field is required" placeholder="Nama Penerima" value="{{ Auth::user()->name }}" readonly>
                                             </div>
                                         </div>
                                     </div>
