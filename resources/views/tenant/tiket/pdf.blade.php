@@ -9,7 +9,7 @@
     <table style="width: 100%;padding: 0;margin: 0;">
         <tr>
             <td style="padding: 0;margin: 0;width: 100%;text-align: left;">
-                <img src="{{ asset('app-assets') }}/images/header.png" alt="" style="" />
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Logo_BUMN_Untuk_Indonesia_2020.svg/2560px-Logo_BUMN_Untuk_Indonesia_2020.svg.png" alt="" style="" />
             </td>
         </tr>
     </table>
