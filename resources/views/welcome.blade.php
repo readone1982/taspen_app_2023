@@ -38,11 +38,7 @@
 
             <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
                 <div class="flex justify-center pt-8 sm:justify-start sm:pt-0">
-                    <svg viewBox="0 0 651 192" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-16 w-auto text-gray-700 sm:h-20">
-                        <g clip-path="url(#clip0)" fill="#EF3B2D">
-                            <path d="M248.032 44.676h-16.466v100.23h47.394v-14.748h-30.928V44.676zM337.091 87.202c-2.101-3.341-5.083-5.965-8.949-7.875-3.865-1.909-7.756-2.864-11.669-2.864-5.062 0-9.69.931-13.89 2.792-4.201 1.861-7.804 4.417-10.811 7.661-3.007 3.246-5.347 6.993-7.016 11.239-1.672 4.249-2.506 8.713-2.506 13.389 0 4.774.834 9.26 2.506 13.459 1.669 4.202 4.009 7.925 7.016 11.169 3.007 3.246 6.609 5.799 10.811 7.66 4.199 1.861 8.828 2.792 13.89 2.792 3.913 0 7.804-.955 11.669-2.863 3.866-1.908 6.849-4.533 8.949-7.875v9.021h15.607V78.182h-15.607v9.02zm-1.431 32.503c-.955 2.578-2.291 4.821-4.009 6.73-1.719 1.91-3.795 3.437-6.229 4.582-2.435 1.146-5.133 1.718-8.091 1.718-2.96 0-5.633-.572-8.019-1.718-2.387-1.146-4.438-2.672-6.156-4.582-1.719-1.909-3.032-4.152-3.938-6.73-.909-2.577-1.36-5.298-1.36-8.161 0-2.864.451-5.585 1.36-8.162.905-2.577 2.219-4.819 3.938-6.729 1.718-1.908 3.77-3.437 6.156-4.582 2.386-1.146 5.059-1.718 8.019-1.718 2.958 0 5.656.572 8.091 1.718 2.434 1.146 4.51 2.674 6.229 4.582 1.718 1.91 3.054 4.152 4.009 6.729.953 2.577 1.432 5.298 1.432 8.162-.001 2.863-.479 5.584-1.432 8.161zM463.954 87.202c-2.101-3.341-5.083-5.965-8.949-7.875-3.865-1.909-7.756-2.864-11.669-2.864-5.062 0-9.69.931-13.89 2.792-4.201 1.861-7.804 4.417-10.811 7.661-3.007 3.246-5.347 6.993-7.016 11.239-1.672 4.249-2.506 8.713-2.506 13.389 0 4.774.834 9.26 2.506 13.459 1.669 4.202 4.009 7.925 7.016 11.169 3.007 3.246 6.609 5.799 10.811 7.66 4.199 1.861 8.828 2.792 13.89 2.792 3.913 0 7.804-.955 11.669-2.863 3.866-1.908 6.849-4.533 8.949-7.875v9.021h15.607V78.182h-15.607v9.02zm-1.432 32.503c-.955 2.578-2.291 4.821-4.009 6.73-1.719 1.91-3.795 3.437-6.229 4.582-2.435 1.146-5.133 1.718-8.091 1.718-2.96 0-5.633-.572-8.019-1.718-2.387-1.146-4.438-2.672-6.156-4.582-1.719-1.909-3.032-4.152-3.938-6.73-.909-2.577-1.36-5.298-1.36-8.161 0-2.864.451-5.585 1.36-8.162.905-2.577 2.219-4.819 3.938-6.729 1.718-1.908 3.77-3.437 6.156-4.582 2.386-1.146 5.059-1.718 8.019-1.718 2.958 0 5.656.572 8.091 1.718 2.434 1.146 4.51 2.674 6.229 4.582 1.718 1.91 3.054 4.152 4.009 6.729.953 2.577 1.432 5.298 1.432 8.162 0 2.863-.479 5.584-1.432 8.161zM650.772 44.676h-15.606v100.23h15.606V44.676zM365.013 144.906h15.607V93.538h26.776V78.182h-42.383v66.724zM542.133 78.182l-19.616 51.096-19.616-51.096h-15.808l25.617 66.724h19.614l25.617-66.724h-15.808zM591.98 76.466c-19.112 0-34.239 15.706-34.239 35.079 0 21.416 14.641 35.079 36.239 35.079 12.088 0 19.806-4.622 29.234-14.688l-10.544-8.158c-.006.008-7.958 10.449-19.832 10.449-13.802 0-19.612-11.127-19.612-16.884h51.777c2.72-22.043-11.772-40.877-33.023-40.877zm-18.713 29.28c.12-1.284 1.917-16.884 18.589-16.884 16.671 0 18.697 15.598 18.813 16.884h-37.402zM184.068 43.892c-.024-.088-.073-.165-.104-.25-.058-.157-.108-.316-.191-.46-.056-.097-.137-.176-.203-.265-.087-.117-.161-.242-.265-.345-.085-.086-.194-.148-.29-.223-.109-.085-.206-.182-.327-.252l-.002-.001-.002-.002-35.648-20.524a2.971 2.971 0 00-2.964 0l-35.647 20.522-.002.002-.002.001c-.121.07-.219.167-.327.252-.096.075-.205.138-.29.223-.103.103-.178.228-.265.345-.066.089-.147.169-.203.265-.083.144-.133.304-.191.46-.031.085-.08.162-.104.25-.067.249-.103.51-.103.776v38.979l-29.706 17.103V24.493a3 3 0 00-.103-.776c-.024-.088-.073-.165-.104-.25-.058-.157-.108-.316-.191-.46-.056-.097-.137-.176-.203-.265-.087-.117-.161-.242-.265-.345-.085-.086-.194-.148-.29-.223-.109-.085-.206-.182-.327-.252l-.002-.001-.002-.002L40.098 1.396a2.971 2.971 0 00-2.964 0L1.487 21.919l-.002.002-.002.001c-.121.07-.219.167-.327.252-.096.075-.205.138-.29.223-.103.103-.178.228-.265.345-.066.089-.147.169-.203.265-.083.144-.133.304-.191.46-.031.085-.08.162-.104.25-.067.249-.103.51-.103.776v122.09c0 1.063.568 2.044 1.489 2.575l71.293 41.045c.156.089.324.143.49.202.078.028.15.074.23.095a2.98 2.98 0 001.524 0c.069-.018.132-.059.2-.083.176-.061.354-.119.519-.214l71.293-41.045a2.971 2.971 0 001.489-2.575v-38.979l34.158-19.666a2.971 2.971 0 001.489-2.575V44.666a3.075 3.075 0 00-.106-.774zM74.255 143.167l-29.648-16.779 31.136-17.926.001-.001 34.164-19.669 29.674 17.084-21.772 12.428-43.555 24.863zm68.329-76.259v33.841l-12.475-7.182-17.231-9.92V49.806l12.475 7.182 17.231 9.92zm2.97-39.335l29.693 17.095-29.693 17.095-29.693-17.095 29.693-17.095zM54.06 114.089l-12.475 7.182V46.733l17.231-9.92 12.475-7.182v74.537l-17.231 9.921zM38.614 7.398l29.693 17.095-29.693 17.095L8.921 24.493 38.614 7.398zM5.938 29.632l12.475 7.182 17.231 9.92v79.676l.001.005-.001.006c0 .114.032.221.045.333.017.146.021.294.059.434l.002.007c.032.117.094.222.14.334.051.124.088.255.156.371a.036.036 0 00.004.009c.061.105.149.191.222.288.081.105.149.22.244.314l.008.01c.084.083.19.142.284.215.106.083.202.178.32.247l.013.005.011.008 34.139 19.321v34.175L5.939 144.867V29.632h-.001zm136.646 115.235l-65.352 37.625V148.31l48.399-27.628 16.953-9.677v33.862zm35.646-61.22l-29.706 17.102V66.908l17.231-9.92 12.475-7.182v33.841z"/>
-                        </g>
-                    </svg>
+                    <img src="https://i.ibb.co/8zH17Hz/Main-Logo.png" style="width: 100%;" height="100%">
                 </div>
 
                 @php
@@ -53,6 +49,59 @@
                 $bus5 = \App\Ticket::whereNull('deleted_at')->where('coding_bus', 'BUS 5')->count();
                 $bus6 = \App\Ticket::whereNull('deleted_at')->where('coding_bus', 'BUS 6')->count();
                 $bus7 = \App\Ticket::whereNull('deleted_at')->where('coding_bus', 'BUS 7')->count();
+                $bus8 = \App\Ticket::whereNull('deleted_at')->where('coding_bus', 'BUS 8')->count();
+                $bus9 = \App\Ticket::whereNull('deleted_at')->where('coding_bus', 'BUS 9')->count();
+                $bus10 = \App\Ticket::whereNull('deleted_at')->where('coding_bus', 'BUS 10')->count();
+                $bus11 = \App\Ticket::whereNull('deleted_at')->where('coding_bus', 'BUS 11')->count();
+                $bus12 = \App\Ticket::whereNull('deleted_at')->where('coding_bus', 'BUS 12')->count();
+                $bus13 = \App\Ticket::whereNull('deleted_at')->where('coding_bus', 'BUS 13')->count();
+                $bus14 = \App\Ticket::whereNull('deleted_at')->where('coding_bus', 'BUS 14')->count();
+                $bus15 = \App\Ticket::whereNull('deleted_at')->where('coding_bus', 'BUS 15')->count();
+                $bus16 = \App\Ticket::whereNull('deleted_at')->where('coding_bus', 'BUS 16')->count();
+                $bus17 = \App\Ticket::whereNull('deleted_at')->where('coding_bus', 'BUS 17')->count();
+                $bus18 = \App\Ticket::whereNull('deleted_at')->where('coding_bus', 'BUS 18')->count();
+                $bus19 = \App\Ticket::whereNull('deleted_at')->where('coding_bus', 'BUS 19')->count();
+                $bus20 = \App\Ticket::whereNull('deleted_at')->where('coding_bus', 'BUS 20')->count();
+                $bus21 = \App\Ticket::whereNull('deleted_at')->where('coding_bus', 'BUS 21')->count();
+                $bus22 = \App\Ticket::whereNull('deleted_at')->where('coding_bus', 'BUS 22')->count();
+                $bus23 = \App\Ticket::whereNull('deleted_at')->where('coding_bus', 'BUS 23')->count();
+                $bus24 = \App\Ticket::whereNull('deleted_at')->where('coding_bus', 'BUS 24')->count();
+                $bus25 = \App\Ticket::whereNull('deleted_at')->where('coding_bus', 'BUS 25')->count();
+                $bus26 = \App\Ticket::whereNull('deleted_at')->where('coding_bus', 'BUS 26')->count();
+                $bus27 = \App\Ticket::whereNull('deleted_at')->where('coding_bus', 'BUS 27')->count();
+                $bus28 = \App\Ticket::whereNull('deleted_at')->where('coding_bus', 'BUS 28')->count();
+                $bus29 = \App\Ticket::whereNull('deleted_at')->where('coding_bus', 'BUS 29')->count();
+                $bus30 = \App\Ticket::whereNull('deleted_at')->where('coding_bus', 'BUS 30')->count();
+                $bus31 = \App\Ticket::whereNull('deleted_at')->where('coding_bus', 'BUS 31')->count();
+                $bus32 = \App\Ticket::whereNull('deleted_at')->where('coding_bus', 'BUS 32')->count();
+                $bus33 = \App\Ticket::whereNull('deleted_at')->where('coding_bus', 'BUS 33')->count();
+                $bus34 = \App\Ticket::whereNull('deleted_at')->where('coding_bus', 'BUS 34')->count();
+                $bus35 = \App\Ticket::whereNull('deleted_at')->where('coding_bus', 'BUS 35')->count();
+                $bus36 = \App\Ticket::whereNull('deleted_at')->where('coding_bus', 'BUS 36')->count();
+                $bus37 = \App\Ticket::whereNull('deleted_at')->where('coding_bus', 'BUS 37')->count();
+                $bus38 = \App\Ticket::whereNull('deleted_at')->where('coding_bus', 'BUS 38')->count();
+                $bus39 = \App\Ticket::whereNull('deleted_at')->where('coding_bus', 'BUS 39')->count();
+                $bus40 = \App\Ticket::whereNull('deleted_at')->where('coding_bus', 'BUS 40')->count();
+                $busA = \App\Ticket::whereNull('deleted_at')->where('coding_bus', 'BUS A')->count();
+                $BUSB = \App\Ticket::whereNull('deleted_at')->where('coding_bus', 'BUS B')->count();
+                $BUSC = \App\Ticket::whereNull('deleted_at')->where('coding_bus', 'BUS C')->count();
+                $busd = \App\Ticket::whereNull('deleted_at')->where('coding_bus', 'BUS D')->count();
+                $buse = \App\Ticket::whereNull('deleted_at')->where('coding_bus', 'BUS E')->count();
+                $busf = \App\Ticket::whereNull('deleted_at')->where('coding_bus', 'BUS F')->count();
+                $busg = \App\Ticket::whereNull('deleted_at')->where('coding_bus', 'BUS G')->count();
+                $bush = \App\Ticket::whereNull('deleted_at')->where('coding_bus', 'BUS H')->count();
+                $busi = \App\Ticket::whereNull('deleted_at')->where('coding_bus', 'BUS I')->count();
+                $busj = \App\Ticket::whereNull('deleted_at')->where('coding_bus', 'BUS J')->count();
+                $busk = \App\Ticket::whereNull('deleted_at')->where('coding_bus', 'BUS K')->count();
+                $busl = \App\Ticket::whereNull('deleted_at')->where('coding_bus', 'BUS L')->count();
+                $busm = \App\Ticket::whereNull('deleted_at')->where('coding_bus', 'BUS M')->count();
+                $busn = \App\Ticket::whereNull('deleted_at')->where('coding_bus', 'BUS N')->count();
+                $buso = \App\Ticket::whereNull('deleted_at')->where('coding_bus', 'BUS O')->count();
+                $busp = \App\Ticket::whereNull('deleted_at')->where('coding_bus', 'BUS P')->count();
+                $busq = \App\Ticket::whereNull('deleted_at')->where('coding_bus', 'BUS Q')->count();
+                $busr = \App\Ticket::whereNull('deleted_at')->where('coding_bus', 'BUS R')->count();
+                $buss = \App\Ticket::whereNull('deleted_at')->where('coding_bus', 'BUS S')->count();
+                $bust = \App\Ticket::whereNull('deleted_at')->where('coding_bus', 'BUS T')->count();
                 @endphp
                 <div class="row">
                     <div class="col-xl-3 col-lg-6 col-3">
@@ -114,6 +163,64 @@
                                         <div class="media-body text-left">
                                             <h3 class="info"></h3>
                                             <h6>BUS 4 - SOLO/YOGYAKARTA VIA UTARA Kuota {{$bus4}} / 40</h6>
+                                            <h6>BUS 5 - SOLO/YOGYAKARTA VIA UTARA {{$bus5}} / 40</h6>
+                                            <h6>BUS 6 - SOLO/YOGYAKARTA VIA UTARA {{$bus6}} / 40</h6>
+                                            <h6>BUS 7 - SOLO/YOGYAKARTA VIA UTARA {{$bus7}} / 40</h6>
+                                            <h6>BUS 8 - SOLO/YOGYAKARTA VIA UTARA {{$bus8}} / 40</h6>
+                                            <h6>BUS 9 - SOLO/YOGYAKARTA VIA UTARA {{$bus9}} / 40</h6>
+                                            <h6>BUS 10 - SOLO -SRAGEN {{$bus10}} / 40</h6>
+                                            <h6>BUS 11 - SOLO -SRAGEN {{$bus11}} / 40</h6>
+                                            <h6>BUS 12 - SOLO -SRAGEN {{$bus12}} / 40</h6>
+                                            <h6>BUS 13 - SOLO -SRAGEN {{$bus13}} / 40</h6>
+                                            <h6>BUS 14 - SOLO -SRAGEN {{$bus14}} / 40</h6>
+                                            <h6>BUS 15 - SOLO -SRAGEN {{$bus15}} / 40</h6>
+                                            <h6>BUS 16 - SOLO -SRAGEN {{$bus16}} / 40</h6>
+                                            <h6>BUS 17 - SOLO -SRAGEN {{$bus17}} / 40</h6>
+                                            <h6>BUS 18 - SOLO -SRAGEN {{$bus18}} / 40</h6>
+                                            <h6>BUS 19 - YOGYAKARTA VIA SELATAN {{$bus19}} / 40</h6>
+                                            <h6>BUS 20 - YOGYAKARTA VIA SELATAN {{$bus20}} / 40</h6>
+                                            <h6>BUS 21 - YOGYAKARTA VIA SELATAN {{$bus21}} / 40</h6>
+                                            <h6>BUS 22 - YOGYAKARTA VIA SELATAN {{$bus22}} / 40</h6>
+                                            <h6>BUS 23 - YOGYAKARTA VIA SELATAN {{$bus23}} / 40</h6>
+                                            <h6>BUS 24 - PEKALONGAN {{$bus24}} / 40</h6>
+                                            <h6>BUS 25 - SURABAYA VIA UTARA {{$bus25}} / 40</h6>
+                                            <h6>BUS 26 - SURABAYA VIA UTARA {{$bus26}} / 40</h6>
+                                            <h6>BUS 27 - SURABAYA VIA UTARA {{$bus27}} / 40</h6>
+                                            <h6>BUS 28 - SURABAYA VIA UTARA {{$bus28}} / 40</h6>
+                                            <h6>BUS 29 - SURABAYA VIA UTARA {{$bus29}} / 40</h6>
+                                            <h6>BUS 30 - SURABAYA VIA UTARA {{$bus30}} / 40</h6>
+                                            <h6>BUS 31 - MALANG VIA SELATAN {{$bus31}} / 40</h6>
+                                            <h6>BUS 32 - MALANG VIA SELATAN {{$bus32}} / 40</h6>
+                                            <h6>BUS 33 - MALANG VIA SELATAN {{$bus33}} / 40</h6>
+                                            <h6>BUS 34 - MALANG VIA SELATAN {{$bus34}} / 40</h6>
+                                            <h6>BUS 35 - MADIUN VIA TOL CIPALI {{$bus35}} / 40</h6>
+                                            <h6>BUS 36 - MADIUN VIA TOL CIPALI {{$bus36}} / 40</h6>
+                                            <h6>BUS 37 - MEDAN {{$bus37}} / 40</h6>
+                                            <h6>BUS 38 - PALEMBANG {{$bus38}} / 40</h6>
+                                            <h6>BUS 39 - PEKANBARU {{$bus39}} / 40</h6>
+                                            <h6>BUS 40 - PADANG {{$bus40}} / 40</h6>
+                                            <h6>BUS A - SEMARANG VIA UTARA {{$busa}} / 40</h6>
+                                            <h6>BUS B - SEMARANG VIA UTARA {{$busb}} / 40</h6>
+                                            <h6>BUS C - SEMARANG VIA UTARA {{$busc}} / 40</h6>
+                                            <h6>BUS D - SEMARANG VIA UTARA {{$busd}} / 40</h6>
+                                            <h6>BUS E - SOLO/YOGYAKARTA VIA UTARA {{$buse}} / 40</h6>
+                                            <h6>BUS F - SOLO/YOGYAKARTA VIA UTARA {{$busf}} / 40</h6>
+                                            <h6>BUS G - SOLO/YOGYAKARTA VIA UTARA {{$busg}} / 40</h6>
+                                            <h6>BUS H - SOLO/YOGYAKARTA VIA UTARA {{$bush}} / 40</h6>
+                                            <h6>BUS I - SOLO/YOGYAKARTA VIA UTARA {{$busi}} / 40</h6>
+                                            <h6>BUS J - YOGYAKARTA VIA SELATAN {{$busj}} / 40</h6>
+                                            <h6>BUS K - YOGYAKARTA VIA SELATAN {{$busk}} / 40</h6>
+                                            <h6>BUS L - YOGYAKARTA VIA SELATAN {{$busl}} / 40</h6>
+                                            <h6>BUS M - YOGYAKARTA VIA SELATAN {{$busm}} / 40</h6>
+                                            <h6>BUS N - YOGYAKARTA VIA TENGAH {{$busn}} / 40</h6>
+                                            <h6>BUS O - YOGYAKARTA VIA TENGAH {{$buso}} / 40</h6>
+                                            <h6>BUS P - YOGYAKARTA VIA TENGAH {{$busp}} / 40</h6>
+                                            <h6>BUS Q - YOGYAKARTA VIA TENGAH {{$busq}} / 40</h6>
+                                            <h6>BUS R - YOGYAKARTA VIA TENGAH {{$busr}} / 40</h6>
+                                            <h6>BUS S - PEKALONGAN {{$bus}} / 40</h6>
+                                            <h6>BUS T - PADALARANG {{$bust}} / 40</h6>
+
+                                            
                                         </div>
                                         <div>
                                             <i class="bi bi-house-heart info font-large-2 float-right"></i>
@@ -124,7 +231,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="flex justify-center mt-4 sm:items-center sm:justify-between">
                     <div class="text-center text-sm text-gray-500 sm:text-left">
                         <div class="flex items-center">
@@ -132,8 +238,8 @@
                                 <path d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path>
                             </svg>
 
-                            <a href="https://laravel.bigcartel.com" class="ml-1 underline">
-                                Shop
+                            <a href="{{ route('login') }}" class="ml-1 underline">
+                                Login
                             </a>
 
                             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="ml-4 -mt-px w-5 h-5 text-gray-400">
