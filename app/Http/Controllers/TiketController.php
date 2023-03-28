@@ -108,7 +108,7 @@ public function tiket($year = null, $month = null)
             $item->save();
 
             $edit = Ticket::find($item->id);
-            $edit->number = 'N'.date('d/m/y').'/'.$item->id;
+            $edit->number = 'TSPN'.date('dmy').$item->id;
             $edit->save();
 
             foreach ($request->list_boarding as $key_name => $item_name) {
@@ -118,7 +118,7 @@ public function tiket($year = null, $month = null)
                     $list_item->bus = $item->coding_bus;
                     $list_item->tujuan = $item->tujuan2;
                     $list_item->rutee = $item->lintasan;
-                    $list_item->numbering = $item->number;
+                    $list_item->numbering = 'TSPN'.date('dmy').$item->id;
                     $list_item->boardname = $request->list_boarding[$key_name];
                     $list_item->boardktp = $request->list_ktp[$key_name];
                     $list_item->boardphone = $request->list_phone[$key_name];

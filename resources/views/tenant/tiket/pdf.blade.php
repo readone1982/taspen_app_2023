@@ -99,7 +99,7 @@
     </div>
 
     <div style="width: 100%;margin: 10px;padding: 10px;margin-bottom: 0px;font-size: 14px;font-weight: bold;background-color: #ddd;">
-        TITIK PENJEMPUTAN
+        TITIK KEBERANGKATAN
     </div>
     <div style="width: 100%;padding: 10px;padding-bottom: 0px;">
         <table style="width: 100%;padding: 0;margin: 0;">

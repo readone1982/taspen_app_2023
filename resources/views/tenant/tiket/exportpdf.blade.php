@@ -2,7 +2,7 @@
 <html class="loading" data-textdirection="ltr" lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
     <meta charset="utf-8">
-    <title>Get Data</title>
+    <title>Database Penumpang dan Tujuan Peserta Mudik</title>
     @include('tenant.tiket.pdf_styles')
 </head>
 <body>
@@ -30,6 +30,7 @@
                 <th style="width: 10%;">Number</th>
                 <th style="width: 10%;">Bus</th>
                 <th style="width: 10%;">Nama</th>
+                <th style="width: 10%;">Tlp.</th>
                 <th style="width: 10%;">Tujuan</th>
                 <th style="width: 10%;">Type</th>
                 <th style="width: 10%;">Rute</th>
@@ -42,6 +43,7 @@
                 <td>{{$item->numbering}}</td>
                 <td>{{$item->bus}}</td>
                 <td>{{$item->boardname}}</td>
+                <td>{{$item->boardphone}}</td>
                 <td>{{$item->tujuan}}</td>
                 <td>{{$item->boardtype}}</td>
                 <td>{{$item->rutee}}</td>
