@@ -114,14 +114,9 @@ public function tiket($year = null, $month = null)
                     $list_item->name = $item_name;
                     // Tambahan FLT Export List
                     $list_item->number = 'N'.date('d/m/y').'/'.$item->id;
-                    $list_item->unit = $item->unit;
-                    $list_item->description = $request->list_description[$key_name];
-                    $list_item->price = $request->list_price[$key_name];
-                    $list_item->qty = $request->list_qty[$key_name];
                     $list_item->boarding_name = $request->list_boarding[$key_name];
                     $list_item->boarding_ktp = $request->list_ktp[$key_name];
                     $list_item->boarding_phone = $request->list_phone[$key_name];
-                    $list_item->jumlah = intval($request->list_price[$key_name]) * intval($request->list_qty[$key_name]);
                     $list_item->save();
                 }
             }
