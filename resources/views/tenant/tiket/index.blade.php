@@ -70,7 +70,7 @@
                                                         <td class="text-center">{{$loop->iteration}}</td>
                                                         <td style="width: 10%;" class="text-center text-nowrap">{{date('d F Y H:i', strtotime($item->request_date))}}</td>
                                                         <td>{{$item->number}}</td>
-                                                        <td>{{$item->codng_bus}}</td>
+                                                        <td>{{$item->coding_bus}}</td>
                                                         <td>{{$item->rute_awal}}</td>
                                                         <td>{{$item->tujuan2}}</td>
                                                         <td>{{$item->boarding_date}}</td>
