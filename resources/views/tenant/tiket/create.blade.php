@@ -99,7 +99,10 @@
                                             <h5>Rute Awal</h5>
                                             <div class="controls">
                                                 <select name="kota_awal" id="kota_awal" class="select2 form-control w-100" required data-validation-required-message="this field is required">
-                                                    <option value="Jakarta">Jakarta</option>
+                                                    <option value="Taspen">Taspen</option>
+                                                    <option value="Jakarta Velodrome">Jakarta Velodrome</option>
+                                                    <option value="Gelora Bungkarno">Gelora Bungkarno</option>
+                                                    <option value="Bogor">Bogor</option>
                                                 </select>
                                             </div>
                                         </div>
@@ -223,19 +226,19 @@
                                                     <div class="col-md-4">
                                                         <div class="controls">
                                                             <h5>Nama Penumpang</h5>
-                                                            <input type="text" name="list_boarding[]" class="form-control w-100" placeholder="Nama Penumpang" value="">
+                                                            <input type="text" name="list_boarding[]" class="form-control w-100" placeholder="Nama Penumpang" value="" required>
                                                         </div>
                                                     </div>
                                                     <div class="col-md-4">
                                                         <div class="controls">
                                                             <h5>No. KTP</h5>
-                                                            <input type="text" name="list_ktp[]" class="form-control w-100 mb-2" placeholder="No. KTP" value="">
+                                                            <input type="text" name="list_ktp[]" class="form-control w-100 mb-2" placeholder="No. KTP" value="" required>
                                                         </div>
                                                     </div>
                                                     <div class="col-md-4">
                                                         <div class="controls">
                                                             <h5>No. Telephone</h5>
-                                                            <input type="text" name="list_phone[]" class="form-control w-100 mb-2" placeholder="No. Telephone" value="">
+                                                            <input type="text" name="list_phone[]" class="form-control w-100 mb-2" placeholder="No. Telephone" value="" required>
                                                         </div>
                                                     </div>
                                                     <div class="col-md-1">&nbsp;</div>
