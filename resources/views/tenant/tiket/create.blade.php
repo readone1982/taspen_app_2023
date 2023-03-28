@@ -99,36 +99,11 @@
                                             <h5>Rute Awal</h5>
                                             <div class="controls">
                                                 <select name="assigned_to" id="assigned_to" class="select2 form-control w-100" required data-validation-required-message="this field is required">
-                                                    <option value="">Pilih Data</option>
                                                     <option value="Jakarta">Jakarta</option>
                                                 </select>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-3">
-                                        <div class="form-group">
-                                            <h5>Tujuan Akhir</h5>
-                                            <div class="controls">
-                                                <select name="request_type_tr" id="request_type_tr" class="select2 form-control w-100" required data-validation-required-message="This field is required">
-                                                    <option value="">Pilih Data</option>
-                                                    <option value="SEMARANG">1.SEMARANG</option>
-                                                    <option value="SOLO/YOGYAKARTA">2.SOLO/YOGYAKARTA</option>
-                                                    <option value="SOLO">3.SOLO</option>
-                                                    <option value="YOGYAKARTA">4.YOGYAKARTA</option>
-                                                    <option value="YOGYAKARTA">5.YOGYAKARTA</option>
-                                                    <option value="PEKALONGAN">6.PEKALONGAN</option>
-                                                    <option value="PADALARANG">7.PADALARANG</option>
-                                                    <option value="">--------------</option>
-                                                    <option value="SURABAYA VIA UTARA">1.SURABAYA</option>
-                                                    <option value="MEDAN">2.MEDAN</option>
-                                                    <option value="">--------------</option>
-                                                    <option value="MALANG VIA TENGAH">1.MALANG</option>
-                                                    <option value="MALANG VIA SELATAN">2.MALANG</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    {{-- Rute Pemberhentian --}}
                                     <div class="col-md-3">
                                         <div class="form-group">
                                             <h5>Tujuan</h5>
@@ -148,14 +123,20 @@
                                                     <option value="">--------------</option>
                                                     <option value="MALANG VIA TENGAH">1.MALANG VIA TENGAH</option>
                                                     <option value="MALANG VIA SELATAN">2.MALANG VIA SELATAN</option>
+                                                    <option value="">--------------</option>
+                                                    <option value="MADIUN VIA TOL CIPALI">1.MADIUN VIA TOL CIPALI</option>
+                                                    <option value="PALEMBANG">2.PALEMBANG</option>
+                                                    <option value="PEKANBARU">3.PEKANBARU</option>
+                                                    <option value="PADANG">4.PADANG</option>
                                                 </select>
                                             </div>
                                         </div>
                                     </div>
                                     {{-- Rute Pemberhentian --}}
+                                    {{-- Rute Pemberhentian --}}
                                     <div class="col-md-3">
                                         <div class="form-group">
-                                            <h5>Rute</h5>
+                                            <h5>Rute / Lintasa</h5>
                                             <div class="controls">
                                                 <select name="type_fl" id="type_fl" class="select2 form-control w-100" required data-validation-required-message="This field is required">
                                                     <option value="">Pilih Data</option>
@@ -166,13 +147,17 @@
                                                     <option value="Brebes - Bumiayu - Banyumas - Purwokerto - Purworejo -Yogyakarta">5.Brebes - Bumiayu - Banyumas - Purwokerto - Purworejo -Yogyakarta</option>
                                                     <option value="Jakarta - Cirebon - Pekalongan">6.Jakarta - Cirebon - Pekalongan</option>
                                                     <option value="Sukabumi - Cianjur - Padalarang">7.Sukabumi - Cianjur - Padalarang</option>
-                                                    <option value="COMPLAIN">COMPLAIN</option>
                                                     <option value="">--------------</option>
                                                     <option value="Semarang - Kudus - Rembang - Tuban - Lamongan - Gresik -Surabaya">1.Semarang - Kudus - Rembang - Tuban - Lamongan - Gresik -Surabaya</option>
                                                     <option value="Bandar lampung - Palembang - Jambi - Batuampar - Pekanbaru - Inderapura - Tebing tinggi - Medan">2.Bandar lampung - Palembang - Jambi - Batuampar - Pekanbaru - Inderapura - Tebing tinggi - Medan</option>
                                                     <option value="">--------------</option>
-                                                    <option value="Semarang - Kudus - Rembang - Tuban - Lamongan - Gresik -Surabaya">1.Semarang - Kudus - Rembang - Tuban - Lamongan - Gresik -Surabaya</option>
-                                                    <option value="Bandar lampung - Palembang - Jambi - Batuampar - Pekanbaru - Inderapura - Tebing tinggi - Medan">2.Bandar lampung - Palembang - Jambi - Batuampar - Pekanbaru - Inderapura - Tebing tinggi - Medan</option>
+                                                    <option value="Semarang - Boyolali - Sragen - Nganjuk - Mojokerto - Siduarjo - Surabaya - Malang">1.Semarang - Boyolali - Sragen - Nganjuk - Mojokerto - Siduarjo - Surabaya - Malang</option>
+                                                    <option value="Solo - Klaten - Pacitan - Ponorogo - Trenggalek - Tulung agung - Blitar - Malang">2.Solo - Klaten - Pacitan - Ponorogo - Trenggalek - Tulung agung - Blitar - Malang</option>
+                                                    <option value="">--------------</option>
+                                                    <option value="Jakarta Via Tol Cipali - GT Ngawi - Madiun">1.Jakarta Via Tol Cipali - GT Ngawi - Madiun</option>
+                                                    <option value="Serang - Cilegon - Merak - Kalianda - Bandar lampung - Palembang">2.Serang - Cilegon - Merak - Kalianda - Bandar lampung - Palembang</option>
+                                                    <option value="Merak - Kalianda - Bandar lampung - Jambi - Pekanbaru">3.Merak - Kalianda - Bandar lampung - Jambi - Pekanbaru</option>
+                                                    <option value="Merak - Kalianda - Bandar lampung - Baturaja - Muara enim - Lahat - Lubuk linggau - Solok - Padang">3.Merak - Kalianda - Bandar lampung - Baturaja - Muara enim - Lahat - Lubuk linggau - Solok - Padang</option>
                                                 </select>
                                             </div>
                                         </div>
@@ -216,19 +201,11 @@
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-md-4">
-                                        <div class="form-group">
-                                            <h5>Nama Pemohon Layanan<span class="required">*</span></h5>
-                                            <div class="controls">
-                                                <input type="text" name="name" id="name" class="form-control w-100" required data-validation-required-message="This field is required" placeholder="Nama Pemohon">
-                                            </div>
-                                        </div>
-                                    </div>
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <h3>Request Description</h3>
+                                            <h3>Catatan Pemberhentian</h3>
                                             <div class="controls">
-                                                <textarea id="form_description" name="form_description" class="form-control" rows="2" placeholder="Deskripsi Komplain Permintaan"></textarea>
+                                                <textarea id="form_description" name="form_description" class="form-control" rows="2" placeholder="Deskripsi Perminitaan"></textarea>
                                             </div>
                                         </div>
                                     </div>
