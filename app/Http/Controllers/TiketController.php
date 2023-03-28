@@ -109,6 +109,7 @@ public function tiket($year = null, $month = null)
             foreach ($request->list_name as $key_name => $item_name) {
                 if($item_name != '' && $item_name != null){
                     $list_item = new TicketList;
+                    $list_item->name = $item_name;
                     $list_item->boardname = $request->list_boarding[$key_name];
                     $list_item->boardktp = $request->list_ktp[$key_name];
                     $list_item->boardphone = $request->list_phone[$key_name];
