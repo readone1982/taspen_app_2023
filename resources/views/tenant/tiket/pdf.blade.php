@@ -150,7 +150,7 @@
                     </td>
                     <td style="padding: 0;margin: 0;text-align: center;vertical-align: top;font-size: 12px;padding: 5px;">{{$item->boardktp}}
                     </td>
-                    <td style="padding: 0;margin: 0;text-align: right;vertical-align: top;font-size: 12px;padding: 5px;">{{$item->id}}
+                    <td style="padding: 0;margin: 0;text-align: right;vertical-align: top;font-size: 12px;padding: 5px;">
                     </td>
                 </tr>
             @endforeach
