@@ -86,7 +86,7 @@
                                                 <select class="select2 form-control w-100" id="unit_id" name="unit_id">
                                                     <option value="">Pilih Bus</option>
                                                     @foreach ($unit as $item)
-                                                        <option value="{{$item->id}}">{{$item->full_number}}</option>
+                                                        <option value="{{$item->id}}">{{$item->full_number.($item->verification != null ? ' - '.$item->verification : '')}}</option>
                                                     @endforeach
                                                 </select>
                                             </div>
