@@ -209,17 +209,12 @@
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+
 <!-- test -->
         <table style="width: 100%;padding: 0;margin: 0; background-color: #f2f2f28b; height: 150px;">
             <tr>
                 <td style="padding: 0;margin: 0;width: 20%;text-align: left;vertical-align: top;font-size: 12px;padding: 5px;">
-                    <img src="https://i.ibb.co/YR20Pxf/submarks.png" style="width: 100%;">
+                    <img src="https://i.ibb.co/YR20Pxf/submarks.png" style="height: 170px;">
                 </td>
                 <td style="padding: 0;margin: 0;width: 80%;text-align: center;vertical-align: top;font-size: 35px;padding: 5px;">
                     ''Mudik sebuah perjalanan melepas kerinduan''<br>Erick Tohir
