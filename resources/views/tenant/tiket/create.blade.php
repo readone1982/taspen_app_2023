@@ -227,13 +227,13 @@
                                                     <div class="col-md-4">
                                                         <div class="controls">
                                                             <h5>No. KTP</h5>
-                                                            <input type="text" name="list_description[]" class="form-control w-100 mb-2" placeholder="No. KTP" value="0">
+                                                            <input type="text" name="list_ktp[]" class="form-control w-100 mb-2" placeholder="No. KTP" value="0">
                                                         </div>
                                                     </div>
                                                     <div class="col-md-4">
                                                         <div class="controls">
                                                             <h5>No. Telephone</h5>
-                                                            <input type="text" name="list_description[]" class="form-control w-100 mb-2" placeholder="No. Telephone" value="0">
+                                                            <input type="text" name="list_phone[]" class="form-control w-100 mb-2" placeholder="No. Telephone" value="0">
                                                         </div>
                                                     </div>
                                                     <div class="col-md-1">&nbsp;</div>
@@ -254,13 +254,13 @@
                                                         <div class="col-md-4">
                                                             <div class="controls">
                                                                 <h5>No. KTP</h5>
-                                                                <input type="text" name="list_description[]" class="form-control w-100 mb-2" placeholder="No. KTP" value="0">
+                                                                <input type="text" name="list_ktp[]" class="form-control w-100 mb-2" placeholder="No. KTP" value="0">
                                                             </div>
                                                         </div>
                                                         <div class="col-md-4">
                                                             <div class="controls">
                                                                 <h5>No. Telephone</h5>
-                                                                <input type="text" name="list_description[]" class="form-control w-100 mb-2" placeholder="No. Telephone" value="0">
+                                                                <input type="text" name="list_phone[]" class="form-control w-100 mb-2" placeholder="No. Telephone" value="0">
                                                             </div>
                                                         </div>
                                                         <div class="col-md-1">&nbsp;</div>
