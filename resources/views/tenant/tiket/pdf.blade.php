@@ -216,7 +216,7 @@
 <br>
 <br>
 <!-- test -->
-        <table style="width: 100%;padding: 0;margin: 0; background-color: #f2f2f28b;">
+        <table style="width: 100%;padding: 0;margin: 0; background-color: #f2f2f28b; height: 150px;">
             <tr>
                 <td style="padding: 0;margin: 0;width: 20%;text-align: left;vertical-align: top;font-size: 12px;padding: 5px;">
                     <img src="{{ asset('app-assets') }}/images/submarks.png" width="300px ">
