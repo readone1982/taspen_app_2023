@@ -10,7 +10,7 @@
     <title>{{ config('app.name', 'TASPEN APP') }}</title>
 
     <!-- Scripts -->
-    <script src="{{ asset('app-assets') }}/core/js/app.js" defer></script>
+    <script src="{{ asset('app-assets') }}/js/core/app.js" defer></script>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
