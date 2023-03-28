@@ -263,7 +263,7 @@ public function tiket($year = null, $month = null)
     public function export_pdf()
     {
         $tiketlist = TicketList::all();
-        $data['ticketlist'] = $tiketlist;
+        $data['tiketlist'] = $tiketlist;
 
         $pdf = PDF::loadview('tenant.tiket.exportpdf', $data)->setOptions(['defaultFont' => 'calibri', 'isHtml5ParserEnabled' => true, 'isRemoteEnabled' => true])->setPaper('Legal','landscape');
         return $pdf->stream();
