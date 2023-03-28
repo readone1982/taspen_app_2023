@@ -86,7 +86,7 @@
                                                 <select class="select2 form-control w-100" id="unit_id" name="unit_id">
                                                     <option value="">Pilih Bus</option>
                                                     @foreach ($unit as $item)
-                                                        <option value="{{$item->id}}">{{$item->full_number.($item->verification != null ? ' - '.$item->verification : ''.($item->notes))}}</option>
+                                                        <option value="{{$item->id}}">{{$item->full_number.($item->verification != null ? ' - '.$item->verification : '')}}</option>
                                                     @endforeach
                                                 </select>
                                             </div>
@@ -94,7 +94,7 @@
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-md-3">
+                                    {{-- <div class="col-md-3">
                                         <div class="form-group">
                                             <h5>Rute Awal</h5>
                                             <div class="controls">
@@ -106,7 +106,7 @@
                                                 </select>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> --}}
                                     {{-- <div class="col-md-3">
                                         <div class="form-group">
                                             <h5>Tujuan</h5>
