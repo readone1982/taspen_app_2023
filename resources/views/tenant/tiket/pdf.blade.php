@@ -26,9 +26,6 @@
                     E - Ticket ( Departure Bus )
                 </td>
             </tr>
-            <tr>
-                <td></td>
-            </tr>
         </table>
     </div>
 
@@ -195,8 +192,6 @@
                     </td>
                 </tr>
             @endforeach
-
-            <br>
         </table>
 <br>
 <br>
