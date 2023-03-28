@@ -81,7 +81,7 @@ public function tiket($year = null, $month = null)
                 ->withInput();
         }
 
-        // try {
+        try {
             $unit = Unit::find($request->unit_id);
 
             $item = new Ticket;
@@ -123,10 +123,10 @@ public function tiket($year = null, $month = null)
                 }
             }
 
-        //     return redirect('/tiket')->with('success', 'The Data was saved successfully.');
-        // } catch (\Throwable $th) {
-        //     return redirect('/tiket/create')->withErrors('Sorry, there is an error while adding new data.');
-        // }
+            return redirect('/tiket')->with('success', 'The Data was saved successfully.');
+        } catch (\Throwable $th) {
+            return redirect('/tiket/create')->withErrors('Sorry, there is an error while adding new data.');
+        }
     }
 
     public function tiket_edit(Request $request, $id)
