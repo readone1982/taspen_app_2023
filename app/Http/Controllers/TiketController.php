@@ -90,6 +90,7 @@ public function tiket($year = null, $month = null)
             $item->lintasan = $unit->verification;
             $item->tujuan2 = $unit->interior;
             $item->rute_awal = $unit->address;
+            $item->coding_bus = $unit->codingbus;
             $item->request_name = $request->request_name;
             $item->request_date = date('Y-m-d H:i:s', strtotime($request->request_date));
             $item->received_date = date('Y-m-d H:i:s', strtotime($request->received_date));
