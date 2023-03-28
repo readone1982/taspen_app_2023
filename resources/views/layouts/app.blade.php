@@ -140,15 +140,17 @@
         </footer>
         <!-- BEGIN VENDOR JS-->
         <script src="{{ asset('app-assets') }}/vendors/js/vendors.min.js" type="text/javascript"></script>
+        <script src="{{ asset('app-assets') }}/vendors/js/ui/jquery.sticky.js" type="text/javascript"></script>
+
         <!-- BEGIN VENDOR JS-->
         <!-- BEGIN PAGE VENDOR JS-->
-        <script src="{{ asset('app-assets') }}/vendors/js/ui/jquery.sticky.js" type="text/javascript"></script>
         <script src="{{ asset('app-assets') }}/vendors/js/charts/chartist.min.js" type="text/javascript"></script>
         <script src="{{ asset('app-assets') }}/vendors/js/charts/chartist-plugin-tooltip.min.js" type="text/javascript"></script>
         <script src="{{ asset('app-assets') }}/vendors/js/charts/raphael-min.js" type="text/javascript"></script>
         <script src="{{ asset('app-assets') }}/vendors/js/charts/morris.min.js" type="text/javascript"></script>
         <script src="{{ asset('app-assets') }}/vendors/js/timeline/horizontal-timeline.js" type="text/javascript"></script>
         <script src="{{ asset('app-assets') }}/vendors/js/charts/echarts/echarts.js" type="text/javascript"></script>
+
         <script src="{{ asset('app-assets') }}/vendors/js/tables/datatable/datatables.min.js" type="text/javascript"></script>
         <script src="{{ asset('app-assets') }}/vendors/js/forms/spinner/jquery.bootstrap-touchspin.js" type="text/javascript"></script>
         <script src="{{ asset('app-assets') }}/vendors/js/forms/validation/jqBootstrapValidation.js" type="text/javascript"></script>
@@ -161,17 +163,23 @@
         <script src="{{ asset('app-assets') }}/vendors/js/pickers/dateTime/moment-with-locales.min.js" type="text/javascript"></script>
         <script src="{{ asset('app-assets') }}/vendors/js/pickers/daterange/daterangepicker.js" type="text/javascript"></script>
         <script src="{{ asset('app-assets') }}/vendors/js/forms/validation/jquery.validate.min.js" type="text/javascript"></script>
+
+
         <!-- END PAGE VENDOR JS-->
         <!-- BEGIN MODERN JS-->
         <script src="{{ asset('app-assets') }}/js/core/app-menu.js" type="text/javascript"></script>
         <script src="{{ asset('app-assets') }}/js/core/app.js" type="text/javascript"></script>
         <script src="{{ asset('app-assets') }}/js/scripts/customizer.js" type="text/javascript"></script>
+
         <script src="{{ asset('app-assets') }}/js/scripts/forms/wizard-steps.js" type="text/javascript"></script>
         <script src="{{ asset('app-assets') }}/js/scripts/tables/datatables/datatable-basic.js" type="text/javascript"></script>
         <script src="{{ asset('app-assets') }}/js/scripts/forms/validation/form-validation.js" type="text/javascript"></script>
         <script src="{{ asset('app-assets') }}/js/scripts/extensions/sweet-alerts.js" type="text/javascript"></script>
         <script src="{{ asset('app-assets') }}/js/scripts/forms/select/form-select2.js" type="text/javascript"></script>
         <script src='https://cdn.tiny.cloud/1/1c8c0xx081rdqtns13vcep1csd1n3pfxts8xi01x4mxgcj7o/tinymce/5/tinymce.min.js' referrerpolicy="origin"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
         {{-- dika js --}}
         {{-- dika js --}}
         <!-- END MODERN JS-->
