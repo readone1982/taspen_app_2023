@@ -142,15 +142,15 @@
             </tr>
             @foreach ($tiket->list as $item)
                 <tr>
-                    <td style="padding: 0;margin: 0;text-align: left;vertical-align: top;font-size: 12px;padding: 5px;">{{$loop->iteration}}
+                    <td style="padding: 0;margin: 0;text-align: center;vertical-align: top;font-size: 12px;padding: 5px;">{{$loop->iteration}}
                     </td>
-                    <td style="padding: 0;margin: 0;text-align: left;vertical-align: top;font-size: 12px;padding: 5px;">{{$item->boardname}}
+                    <td style="padding: 0;margin: 0;text-align: center;vertical-align: top;font-size: 12px;padding: 5px;">{{$item->boardname}}
                     </td>
-                    <td style="padding: 0;margin: 0;text-align: right;vertical-align: top;font-size: 12px;padding: 5px;">{{$item->boardtype}}
+                    <td style="padding: 0;margin: 0;text-align: center;vertical-align: top;font-size: 12px;padding: 5px;">{{$item->boardtype}}
                     </td>
                     <td style="padding: 0;margin: 0;text-align: center;vertical-align: top;font-size: 12px;padding: 5px;">{{$item->boardktp}}
                     </td>
-                    <td style="padding: 0;margin: 0;text-align: right;vertical-align: top;font-size: 12px;padding: 5px;">{{$item->boardphone}}
+                    <td style="padding: 0;margin: 0;text-align: center;vertical-align: top;font-size: 12px;padding: 5px;">{{$item->boardphone}}
                     </td>
                 </tr>
             @endforeach
