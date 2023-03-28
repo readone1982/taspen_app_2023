@@ -47,9 +47,15 @@
 
                 @php
                 $bus1 = \App\Ticket::whereNull('deleted_at')->where('coding_bus', 'BUS 1')->count();
+                $bus2 = \App\Ticket::whereNull('deleted_at')->where('coding_bus', 'BUS 2')->count();
+                $bus3 = \App\Ticket::whereNull('deleted_at')->where('coding_bus', 'BUS 3')->count();
+                $bus4 = \App\Ticket::whereNull('deleted_at')->where('coding_bus', 'BUS 4')->count();
+                $bus5 = \App\Ticket::whereNull('deleted_at')->where('coding_bus', 'BUS 5')->count();
+                $bus6 = \App\Ticket::whereNull('deleted_at')->where('coding_bus', 'BUS 6')->count();
+                $bus7 = \App\Ticket::whereNull('deleted_at')->where('coding_bus', 'BUS 7')->count();
                 @endphp
                 <div class="row">
-                    <div class="col-xl-3 col-lg-6 col-12">
+                    <div class="col-xl-3 col-lg-6 col-3">
                         <div class="card pull-up">
                             <div class="card-content">
                                 <div class="card-body">
@@ -57,6 +63,57 @@
                                         <div class="media-body text-left">
                                             <h3 class="info"></h3>
                                             <h6>BUS 1 Kuota {{$bus1}} / 40</h6>
+                                        </div>
+                                        <div>
+                                            <i class="bi bi-house-heart info font-large-2 float-right"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-3">
+                        <div class="card pull-up">
+                            <div class="card-content">
+                                <div class="card-body">
+                                    <div class="media d-flex">
+                                        <div class="media-body text-left">
+                                            <h3 class="info"></h3>
+                                            <h6>BUS 2 Kuota {{$bus2}} / 40</h6>
+                                        </div>
+                                        <div>
+                                            <i class="bi bi-house-heart info font-large-2 float-right"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-3">
+                        <div class="card pull-up">
+                            <div class="card-content">
+                                <div class="card-body">
+                                    <div class="media d-flex">
+                                        <div class="media-body text-left">
+                                            <h3 class="info"></h3>
+                                            <h6>BUS 3 Kuota {{$bus3}} / 40</h6>
+                                        </div>
+                                        <div>
+                                            <i class="bi bi-house-heart info font-large-2 float-right"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-3">
+                        <div class="card pull-up">
+                            <div class="card-content">
+                                <div class="card-body">
+                                    <div class="media d-flex">
+                                        <div class="media-body text-left">
+                                            <h3 class="info"></h3>
+                                            <h6>BUS 4 Kuota {{$bus4}} / 40</h6>
                                         </div>
                                         <div>
                                             <i class="bi bi-house-heart info font-large-2 float-right"></i>
