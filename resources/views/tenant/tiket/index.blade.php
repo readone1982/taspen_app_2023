@@ -57,6 +57,7 @@
                                                         <th>Tanggal Pemesanan</th>
                                                         <th>No. Tiket</th>
                                                         <th>Armada</th>
+                                                        <th>Rute Awal</th>
                                                         <th>Tujuan</th>
                                                         <th>Tanggal Keberangkatan</th>
                                                         <th>Rute</th>
@@ -70,6 +71,7 @@
                                                         <td style="width: 10%;" class="text-center text-nowrap">{{date('d F Y H:i', strtotime($item->request_date))}}</td>
                                                         <td>{{$item->number}}</td>
                                                         <td>{{$item->unit}}</td>
+                                                        <td>{{$item->rute_awal}}</td>
                                                         <td>{{$item->tujuan2}}</td>
                                                         <td>{{$item->boarding_date}}</td>
                                                         <td>{{$item->lintasan}}</td>
