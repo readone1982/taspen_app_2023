@@ -246,7 +246,9 @@ public function tiket($year = null, $month = null)
         $tiket = Ticket::with('owner','list')->find($id);
         $data['tiket'] = $tiket;
 
-        $pdf = PDF::loadview('tenant.tiket.pdf', $data)->setOptions(['defaultFont' => 'calibri', 'isHtml5ParserEnabled' => true, 'isRemoteEnabled' => true])->setPaper('Legal','potrait');
+        $pdf = PDF::loadview('tenant.tiket.pdf', $data)
+        ->setOptions(['defaultFont' => 'calibri', 'isHtml5ParserEnabled' => true, 'isRemoteEnabled' => true, 'chroot' => public_path('app-assets/images')])
+        ->setPaper('Legal','potrait');
         return $pdf->stream($tiket->number.'.pdf');
     }
 }
