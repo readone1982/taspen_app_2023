@@ -98,7 +98,7 @@
                                         <div class="form-group">
                                             <h5>Rute Awal</h5>
                                             <div class="controls">
-                                                <select name="assigned_to" id="assigned_to" class="select2 form-control w-100" required data-validation-required-message="this field is required">
+                                                <select name="kota_awal" id="kota_awal" class="select2 form-control w-100" required data-validation-required-message="this field is required">
                                                     <option value="Jakarta">Jakarta</option>
                                                 </select>
                                             </div>
@@ -108,7 +108,7 @@
                                         <div class="form-group">
                                             <h5>Tujuan</h5>
                                             <div class="controls">
-                                                <select name="request_type_tr" id="request_type_tr" class="select2 form-control w-100" required data-validation-required-message="This field is required">
+                                                <select name="tujuan" id="tujuan" class="select2 form-control w-100" required data-validation-required-message="This field is required">
                                                     <option value="">Pilih Data</option>
                                                     <option value="SEMARANG VIA UTARA">1.SEMARANG VIA UTARA</option>
                                                     <option value="SOLO/YOGYAKARTA VIA UTARA">2.SOLO/YOGYAKARTA VIA UTARA</option>
@@ -136,9 +136,9 @@
                                     {{-- Rute Pemberhentian --}}
                                     <div class="col-md-3">
                                         <div class="form-group">
-                                            <h5>Rute / Lintasa</h5>
+                                            <h5>Rute / Lintasan</h5>
                                             <div class="controls">
-                                                <select name="type_fl" id="type_fl" class="select2 form-control w-100" required data-validation-required-message="This field is required">
+                                                <select name="rute_lintasan" id="rute_lintasan" class="select2 form-control w-100" required data-validation-required-message="This field is required">
                                                     <option value="">Pilih Data</option>
                                                     <option value="Exit tol Cirebon - Tegal - Pemalang - Pekalongan - Batang - Kendal - Semarang">1.Exit tol Cirebon - Tegal - Pemalang - Pekalongan - Batang - Kendal - Semarang</option>
                                                     <option value="Jakarta Via Tol Cipali Boyolali - Solo - Klaten - Yogyakarta">2.Jakarta Via Tol Cipali Boyolali - Solo - Klaten - Yogyakarta</option>

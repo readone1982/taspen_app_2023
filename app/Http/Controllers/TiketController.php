@@ -59,7 +59,7 @@ public function tiket($year = null, $month = null)
 
     public function tiketCreate(Request $request)
     {
-        $unit = Unit::with('owner')->whereNull('deleted_at')->orderBy('full_number', 'asc')->get();
+        $unit = Unit::with('owner')->whereNull('deleted_at')->orderBy('id', 'asc')->get();
         return view('tenant.tiket.create', [
             'menu' => 'tenant',
             'submenu' => 'tiket',
