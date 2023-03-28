@@ -110,7 +110,7 @@ public function tiket($year = null, $month = null)
             foreach ($request->list_name as $key_name => $item_name) {
                 if($item_name != '' && $item_name != null){
                     $list_item = new TicketList;
-                    $list_item->tiket_id = $item->id;
+                    $list_item->ticket_id = $item->id;
                     $list_item->name = $item_name;
                     // Tambahan FLT Export List
                     $list_item->number = 'N'.date('d/m/y').'/'.$item->id;
