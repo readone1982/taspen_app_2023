@@ -161,13 +161,7 @@
                 </td>
 
             </tr>
-            @php
-                $total = 0;
-            @endphp
             @foreach ($tiket->list as $item)
-                @php
-                    $total = $total + $item->jumlah;
-                @endphp
                 <tr>
                     <td style="padding: 0;margin: 0;text-align: left;vertical-align: top;font-size: 12px;padding: 5px;">{{$loop->iteration}}
                     </td>
