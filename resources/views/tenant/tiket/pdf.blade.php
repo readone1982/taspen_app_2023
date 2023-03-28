@@ -153,9 +153,6 @@
                 <td style="padding: 0;margin: 0;width: 15%;text-align: center;vertical-align: top;font-size: 12px;padding: 5px;font-weight: bold;">
                     Type
                 </td>
-                <td style="padding: 0;margin: 0;width: 10%;text-align: center;vertical-align: top;font-size: 12px;padding: 5px;font-weight: bold;">
-                    Qty
-                </td>
                 <td style="padding: 0;margin: 0;width: 20%;text-align: center;vertical-align: top;font-size: 12px;padding: 5px;font-weight: bold;">
                     ID Type & Number
                 </td>
@@ -172,17 +169,15 @@
                     $total = $total + $item->jumlah;
                 @endphp
                 <tr>
-                    <td style="padding: 0;margin: 0;text-align: left;vertical-align: top;font-size: 12px;padding: 5px;">
+                    <td style="padding: 0;margin: 0;text-align: left;vertical-align: top;font-size: 12px;padding: 5px;">{{$loop->iteration}}
                     </td>
                     <td style="padding: 0;margin: 0;text-align: left;vertical-align: top;font-size: 12px;padding: 5px;">{{$item->boardname}}
                     </td>
-                    <td style="padding: 0;margin: 0;text-align: right;vertical-align: top;font-size: 12px;padding: 5px;">{{$item->boardktp}}
+                    <td style="padding: 0;margin: 0;text-align: right;vertical-align: top;font-size: 12px;padding: 5px;">{{$item->type}}
                     </td>
-                    <td style="padding: 0;margin: 0;text-align: center;vertical-align: top;font-size: 12px;padding: 5px;">
+                    <td style="padding: 0;margin: 0;text-align: center;vertical-align: top;font-size: 12px;padding: 5px;">{{$item->boardktp}}
                     </td>
-                    <td style="padding: 0;margin: 0;text-align: right;vertical-align: top;font-size: 12px;padding: 5px;">
-                    </td>
-                    <td style="padding: 0;margin: 0;text-align: right;vertical-align: top;font-size: 12px;padding: 5px;">
+                    <td style="padding: 0;margin: 0;text-align: right;vertical-align: top;font-size: 12px;padding: 5px;">{{$item->boardseat}}
                     </td>
                 </tr>
             @endforeach
