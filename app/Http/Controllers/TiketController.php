@@ -107,14 +107,16 @@ public function tiket($year = null, $month = null)
             $edit->number = 'N'.date('d/m/y').'/'.$item->id;
             $edit->save();
 
+            foreach ($request->list_boarding as $key_name => $item_name) {
+                if($item_name != '' && $item_name != null){
                     $list_item = new TicketList;
                     $list_item->ticket_id = $item->id;
-                    $list_item->boardname = $request->list_boarding;
-                    $list_item->boardktp = $request->list_ktp;
-                    $list_item->boardphone = $request->list_phone;
+                    $list_item->boardname = $request->list_boarding[$key_name];
+                    $list_item->boardktp = $request->list_ktp[$key_name];
+                    $list_item->boardphone = $request->list_phone[$key_name];
                     $list_item->save();
-                
-            
+                }
+            }
 
             // return redirect('/tiket')->with('success', 'The Data was saved successfully.');
         // } catch (\Throwable $th) {
