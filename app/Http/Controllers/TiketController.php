@@ -118,6 +118,7 @@ public function tiket($year = null, $month = null)
                     $list_item->bus = $item->coding_bus;
                     $list_item->tujuan = $item->tujuan2;
                     $list_item->rutee = $item->lintasan;
+                    $list_item->numbering = $item->number;
                     $list_item->boardname = $request->list_boarding[$key_name];
                     $list_item->boardktp = $request->list_ktp[$key_name];
                     $list_item->boardphone = $request->list_phone[$key_name];
@@ -257,5 +258,14 @@ public function tiket($year = null, $month = null)
         ->setOptions(['defaultFont' => 'calibri', 'isHtml5ParserEnabled' => true, 'isRemoteEnabled' => true, 'chroot' => public_path('app-assets/images')])
         ->setPaper('Legal','potrait');
         return $pdf->stream($tiket->number.'.pdf');
+    }
+
+    public function export_pdf()
+    {
+        $tiketlist = TicketList::all();
+        $data['ticketlist'] = $tiketlist;
+
+        $pdf = PDF::loadview('tenant.tiket.exportpdf', $data)->setOptions(['defaultFont' => 'calibri', 'isHtml5ParserEnabled' => true, 'isRemoteEnabled' => true])->setPaper('Legal','landscape');
+        return $pdf->stream();
     }
 }

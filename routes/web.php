@@ -40,3 +40,4 @@ Route::get('/tiket', [App\Http\Controllers\TiketController::class, 'tiket'])->na
 Route::get('/tiket/create', [App\Http\Controllers\TiketController::class, 'tiketCreate'])->name('tenant.tiket.create');
 Route::post('/tiket/save', [App\Http\Controllers\TiketController::class, 'tiketSave'])->name('tenant.tiket.save');
 Route::get('/tiket/pdf/{id}', [App\Http\Controllers\TiketController::class, 'tiket_pdf'])->name('tenant.tiket.pdf');
+Route::get('/tiket/exportpdf/', [App\Http\Controllers\TiketController::class, 'export_pdf'])->name('tenant.tiket.exportpdf');
