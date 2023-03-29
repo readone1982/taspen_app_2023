@@ -162,14 +162,13 @@
                                     <div class="media d-flex">
                                         <div class="media-body text-left">
                                             <h3 class="info"></h3>
-                                            @php
-                                            if{{$bus4}} == 35 {
-                                                echo '<span style="font-weight: bold;color: rgb(0, 0, 0);">>BUS 4 - SOLO/YOGYAKARTA VIA UTARA Kuota Test Warna {{$bus4}} /40 </span>';
+                                            <?php
+                                            if ($bus4 > "35") {
+                                                echo '<span style="font-weight: bold;color: red;">{{$bus4}}</span>';
+                                            } else {
+                                                echo '<span style="font-weight: bold;color: rgb(13, 12, 12);">{{$bus4}}</span>';
                                             }
-                                            elseif{{$bus4}} > 35 {
-                                                echo '<span style="font-weight: bold;color: rgb(243, 16, 16);">>BUS 4 - SOLO/YOGYAKARTA VIA UTARA Kuota Test Warna {{$bus4}} /40 </span>';
-                                            }
-                                            @endphp
+                                            ?>
                                             <h6>BUS 4 - SOLO/YOGYAKARTA VIA UTARA Kuota {{$bus4}} / 40</h6>
                                             <h6>BUS 5 - SOLO/YOGYAKARTA VIA UTARA {{$bus5}} / 40</h6>
                                             <h6>BUS 6 - SOLO/YOGYAKARTA VIA UTARA {{$bus6}} / 40</h6>
