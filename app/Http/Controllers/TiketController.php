@@ -14,6 +14,7 @@ use App\Mail\HelloEmail;
 use App\Mail\InvoiceEmail;
 use App\Mail\InvoiceEmail2;
 use Illuminate\Support\Facades\Mail;
+use Maatwebsite\Excel\Facades\Excel;
 use PDF;
 
 
