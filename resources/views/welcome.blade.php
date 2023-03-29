@@ -163,7 +163,7 @@
                                         <div class="media-body text-left">
                                             <h3 class="info"></h3>
                                             <?php
-                                            if ($bus4 > "5") {
+                                            if ($bus4 > "35") {
                                                 echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 4 - SOLO/YOGYAKARTA VIA UTARA '  . $bus4 . ' / 40 </h6>';
                                             } else {
                                                 echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 4 - SOLO/YOGYAKARTA VIA UTARA '  . $bus4 . ' / 40 </h6>';
