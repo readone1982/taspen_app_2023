@@ -163,10 +163,10 @@
                                         <div class="media-body text-left">
                                             <h3 class="info"></h3>
                                             @php
-                                            if($bus4) == 35 {
+                                            if{{$bus4}} == 35 {
                                                 echo '<span style="font-weight: bold;color: rgb(0, 0, 0);">>BUS 4 - SOLO/YOGYAKARTA VIA UTARA Kuota Test Warna {{$bus4}} /40 </span>';
                                             }
-                                            elseif($bus4) > 35 {
+                                            elseif{{$bus4}} > 35 {
                                                 echo '<span style="font-weight: bold;color: rgb(243, 16, 16);">>BUS 4 - SOLO/YOGYAKARTA VIA UTARA Kuota Test Warna {{$bus4}} /40 </span>';
                                             }
                                             @endphp
