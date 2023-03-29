@@ -163,10 +163,17 @@
                                         <div class="media-body text-left">
                                             <h3 class="info"></h3>
                                             <?php
-                                            if ($bus4 > "35") {
+                                            if ($bus4 > "5") {
                                                 echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 4 - SOLO/YOGYAKARTA VIA UTARA '  . $bus4 . ' / 40 </h6>';
                                             } else {
                                                 echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 4 - SOLO/YOGYAKARTA VIA UTARA '  . $bus4 . ' / 40 </h6>';
+                                            }
+                                            ?>
+                                            <?php
+                                            if ($bus5 > "5") {
+                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 5 - SOLO/YOGYAKARTA VIA UTARA '  . $bus5 . ' / 40 </h6>';
+                                            } else {
+                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 5 - SOLO/YOGYAKARTA VIA UTARA '  . $bus5 . ' / 40 </h6>';
                                             }
                                             ?>
                                             <h6>BUS 4 - SOLO/YOGYAKARTA VIA UTARA Kuota {{$bus4}} / 40</h6>
