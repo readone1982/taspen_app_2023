@@ -23,7 +23,7 @@
     </table>
     <!--/ Invoice Company Details -->
 
-    <table class="table table-striped table-bordered zero-configuration" style="width: 100% !important;">
+    <table class="table table-striped table-bordered" style="width: 100% !important;">
         <thead>
             <tr>
                 <th style="width: 2%;">No</th>
