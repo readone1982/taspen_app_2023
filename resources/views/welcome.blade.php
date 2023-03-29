@@ -163,7 +163,7 @@
                                         <div class="media-body text-left">
                                             <h3 class="info"></h3>
                                             <?php
-                                            if ($bus4 > "35") {
+                                            if ($bus4 > "5") {
                                                 echo '<h6 style="text-align:center background-color:red;">' . $bus4 . '</h6>';
                                             } else {
                                                 echo '<h6 style="text-align:center background-color:black;">' . $bus4 . '</h6>';
