@@ -6,6 +6,7 @@ use App\Ticket;
 use App\TicketList;
 use App\Unit;
 use App\Exports\FltExport;
+use App\Exports\TicketExports;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
@@ -267,5 +268,10 @@ public function tiket($year = null, $month = null)
 
         $pdf = PDF::loadview('tenant.tiket.exportpdf', $data)->setOptions(['defaultFont' => 'calibri', 'isHtml5ParserEnabled' => true, 'isRemoteEnabled' => true])->setPaper('Legal','landscape');
         return $pdf->download();
+    }
+
+    public function export()
+    {
+        return Excel::download(new TicketExports, 'data.xlsx');
     }
 }
