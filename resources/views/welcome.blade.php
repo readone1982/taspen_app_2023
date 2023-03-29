@@ -162,6 +162,11 @@
                                     <div class="media d-flex">
                                         <div class="media-body text-left">
                                             <h3 class="info"></h3>
+                                            @php
+                                            if ($bus4) > 35{
+                                                echo '<span style="font-weight: bold;color: rgb(128, 0, 0);">>BUS 4 - SOLO/YOGYAKARTA VIA UTARA Kuota Test Warna {{$bus4}} /40 </span>';
+                                            }
+                                            @endphp
                                             <h6>BUS 4 - SOLO/YOGYAKARTA VIA UTARA Kuota {{$bus4}} / 40</h6>
                                             <h6>BUS 5 - SOLO/YOGYAKARTA VIA UTARA {{$bus5}} / 40</h6>
                                             <h6>BUS 6 - SOLO/YOGYAKARTA VIA UTARA {{$bus6}} / 40</h6>
@@ -220,7 +225,7 @@
                                             <h6>BUS S - PEKALONGAN {{$buss}} / 40</h6>
                                             <h6>BUS T - PADALARANG {{$bust}} / 40</h6>
 
-                                            
+
                                         </div>
                                         <div>
                                             <i class="bi bi-house-heart info font-large-2 float-right"></i>
