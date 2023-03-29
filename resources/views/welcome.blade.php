@@ -164,9 +164,9 @@
                                             <h3 class="info"></h3>
                                             <?php
                                             if ($bus4 > "35") {
-                                                echo '<span style="font-weight: bold;color: red;">{{$bus4}}</span>';
+                                                echo '<h6 style="text-align:center background-color:red;">' . $bus4 . '</h6>';
                                             } else {
-                                                echo '<span style="font-weight: bold;color: rgb(13, 12, 12);">{{$bus4}}</span>';
+                                                echo '<h6 style="text-align:center background-color:black;">' . $bus4 . '</h6>';
                                             }
                                             ?>
                                             <h6>BUS 4 - SOLO/YOGYAKARTA VIA UTARA Kuota {{$bus4}} / 40</h6>
