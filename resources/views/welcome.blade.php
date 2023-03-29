@@ -479,33 +479,33 @@
 
                                             <?php
                                             if ($busj > "35") {
-                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS J -  SOLO/YOGYAKARTA VIA UTARA '  . $busj . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS J -  YOGYAKARTA VIA SELATAN '  . $busj . ' / 40 </h6>';
                                             } else {
-                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS J -  SOLO/YOGYAKARTA VIA UTARA '  . $busj . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS J -  YOGYAKARTA VIA SELATAN '  . $busj . ' / 40 </h6>';
                                             }
                                             ?>
 
                                             <?php
                                             if ($busk > "35") {
-                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS K -  SOLO/YOGYAKARTA VIA UTARA '  . $busk . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS K -  YOGYAKARTA VIA SELATAN '  . $busk . ' / 40 </h6>';
                                             } else {
-                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS K -  SOLO/YOGYAKARTA VIA UTARA '  . $busk . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS K -  YOGYAKARTA VIA SELATAN '  . $busk . ' / 40 </h6>';
                                             }
                                             ?>
 
                                             <?php
                                             if ($busl > "35") {
-                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS L -  SOLO/YOGYAKARTA VIA UTARA '  . $busl . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS L -  YOGYAKARTA VIA SELATAN '  . $busl . ' / 40 </h6>';
                                             } else {
-                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS L -  SOLO/YOGYAKARTA VIA UTARA '  . $busl . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS L -  YOGYAKARTA VIA SELATAN '  . $busl . ' / 40 </h6>';
                                             }
                                             ?>
 
                                             <?php
                                             if ($busm > "35") {
-                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS M -  SOLO/YOGYAKARTA VIA UTARA '  . $busm . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS M -  YOGYAKARTA VIA SELATAN '  . $busm . ' / 40 </h6>';
                                             } else {
-                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS M -  SOLO/YOGYAKARTA VIA UTARA '  . $busm . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS M -  YOGYAKARTA VIA SELATAN '  . $busm . ' / 40 </h6>';
                                             }
                                             ?>
                                             {{--  --}}
