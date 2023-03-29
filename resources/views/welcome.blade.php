@@ -117,9 +117,6 @@
                                             } else {
                                                 echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 1 - SEMARANG VIA UTARA Kuota '  . $bus1 . ' / 40 </h6>';
                                             }
-                                            elseif {
-                                                echo '<h6 style="font-weight: bold;color: rgb(247, 10, 10);"></h6>';
-                                            }
                                             ?>
                                             <?php
                                             if ($bus2 > "35") {
