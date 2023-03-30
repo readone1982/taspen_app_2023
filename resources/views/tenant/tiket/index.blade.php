@@ -9,9 +9,9 @@
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('app-assets') }}/focus/images/favicon.png">
     <!-- Datatable -->
-    <link href="{{ asset('app-assets') }}/focus/vendor/datatables/css/jquery.dataTables.min.css" rel="stylesheet">
+    <link  rel="stylesheet" href="{{ asset('app-assets') }}/focus/vendor/datatables/css/jquery.dataTables.min.css" >
     <!-- Custom Stylesheet -->
-    <link href="{{ asset('app-assets') }}/focus/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ asset('app-assets') }}/focus/css/style.css" >
 
 </head>
 
