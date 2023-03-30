@@ -57,8 +57,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
 
     {{-- test --}}
-    <link href="https://cdn.datatables.net/v/dt/jq-3.6.0/dt-1.13.4/b-2.3.6/r-2.4.1/sp-2.1.2/datatables.min.css" rel="stylesheet"/>
-
+    <link  rel="stylesheet" href="{{ asset('app-assets') }}/focus/vendor/datatables/css/jquery.dataTables.min.css" >
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="{{ asset('app-assets') }}/focus/css/style.css" >
 
     {{-- bootstrap table --}}
     <!-- Bootstrap CSS -->
@@ -191,8 +192,12 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
 
         {{-- dika js --}}
-        <script src="https://cdn.datatables.net/v/dt/jq-3.6.0/dt-1.13.4/b-2.3.6/r-2.4.1/sp-2.1.2/datatables.min.js"></script>
-        {{-- dika js --}}
+        <script src="{{ asset('app-assets') }}/focus/vendor/global/global.min.js"></script>
+        <script src="{{ asset('app-assets') }}/focus/js/quixnav-init.js"></script>
+        <script src="{{ asset('app-assets') }}/focus/js/custom.min.js"></script>
+        <!-- Datatable -->
+        <script src="{{ asset('app-assets') }}/focus/vendor/datatables/js/jquery.dataTables.min.js"></script>
+        <script src="{{ asset('app-assets') }}/focus/js/plugins-init/datatables.init.js"></script>
 
     </div>
 </body>
