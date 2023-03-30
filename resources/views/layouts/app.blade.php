@@ -56,18 +56,7 @@
     <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
 
-    {{-- test --}}
-    <link  rel="stylesheet" href="{{ asset('app-assets') }}/focus/vendor/datatables/css/jquery.dataTables.min.css" >
-    <!-- Custom Stylesheet -->
-    <link rel="stylesheet" href="{{ asset('app-assets') }}/focus/css/style.css" >
 
-    {{-- bootstrap table --}}
-    <!-- Bootstrap CSS -->
-    <!-- Bootstrap DataTables CSS -->
-
-
-
-    {{-- css copas --}}
 </head>
 <body>
     <div id="app">
@@ -191,13 +180,6 @@
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
 
-        {{-- dika js --}}
-        <script src="{{ asset('app-assets') }}/focus/vendor/global/global.min.js"></script>
-        <script src="{{ asset('app-assets') }}/focus/js/quixnav-init.js"></script>
-        <script src="{{ asset('app-assets') }}/focus/js/custom.min.js"></script>
-        <!-- Datatable -->
-        <script src="{{ asset('app-assets') }}/focus/vendor/datatables/js/jquery.dataTables.min.js"></script>
-        <script src="{{ asset('app-assets') }}/focus/js/plugins-init/datatables.init.js"></script>
 
     </div>
 </body>
