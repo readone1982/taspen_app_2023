@@ -42,3 +42,4 @@ Route::post('/tiket/save', [App\Http\Controllers\TiketController::class, 'tiketS
 Route::get('/tiket/pdf/{id}', [App\Http\Controllers\TiketController::class, 'tiket_pdf'])->name('tenant.tiket.pdf');
 Route::get('/tiket/exportpdf', [App\Http\Controllers\TiketController::class, 'export_pdf'])->name('tenant.tiket.exportpdf');
 Route::get('/tiket/exports', [App\Http\Controllers\TiketController::class, 'export'])->name('tenant.tiket.exports');
+Route::get('tiket/delete/{id}', [App\Http\Controllers\TiketController::class, 'tiketDelete'])->name('tenant.tiket.delete');

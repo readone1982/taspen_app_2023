@@ -275,4 +275,30 @@ public function tiket($year = null, $month = null)
     {
         return Excel::download(new TicketExports, 'data.xlsx');
     }
+
+    public function tiketDelete($id)
+    {
+        try {
+            $tiket = Ticket::find($id);
+            $tiket->delete();
+
+            $tiketlist = Ticketlist::where('ticket_id', $id)->get();
+            foreach ($tiketlist as $item) {
+                $tiketlist_delete = TicketList::find($item->id);
+                $tiketlist_delete->delete();
+
+            }
+            return response()->json([
+                'code' => 200,
+                'status' => true,
+                'message' => 'The Data was deleted.'
+            ]);
+        } catch (\Throwable $th) {
+            return response()->json([
+                'code' => 500,
+                'status' => false,
+                'message' => 'Sorry, there is an error while deleting the data.'
+            ]);
+        }
+    }
 }

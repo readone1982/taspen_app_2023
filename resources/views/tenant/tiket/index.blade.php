@@ -62,6 +62,10 @@
                                     <td class="p-0 text-center text-nowrap" style="padding-top: 4px !important;padding-bottom: 4px !important;">
                                         <a href="{{url('/tiket/pdf/'.$item->id)}}" target="_blank" class="btn btn-sm btn-outline-primary" title="Print">
                                             <i class="la la-print">Print / PDF</i>
+                                            @if (Auth::user()->jabatan != 'admin')
+                                            <a href="{{url('/tiket/delete/'.$item->id)}}" class="btn btn-sm btn-outline-danger" title="Print">
+                                                <i class="la la-print">Delete</i>
+                                             @endif
                                     </td>
                                 </tr>
                                 @endforeach
