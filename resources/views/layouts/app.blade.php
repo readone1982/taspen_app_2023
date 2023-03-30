@@ -56,10 +56,6 @@
     <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
     {{-- test --}}
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/dataTables.bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdn.datatables.net/fixedheader/3.3.2/css/fixedHeader.bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.4.1/css/responsive.bootstrap.min.css">
 
 
     {{-- css copas --}}
@@ -182,14 +178,6 @@
         <script src="{{ asset('app-assets') }}/js/scripts/extensions/sweet-alerts.js" type="text/javascript"></script>
         <script src="{{ asset('app-assets') }}/js/scripts/forms/select/form-select2.js" type="text/javascript"></script>
         <script src='https://cdn.tiny.cloud/1/1c8c0xx081rdqtns13vcep1csd1n3pfxts8xi01x4mxgcj7o/tinymce/5/tinymce.min.js' referrerpolicy="origin"></script>
-        {{-- test --}}
-        <script src='https://code.jquery.com/jquery-3.5.1.js' referrerpolicy="origin"></script>
-        <script src='https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js' referrerpolicy="origin"></script>
-        <script src='https://cdn.datatables.net/1.13.4/js/dataTables.bootstrap.min.js' referrerpolicy="origin"></script>
-        <script src='https://cdn.datatables.net/fixedheader/3.3.2/js/dataTables.fixedHeader.min.js' referrerpolicy="origin"></script>
-        <script src='https://cdn.datatables.net/responsive/2.4.1/js/dataTables.responsive.min.js' referrerpolicy="origin"></script>
-        <script src='https://cdn.datatables.net/responsive/2.4.1/js/responsive.bootstrap.min.js' referrerpolicy="origin"></script>
-        {{-- test --}}
 
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
