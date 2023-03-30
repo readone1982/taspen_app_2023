@@ -161,6 +161,7 @@
         <script src="{{ asset('app-assets') }}/vendors/js/extensions/jquery.steps.min.js" type="text/javascript"></script>
         <script src="{{ asset('app-assets') }}/vendors/js/pickers/dateTime/moment-with-locales.min.js" type="text/javascript"></script>
         <script src="{{ asset('app-assets') }}/vendors/js/pickers/daterange/daterangepicker.js" type="text/javascript"></script>
+        {{-- **note After this --}}
         <script src="{{ asset('app-assets') }}/vendors/js/forms/validation/jquery.validate.min.js" type="text/javascript"></script>
 
 
@@ -179,6 +180,8 @@
 
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+        <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
+
 
 
 
