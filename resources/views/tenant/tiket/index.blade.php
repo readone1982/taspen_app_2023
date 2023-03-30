@@ -11,6 +11,7 @@
                     <div class="heading-elements">
                         <ul class="list-inline mb-0">
                             <li><a href="{{url('/tiket/create')}}" class="btn btn-sm btn-info btn-min-width box-shadow-3">Add Data</a></li>
+                            <li><a href="{{url('/tiket/exportpdf')}}" class="btn btn-sm btn-success btn-min-width box-shadow-3">PDF Data</a></li>
                             <li><a data-action="collapse"><i class="ft-minus"></i></a></li>
                             <li><a data-action="reload"><i class="ft-rotate-cw"></i></a></li>
                             <li><a data-action="expand"><i class="ft-maximize"></i></a></li>
