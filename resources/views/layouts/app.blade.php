@@ -57,6 +57,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
 
     {{-- test --}}
+    <link href="https://cdn.datatables.net/v/dt/jq-3.6.0/dt-1.13.4/b-2.3.6/r-2.4.1/sp-2.1.2/datatables.min.css" rel="stylesheet"/>
+
 
     {{-- bootstrap table --}}
     <!-- Bootstrap CSS -->
@@ -187,18 +189,11 @@
 
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+
         {{-- dika js --}}
+        <script src="https://cdn.datatables.net/v/dt/jq-3.6.0/dt-1.13.4/b-2.3.6/r-2.4.1/sp-2.1.2/datatables.min.js"></script>
         {{-- dika js --}}
-        <!-- END MODERN JS-->
-        <!-- BEGIN PAGE LEVEL JS-->
-        <script src="{{ asset('app-assets') }}/js/scripts/pages/dashboard-ecommerce.js" type="text/javascript"></script>
-            <!-- Jquery -->
-        <script type="text/javascript" language="javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
-        <!-- Jquery DataTables -->
-        <script type="text/javascript" language="javascript" src="http:////cdn.datatables.net/1.10.4/js/jquery.dataTables.min.js"></script>
-        <!-- Bootstrap dataTables Javascript -->
-        <script type="text/javascript" language="javascript" src="http://cdn.datatables.net/plug-ins/9dcbecd42ad/integration/bootstrap/3/dataTables.bootstrap.js"></script>
-        {{-- bootstrap table --}}
+
     </div>
 </body>
 </html>
