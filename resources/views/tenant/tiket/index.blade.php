@@ -86,238 +86,30 @@
                                             </table>
                                         </div>
                                     </div>
-                                    <div class="tab-pane fade show" id="done" role="tabpanel" aria-labelledby="done-tab" style="padding-top: 15px;">
-                                        <div class="table-responsive-xl">
-                                            <table class="table table-striped table-bordered zero-configuration table-responsive">
-                                                <thead>
-                                                    <tr>
-                                                        <th style="width: 1%;">No</th>
-                                                        <th style="width: 10%;">Tanggal</th>
-                                                        <th style="width: 15%;">Number</th>
-                                                        <th style="width: 5%;">Unit</th>
-                                                        <th style="width: 5%;">Handling By</th>
-                                                        <th style="width: 15rem;">Request Type</th>
-                                                        <th style="width: 10%;">Request Description</th>
-                                                        <th style="width: 10%;">Received Through</th>
-                                                        <th style="width: 10%;">Form Handling</th>
-                                                        <th style="width: 10%;">Assigned To</th>
-                                                        <th style="width: 5%;">Status</th>
-                                                        <th style="width: 5%;">Diselesaikan Oleh</th>
-                                                        <th style="width: 5%;">Tanggal Selesai</th>
-                                                        <th style="width: 5%;">Catatan</th>
-                                                        <th style="width: 5%;">Updated At / Done Time Tenant Relation</th>
-                                                        <th style="width: 5%;">Actions</th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody>
-                                                    @foreach ($done as $item)
-                                                    <tr>
-                                                        <td class="text-center">{{$loop->iteration}}</td>
-                                                        <td class="text-center text-nowrap">{{date('d F Y H:i', strtotime($item->request_date))}}</td>
-                                                        <td>{{$item->number}}</td>
-                                                        <td>{{$item->unit}}</td>
-                                                        <td>{{$item->received_name}}</td>
-                                                        <td>{{$item->request_type_tr}}</td>
-                                                        <td>{{$item->form_description}}</td>
-                                                        <td>{{$item->received_through}}</td>
-                                                        <td>{{$item->form_handling}}</td>
-                                                        <td>{{$item->assigned_to}}</td>
-                                                        <td class="text-center">{!! ($item->status == 'Process' ? '<span style ="color: red;font-weight: bold;">'.$item->status.'</span>' : '<span style ="color: green;font-weight: bold;">'.$item->status.'</span>') !!}</td>
-                                                        <td>{{$item->done_by}}</td>
-                                                        @if($item->done_date != null)
-                                                        <td>{{date('d F Y H:i', strtotime($item->done_date))}}</td>
-                                                        @else
-                                                        <td>{{$item->status}}</td>
-                                                        @endif
-                                                        <td>{{$item->note}}</td>
-                                                        <td>{{date('d F Y H:i', strtotime($item->updated_at))}}</td>
-
-                                                        <td class="p-0 text-center text-nowrap" style="padding-top: 4px !important;padding-bottom: 4px !important;">
-                                                            <a href="{{url('/tenant/layanan/detail/'.$item->id)}}" class="btn btn-sm btn-outline-primary" title="Detail">
-                                                                <i class="la la-file-text">Detail</i>
-                                                            </a>
-                                                            @if($item->status == 'Process')
-                                                            <a href="{{url('/tenant/layanan/edit/'.$item->id)}}" class="btn btn-sm btn-outline-warning" title="Edit">
-                                                                <i class="la la-edit">Edit</i>
-                                                            </a>
-                                                            <a class="btn btn-sm btn-outline-success" title="Cancel" onclick="actionReject('{{url('/tenant/layanan/cancel/'.$item->id)}}')">
-                                                                <i class="la la-close"> Cancel</i>
-                                                            </a>
-                                                            @endif
-                                                            <a href="{{url('/tenant/layanan/pdf/'.$item->id)}}" target="_blank" class="btn btn-sm btn-outline-primary" title="Print">
-                                                                <i class="la la-print">Print</i>
-                                                            </a>
-                                                        </td>
-                                                    </tr>
-                                                    @endforeach
-                                                </tbody>
-                                            </table>
-                                        </div>
-                                    </div>
-                                    <div class="tab-pane fade show" id="cancel" role="tabpanel" aria-labelledby="cancel-tab" style="padding-top: 15px;">
-                                        {{-- Close Tag Dika --}}
-                                        <div class="table-responsive-xl">
-                                            <table class="table table-striped table-bordered zero-configuration table-responsive">
-                                                <thead>
-                                                    <tr>
-                                                        <th style="width: 1%;">No</th>
-                                                        <th style="width: 10%;">Tanggal</th>
-                                                        <th style="width: 15%;">Number</th>
-                                                        <th style="width: 5%;">Unit</th>
-                                                        <th style="width: 5%;">Handling By</th>
-                                                        <th style="width: 15rem;">Request Type</th>
-                                                        <th style="width: 10%;">Request Description</th>
-                                                        <th style="width: 10%;">Received Through</th>
-                                                        <th style="width: 10%;">Form Handling</th>
-                                                        <th style="width: 10%;">Assigned To</th>
-                                                        <th style="width: 5%;">Status</th>
-                                                        <th style="width: 5%;">Diselesaikan Oleh</th>
-                                                        <th style="width: 5%;">Tanggal Selesai</th>
-                                                        <th style="width: 5%;">Catatan</th>
-                                                        <th style="width: 5%;">Updated At / Done Time Tenant Relation</th>
-                                                        <th style="width: 5%;">Actions</th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody>
-                                                    @foreach ($cancel as $item)
-                                                    <tr>
-                                                        <td class="text-center">{{$loop->iteration}}</td>
-                                                        <td class="text-center text-nowrap">{{date('d F Y H:i', strtotime($item->request_date))}}</td>
-                                                        <td>{{$item->number}}</td>
-                                                        <td>{{$item->unit}}</td>
-                                                        <td>{{$item->received_name}}</td>
-                                                        <td>{{$item->request_type_tr}}</td>
-                                                        <td>{{$item->form_description}}</td>
-                                                        <td>{{$item->received_through}}</td>
-                                                        <td>{{$item->form_handling}}</td>
-                                                        <td>{{$item->assigned_to}}</td>
-                                                        <td class="text-center">{!! ($item->status == 'Process' ? '<span style ="color: red;font-weight: bold;">'.$item->status.'</span>' : '<span style ="color: green;font-weight: bold;">'.$item->status.'</span>') !!}</td>
-                                                        <td>{{$item->done_by}}</td>
-                                                        @if($item->done_date != null)
-                                                        <td>{{date('d F Y H:i', strtotime($item->done_date))}}</td>
-                                                        @else
-                                                        <td>{{$item->status}}</td>
-                                                        @endif
-                                                        <td>{{$item->note}}</td>
-                                                        <td>{{date('d F Y H:i', strtotime($item->updated_at))}}</td>
-
-                                                        <td class="p-0 text-center text-nowrap" style="padding-top: 4px !important;padding-bottom: 4px !important;">
-                                                            <a href="{{url('/tenant/layanan/detail/'.$item->id)}}" class="btn btn-sm btn-outline-primary" title="Detail">
-                                                                <i class="la la-file-text">Detail</i>
-                                                            </a>
-                                                            @if($item->status == 'Process')
-                                                            <a href="{{url('/tenant/layanan/edit/'.$item->id)}}" class="btn btn-sm btn-outline-warning" title="Edit">
-                                                                <i class="la la-edit">Edit</i>
-                                                            </a>
-                                                            <a class="btn btn-sm btn-outline-success" title="Cancel" onclick="actionReject('{{url('/tenant/layanan/cancel/'.$item->id)}}')">
-                                                                <i class="la la-close"> Cancel</i>
-                                                            </a>
-                                                            <a class="btn btn-sm btn-outline-success" title="Done" onclick="actionConfirm('{{url('/tenant/layanan/done/'.$item->id)}}')">
-                                                                <i class="la la-check"> Done</i>
-                                                            </a>
-                                                            @endif
-                                                            <a href="{{url('/tenant/layanan/pdf/'.$item->id)}}" target="_blank" class="btn btn-sm btn-outline-primary" title="Print">
-                                                                <i class="la la-print">Print</i>
-                                                            </a>
-                                                        </td>
-                                                    </tr>
-                                                    @endforeach
-                                                </tbody>
-                                            </table>
-                                        </div>
-                                    </div>
-                                    {{-- waiting --}}
-                                    <div class="tab-pane fade show" id="waiting" role="tabpanel" aria-labelledby="waiting-tab" style="padding-top: 15px;">
-                                        {{-- Close Tag Dika --}}
-                                        <div class="table-responsive-xl">
-                                            <table class="table table-striped table-bordered zero-configuration table-responsive">
-                                                <thead>
-                                                    <tr>
-                                                        <th style="width: 1%;">No</th>
-                                                        <th style="width: 10%;">Tanggal</th>
-                                                        <th style="width: 15%;">Number</th>
-                                                        <th style="width: 5%;">Unit</th>
-                                                        <th style="width: 5%;">Handling By</th>
-                                                        <th style="width: 15rem;">Request Type</th>
-                                                        <th style="width: 10%;">Request Description</th>
-                                                        <th style="width: 10%;">Received Through</th>
-                                                        <th style="width: 10%;">Form Handling</th>
-                                                        <th style="width: 10%;">Assigned To</th>
-                                                        <th style="width: 5%;">Status</th>
-                                                        <th style="width: 5%;">Diselesaikan Oleh</th>
-                                                        <th style="width: 5%;">Tanggal Selesai</th>
-                                                        <th style="width: 5%;">Catatan</th>
-                                                        <th style="width: 5%;">Updated At / Done Time Tenant Relation</th>
-                                                        <th style="width: 5%;">Actions</th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody>
-                                                    @foreach ($waiting as $item)
-                                                    <tr>
-                                                        <td class="text-center">{{$loop->iteration}}</td>
-                                                        <td class="text-center text-nowrap">{{date('d F Y H:i', strtotime($item->request_date))}}</td>
-                                                        <td>{{$item->number}}</td>
-                                                        <td>{{$item->unit}}</td>
-                                                        <td>{{$item->received_name}}</td>
-                                                        <td>{{$item->request_type_tr}}</td>
-                                                        <td>{{$item->form_description}}</td>
-                                                        <td>{{$item->received_through}}</td>
-                                                        <td>{{$item->form_handling}}</td>
-                                                        <td>{{$item->assigned_to}}</td>
-                                                        <td class="text-center">{!! ($item->status == 'Process' ? '<span style ="color: red;font-weight: bold;">'.$item->status.'</span>' : '<span style ="color: green;font-weight: bold;">'.$item->status.'</span>') !!}</td>
-                                                        <td>{{$item->done_by}}</td>
-                                                        @if($item->done_date != null)
-                                                        <td class="text-center text-nowrap">{{date('d F Y H:i', strtotime($item->done_date))}}</td>
-                                                        @else
-                                                        <td class="text-center text-nowrap">{{$item->status}}</td>
-                                                        @endif
-                                                        <td>{{$item->note}}</td>
-                                                        <td class="text-center text-nowrap">{{date('d F Y H:i', strtotime($item->updated_at))}}</td>
-
-                                                        <td class="p-0 text-center text-nowrap" style="padding-top: 4px !important;padding-bottom: 4px !important;">
-                                                            <div class="btn-group">
-                                                                <button class="btn btn-primary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                                  Actions
-                                                                </button>
-                                                                <ul class="dropdown-menu">
-                                                                    <a href="{{url('/tenant/layanan/detail/'.$item->id)}}" class="btn btn-sm btn-outline-primary" title="Detail">
-                                                                        <i class="la la-file-text">Detail</i>
-                                                                    </a>
-                                                                    @if($item->status == 'Process')
-                                                                    <a href="{{url('/tenant/layanan/edit/'.$item->id)}}" class="btn btn-sm btn-outline-warning" title="Edit">
-                                                                        <i class="la la-edit">Edit</i>
-                                                                    </a>
-                                                                    <a class="btn btn-sm btn-outline-success" title="Cancel" onclick="actionReject('{{url('/tenant/layanan/cancel/'.$item->id)}}')">
-                                                                        <i class="la la-close"> Cancel</i>
-                                                                    </a>
-                                                                    <a class="btn btn-sm btn-outline-success" title="Done" onclick="actionConfirm('{{url('/tenant/layanan/done/'.$item->id)}}')">
-                                                                        <i class="la la-check"> Done</i>
-                                                                    </a>
-                                                                    @endif
-                                                                    @if($item->status == 'Waiting For Finished')
-                                                                    <a class="btn btn-sm btn-outline-success" title="Done" onclick="actionConfirm('{{url('/tenant/layanan/done/'.$item->id)}}')">
-                                                                        <i class="la la-check"> Done</i>
-                                                                    </a>
-                                                                    <a href="{{url('/tenant/layanan/pdf/'.$item->id)}}" target="_blank" class="btn btn-sm btn-outline-primary" title="Print">
-                                                                        <i class="la la-print">Print</i>
-                                                                    </a>
-                                                                </ul>
-                                                            </div>
-                                                            @endif
-                                                        </td>
-                                                    </tr>
-                                                    @endforeach
-                                                </tbody>
-                                            </table>
-                                        </div>
-                                    </div>
-                                    {{-- waiting --}}
                                 </div>
                             </div>
                         </div>
                     </div>
         </div>
     </div>
+    <table id="example" class="table table-striped table-bordered nowrap" style="width:100%">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Name</th>
+                <th>Name</th>
+                <th>Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Dika</td>
+                <td>Dika</td>
+                <td>Dika</td>
+                <td>Dika</td>
+            </tr>
+        </tbody>
+    </table>
 </section>
 {{-- Script --}}
 <script>
