@@ -55,7 +55,25 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+
     {{-- test --}}
+
+    {{-- bootstrap table --}}
+    <!-- Bootstrap CSS -->
+    <!-- Bootstrap DataTables CSS -->
+    <!-- Jquery -->
+    <script type="text/javascript" language="javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <!-- Jquery DataTables -->
+    <script type="text/javascript" language="javascript" src="http:////cdn.datatables.net/1.10.4/js/jquery.dataTables.min.js"></script>
+    <!-- Bootstrap dataTables Javascript -->
+    <script type="text/javascript" language="javascript" src="http://cdn.datatables.net/plug-ins/9dcbecd42ad/integration/bootstrap/3/dataTables.bootstrap.js"></script>
+    {{-- bootstrap table --}}
+    <!-- Panggil Fungsi -->
+    <script type="text/javascript" charset="utf-8">
+        $(document).ready(function() {
+        $('.table-paginate').dataTable();
+    } );
+    </script>
 
 
     {{-- css copas --}}
