@@ -162,13 +162,12 @@ function actionFilter(url){
     window.location = url+'/'+year+'/'+month;
 }
 
-$(document).ready(function() {
-    var table = $('#example').DataTable( {
-        responsive: true
-    } );
-
-    new $.fn.dataTable.FixedHeader( table );
-} );
+</script>
+<!-- Panggil Fungsi -->
+<script type="text/javascript" charset="utf-8">
+    $(document).ready(function() {
+	$('.table-paginate').dataTable();
+ } );
 </script>
 
 
