@@ -34,46 +34,6 @@
                             </ul>
                         </div>
                         @endif
-                        <table class="table table-striped table-bordered zero-configuration table-responsive">
-                            <thead>
-                                <tr>
-                                    <th>No</th>
-                                    <th>Tanggal Pemesanan</th>
-                                    <th>No. Tiket</th>
-                                    <th>Armada</th>
-                                    <th>Rute Awal</th>
-                                    <th>Tujuan</th>
-                                    <th>Tanggal Keberangkatan</th>
-                                    <th>Rute</th>
-                                    <th>Actions</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                @foreach ($process as $item)
-                                <tr>
-                                    <td class="text-center">{{$loop->iteration}}</td>
-                                    <td style="width: 10%;" class="text-center text-nowrap">{{date('d F Y', strtotime($item->request_date))}}</td>
-                                    <td>{{$item->number}}</td>
-                                    <td>{{$item->coding_bus}}</td>
-                                    <td>{{$item->rute_awal}}</td>
-                                    <td>{{$item->tujuan2}}</td>
-                                    <td style="width: 10%;" class="text-center text-nowrap">{{date('d F Y', strtotime($item->boarding_date))}}</td>
-                                    <td>{{$item->lintasan}}</td>
-                                    <td class="p-0 text-center text-nowrap" style="padding-top: 4px !important;padding-bottom: 4px !important;">
-                                        <a href="{{url('/tiket/pdf/'.$item->id)}}" target="_blank" class="btn btn-sm btn-outline-primary" title="Print">
-                                            <i class="la la-print">Print / PDF</i>
-                                            @if (Auth::user()->jabatan != 'admin')
-
-                                                @else
-                                                <a href="{{url('/tiket/delete/'.$item->id)}}" class="btn btn-sm btn-outline-danger" title="Print">
-                                                    <i class="la la-print">Delete</i>
-                                             @endif
-                                    </td>
-                                </tr>
-                                @endforeach
-                            </tbody>
-                        </table>
-                        {{-- test data table --}}
                         <table class="table table-striped table-bordered table-paginate" cellspacing="0" width="100%">
                             <thead>
                                 <tr>
