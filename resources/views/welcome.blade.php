@@ -254,16 +254,16 @@
                                             ?>
                                             <?php
                                             if ($bus21 > "35") {
-                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 21 - YOGYAKARTA VIA SELATAN '  . $bus21 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 21 - Cirebon - Brebes - Bumiayu - Banyumas - Purwokerto - Purworejo - Yogyakarta '  . $bus21 . ' / 40 </h6>';
                                             } else {
-                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 21 - YOGYAKARTA VIA SELATAN '  . $bus21 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 21 - Cirebon - Brebes - Bumiayu - Banyumas - Purwokerto - Purworejo - Yogyakarta '  . $bus21 . ' / 40 </h6>';
                                             }
                                             ?>
                                             <?php
                                             if ($bus22 > "35") {
-                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 22 - YOGYAKARTA VIA SELATAN '  . $bus22 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 22 - Tasikmalaya - Brebes - Bumiayu - Banyumas - Purwokerto - Purworejo - Yogyakarta '  . $bus22 . ' / 40 </h6>';
                                             } else {
-                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 22 - YOGYAKARTA VIA SELATAN '  . $bus22 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 22 - Tasikmalaya - Brebes - Bumiayu - Banyumas - Purwokerto - Purworejo - Yogyakarta '  . $bus22 . ' / 40 </h6>';
                                             }
                                             ?>
                                             <?php
@@ -556,9 +556,9 @@
 
                                             <?php
                                             if ($bust > "35") {
-                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS T -  PADALARANG '  . $busr . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS T -  Sukabumi - Cianjur - Padalarang - Semarang - Solo '  . $busr . ' / 40 </h6>';
                                             } else {
-                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS T -  PADALARANG '  . $busr . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS T -  Sukabumi - Cianjur - Padalarang - Semarang - Solo '  . $busr . ' / 40 </h6>';
                                             }
                                             ?>
                                         </div>
