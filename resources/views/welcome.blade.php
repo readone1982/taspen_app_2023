@@ -268,9 +268,9 @@
                                             ?>
                                             <?php
                                             if ($bus23 > "35") {
-                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 23 - YOGYAKARTA VIA SELATAN '  . $bus23 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 23 - YOGYAKARTA VIA TENGAH '  . $bus23 . ' / 40 </h6>';
                                             } else {
-                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 23 - YOGYAKARTA VIA SELATAN '  . $bus23 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 23 - YOGYAKARTA VIA TENGAH '  . $bus23 . ' / 40 </h6>';
                                             }
                                             ?>
 
@@ -556,9 +556,9 @@
 
                                             <?php
                                             if ($bust > "35") {
-                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS T -  Sukabumi - Cianjur - Padalarang - Semarang - Solo '  . $bust . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS T -  Sukabumi - Cianjur - Padalarang - '  . $bust . ' / 40 </h6>';
                                             } else {
-                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS T -  Sukabumi - Cianjur - Padalarang - Semarang - Solo '  . $bust . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS T -  Sukabumi - Cianjur - Padalarang - '  . $bust . ' / 40 </h6>';
                                             }
                                             ?>
                                         </div>
