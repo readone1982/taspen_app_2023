@@ -113,172 +113,172 @@
                                             <h3 class="info"></h3>
                                             <?php
                                             if ($bus1 > "35") {
-                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 1 - SEMARANG VIA UTARA Kuota '  . $bus1 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 1 - SEMARANG VIA UTARA Kuota '  . $bus1 . ' / 48 </h6>';
                                             } else {
-                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 1 - SEMARANG VIA UTARA Kuota '  . $bus1 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 1 - SEMARANG VIA UTARA Kuota '  . $bus1 . ' / 48 </h6>';
                                             }
                                             ?>
                                             <?php
                                             if ($bus2 > "35") {
-                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 2 - SEMARANG VIA UTARA Kuota '  . $bus2 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 2 - SEMARANG VIA UTARA Kuota '  . $bus2 . ' / 48 </h6>';
                                             } else {
-                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 2 - SEMARANG VIA UTARA Kuota '  . $bus2 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 2 - SEMARANG VIA UTARA Kuota '  . $bus2 . ' / 48 </h6>';
                                             }
                                             ?>
                                             <?php
                                             if ($bus3 > "35") {
-                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 3 - SEMARANG VIA UTARA Kuota '  . $bus3 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 3 - SEMARANG VIA UTARA Kuota '  . $bus3 . ' / 48 </h6>';
                                             } else {
-                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 3 - SEMARANG VIA UTARA Kuota '  . $bus3 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 3 - SEMARANG VIA UTARA Kuota '  . $bus3 . ' / 48 </h6>';
                                             }
                                             ?>
                                             <?php
                                             if ($bus4 > "35") {
-                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 4 - SOLO/YOGYAKARTA VIA UTARA '  . $bus4 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 4 - SOLO/YOGYAKARTA VIA UTARA '  . $bus4 . ' / 48 </h6>';
                                             } else {
-                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 4 - SOLO/YOGYAKARTA VIA UTARA '  . $bus4 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 4 - SOLO/YOGYAKARTA VIA UTARA '  . $bus4 . ' / 48 </h6>';
                                             }
                                             ?>
                                             <?php
                                             if ($bus5 > "35") {
-                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 5 - SOLO/YOGYAKARTA VIA UTARA '  . $bus5 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 5 - SOLO/YOGYAKARTA VIA UTARA '  . $bus5 . ' / 48 </h6>';
                                             } else {
-                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 5 - SOLO/YOGYAKARTA VIA UTARA '  . $bus5 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 5 - SOLO/YOGYAKARTA VIA UTARA '  . $bus5 . ' / 48 </h6>';
                                             }
                                             ?>
                                             <?php
                                             if ($bus6 > "35") {
-                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 6 - SOLO/YOGYAKARTA VIA UTARA '  . $bus6 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 6 - SOLO/YOGYAKARTA VIA UTARA '  . $bus6 . ' / 48 </h6>';
                                             } else {
-                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 6 - SOLO/YOGYAKARTA VIA UTARA '  . $bus6 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 6 - SOLO/YOGYAKARTA VIA UTARA '  . $bus6 . ' / 48 </h6>';
                                             }
                                             ?>
                                             <?php
                                             if ($bus7 > "35") {
-                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 7 - SOLO/YOGYAKARTA VIA UTARA '  . $bus7 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 7 - SOLO/YOGYAKARTA VIA UTARA '  . $bus7 . ' / 48 </h6>';
                                             } else {
-                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 7 - SOLO/YOGYAKARTA VIA UTARA '  . $bus7 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 7 - SOLO/YOGYAKARTA VIA UTARA '  . $bus7 . ' / 48 </h6>';
                                             }
                                             ?>
                                             <?php
                                             if ($bus8 > "35") {
-                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 8 - SOLO/YOGYAKARTA VIA UTARA '  . $bus8 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 8 - SOLO/YOGYAKARTA VIA UTARA '  . $bus8 . ' / 48 </h6>';
                                             } else {
-                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 8 - SOLO/YOGYAKARTA VIA UTARA '  . $bus8 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 8 - SOLO/YOGYAKARTA VIA UTARA '  . $bus8 . ' / 48 </h6>';
                                             }
                                             ?>
                                             <?php
                                             if ($bus9 > "35") {
-                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 9 - SOLO/YOGYAKARTA VIA UTARA '  . $bus9 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 9 - SOLO/YOGYAKARTA VIA UTARA '  . $bus9 . ' / 48 </h6>';
                                             } else {
-                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 9 - SOLO/YOGYAKARTA VIA UTARA '  . $bus9 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 9 - SOLO/YOGYAKARTA VIA UTARA '  . $bus9 . ' / 48 </h6>';
                                             }
                                             ?>
                                             <?php
                                             if ($bus10 > "35") {
-                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 10 - SOLO -SRAGEN '  . $bus10 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 10 - SOLO -SRAGEN '  . $bus10 . ' / 48 </h6>';
                                             } else {
-                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 10 - SOLO -SRAGEN '  . $bus10 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 10 - SOLO -SRAGEN '  . $bus10 . ' / 48 </h6>';
                                             }
                                             ?>
                                             <?php
                                             if ($bus11 > "35") {
-                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 11 - SOLO -SRAGEN '  . $bus11 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 11 - SOLO -SRAGEN '  . $bus11 . ' / 48 </h6>';
                                             } else {
-                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 11 - SOLO -SRAGEN '  . $bus11 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 11 - SOLO -SRAGEN '  . $bus11 . ' / 48 </h6>';
                                             }
                                             ?>
                                             <?php
                                             if ($bus12 > "35") {
-                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 12 - SOLO -SRAGEN '  . $bus12 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 12 - SOLO -SRAGEN '  . $bus12 . ' / 48 </h6>';
                                             } else {
-                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 12 - SOLO -SRAGEN '  . $bus12 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 12 - SOLO -SRAGEN '  . $bus12 . ' / 48 </h6>';
                                             }
                                             ?>
                                             <?php
                                             if ($bus13 > "35") {
-                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 13 - SOLO -SRAGEN '  . $bus13 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 13 - SOLO -SRAGEN '  . $bus13 . ' / 48 </h6>';
                                             } else {
-                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 13 - SOLO -SRAGEN '  . $bus13 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 13 - SOLO -SRAGEN '  . $bus13 . ' / 48 </h6>';
                                             }
                                             ?>
                                             <?php
                                             if ($bus14 > "35") {
-                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 14 - SOLO -SRAGEN '  . $bus14 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 14 - SOLO -SRAGEN '  . $bus14 . ' / 48 </h6>';
                                             } else {
-                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 14 - SOLO -SRAGEN '  . $bus14 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 14 - SOLO -SRAGEN '  . $bus14 . ' / 48 </h6>';
                                             }
                                             ?>
                                             <?php
                                             if ($bus15 > "35") {
-                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 15 - SOLO -SRAGEN '  . $bus15 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 15 - SOLO -SRAGEN '  . $bus15 . ' / 48 </h6>';
                                             } else {
-                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 15 - SOLO -SRAGEN '  . $bus15 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 15 - SOLO -SRAGEN '  . $bus15 . ' / 48 </h6>';
                                             }
                                             ?>
                                             <?php
                                             if ($bus16 > "35") {
-                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 16 - SOLO -SRAGEN '  . $bus16 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 16 - SOLO -SRAGEN '  . $bus16 . ' / 48 </h6>';
                                             } else {
-                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 16 - SOLO -SRAGEN '  . $bus16 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 16 - SOLO -SRAGEN '  . $bus16 . ' / 48 </h6>';
                                             }
                                             ?>
                                             <?php
                                             if ($bus17 > "35") {
-                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 17 - SOLO -SRAGEN '  . $bus17 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 17 - SOLO -SRAGEN '  . $bus17 . ' / 48 </h6>';
                                             } else {
-                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 17 - SOLO -SRAGEN '  . $bus17 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 17 - SOLO -SRAGEN '  . $bus17 . ' / 48 </h6>';
                                             }
                                             ?>
                                             <?php
                                             if ($bus18 > "35") {
-                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 18 - SOLO -SRAGEN '  . $bus18 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 18 - SOLO -SRAGEN '  . $bus18 . ' / 48 </h6>';
                                             } else {
-                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 18 - SOLO -SRAGEN '  . $bus18 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 18 - SOLO -SRAGEN '  . $bus18 . ' / 48 </h6>';
                                             }
                                             ?>
 {{--  --}}
                                             <?php
                                             if ($bus19 > "35") {
-                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 19 - YOGYAKARTA VIA SELATAN '  . $bus19 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 19 - YOGYAKARTA VIA SELATAN '  . $bus19 . ' / 44 </h6>';
                                             } else {
-                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 19 - YOGYAKARTA VIA SELATAN '  . $bus19 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 19 - YOGYAKARTA VIA SELATAN '  . $bus19 . ' / 44 </h6>';
                                             }
                                             ?>
                                             <?php
                                             if ($bus20 > "35") {
-                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 20 - YOGYAKARTA VIA SELATAN '  . $bus20 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 20 - YOGYAKARTA VIA SELATAN '  . $bus20 . ' / 44 </h6>';
                                             } else {
-                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 20 - YOGYAKARTA VIA SELATAN '  . $bus20 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 20 - YOGYAKARTA VIA SELATAN '  . $bus20 . ' / 44 </h6>';
                                             }
                                             ?>
                                             <?php
                                             if ($bus21 > "35") {
-                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 21 - Cirebon - Brebes - Bumiayu - Banyumas - Purwokerto - Purworejo - Yogyakarta '  . $bus21 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 21 - Cirebon - Brebes - Bumiayu - Banyumas - Purwokerto - Purworejo - Yogyakarta '  . $bus21 . ' / 44 </h6>';
                                             } else {
-                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 21 - Cirebon - Brebes - Bumiayu - Banyumas - Purwokerto - Purworejo - Yogyakarta '  . $bus21 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 21 - Cirebon - Brebes - Bumiayu - Banyumas - Purwokerto - Purworejo - Yogyakarta '  . $bus21 . ' / 44 </h6>';
                                             }
                                             ?>
                                             <?php
                                             if ($bus22 > "35") {
-                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 22 - Tasikmalaya - Brebes - Bumiayu - Banyumas - Purwokerto - Purworejo - Yogyakarta '  . $bus22 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 22 - Tasikmalaya - Brebes - Bumiayu - Banyumas - Purwokerto - Purworejo - Yogyakarta '  . $bus22 . ' / 44 </h6>';
                                             } else {
-                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 22 - Tasikmalaya - Brebes - Bumiayu - Banyumas - Purwokerto - Purworejo - Yogyakarta '  . $bus22 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 22 - Tasikmalaya - Brebes - Bumiayu - Banyumas - Purwokerto - Purworejo - Yogyakarta '  . $bus22 . ' / 44 </h6>';
                                             }
                                             ?>
                                             <?php
                                             if ($bus23 > "35") {
-                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 23 - YOGYAKARTA VIA TENGAH '  . $bus23 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 23 - YOGYAKARTA VIA TENGAH '  . $bus23 . ' / 44 </h6>';
                                             } else {
-                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 23 - YOGYAKARTA VIA TENGAH '  . $bus23 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 23 - YOGYAKARTA VIA TENGAH '  . $bus23 . ' / 44 </h6>';
                                             }
                                             ?>
 
                                             <?php
                                             if ($bus24 > "35") {
-                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 24 - PEKALONGAN '  . $bus24 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 24 - PEKALONGAN '  . $bus24 . ' / 48 </h6>';
                                             } else {
-                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 24 - PEKALONGAN '  . $bus24 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 24 - PEKALONGAN '  . $bus24 . ' / 48 </h6>';
                                             }
                                             ?>
                                             {{--
@@ -286,153 +286,153 @@
 
                                             <?php
                                             if ($bus25 > "35") {
-                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 25 - SURABAYA VIA UTARA '  . $bus25 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 25 - SURABAYA VIA UTARA '  . $bus25 . ' / 44 </h6>';
                                             } else {
-                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 25 - SURABAYA VIA UTARA '  . $bus25 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 25 - SURABAYA VIA UTARA '  . $bus25 . ' / 44 </h6>';
                                             }
                                             ?>
                                             <?php
                                             if ($bus26 > "35") {
-                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 26 - SURABAYA VIA UTARA '  . $bus26 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 26 - SURABAYA VIA UTARA '  . $bus26 . ' / 44 </h6>';
                                             } else {
-                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 26 - SURABAYA VIA UTARA '  . $bus26 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 26 - SURABAYA VIA UTARA '  . $bus26 . ' / 44 </h6>';
                                             }
                                             ?>
                                             <?php
                                             if ($bus27 > "35") {
-                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 27 - MALANG VIA TENGAH '  . $bus27 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 27 - MALANG VIA TENGAH '  . $bus27 . ' / 44 </h6>';
                                             } else {
-                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 27 - MALANG VIA TENGAH '  . $bus27 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 27 - MALANG VIA TENGAH '  . $bus27 . ' / 44 </h6>';
                                             }
                                             ?>
                                             <?php
                                             if ($bus28 > "35") {
-                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 28 - MALANG VIA TENGAH '  . $bus28 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 28 - MALANG VIA TENGAH '  . $bus28 . ' / 44 </h6>';
                                             } else {
-                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 28 - MALANG VIA TENGAH '  . $bus28 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 28 - MALANG VIA TENGAH '  . $bus28 . ' / 44 </h6>';
                                             }
                                             ?>
                                             <?php
                                             if ($bus29 > "35") {
-                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 29 - PADANG '  . $bus29 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 29 - PADANG '  . $bus29 . ' / 44 </h6>';
                                             } else {
-                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 29 - PADANG '  . $bus29 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 29 - PADANG '  . $bus29 . ' / 44 </h6>';
                                             }
                                             ?>
                                             <?php
                                             if ($bus30 > "35") {
-                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 30 - MALANG VIA TENGAH '  . $bus30 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 30 - MALANG VIA TENGAH '  . $bus30 . ' / 44 </h6>';
                                             } else {
-                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 30 - MALANG VIA TENGAH '  . $bus30 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 30 - MALANG VIA TENGAH '  . $bus30 . ' / 44 </h6>';
                                             }
                                             ?>
 
                                             <?php
                                             if ($bus31 > "35") {
-                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 31 -  MALANG VIA SELATAN '  . $bus31 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 31 -  MALANG VIA SELATAN '  . $bus31 . ' / 44 </h6>';
                                             } else {
-                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 31 -  MALANG VIA SELATAN '  . $bus31 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 31 -  MALANG VIA SELATAN '  . $bus31 . ' / 44 </h6>';
                                             }
                                             ?>
 
                                             <?php
                                             if ($bus32 > "35") {
-                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 32 -  MALANG VIA SELATAN '  . $bus32 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 32 -  MALANG VIA SELATAN '  . $bus32 . ' / 44 </h6>';
                                             } else {
-                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 32 -  MALANG VIA SELATAN '  . $bus32 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 32 -  MALANG VIA SELATAN '  . $bus32 . ' / 44 </h6>';
                                             }
                                             ?>
                                             <?php
                                             if ($bus33 > "35") {
-                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 33 - PADANG '  . $bus33 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 33 - PADANG '  . $bus33 . ' / 44 </h6>';
                                             } else {
-                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 33 - PADANG '  . $bus33 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 33 - PADANG '  . $bus33 . ' / 44 </h6>';
                                             }
                                             ?>
 
                                             <?php
                                             if ($bus34 > "35") {
-                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 34 -  MALANG VIA SELATAN '  . $bus34 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 34 -  MALANG VIA SELATAN '  . $bus34 . ' / 44 </h6>';
                                             } else {
-                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 34 -  MALANG VIA SELATAN '  . $bus34 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 34 -  MALANG VIA SELATAN '  . $bus34 . ' / 44 </h6>';
                                             }
                                             ?>
 
                                             <?php
                                             if ($bus35 > "35") {
-                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 35 -  MADIUN VIA TOL CIPALI '  . $bus35 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 35 -  MADIUN VIA TOL CIPALI '  . $bus35 . ' / 44 </h6>';
                                             } else {
-                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 35 -  MADIUN VIA TOL CIPALI '  . $bus35 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 35 -  MADIUN VIA TOL CIPALI '  . $bus35 . ' / 44 </h6>';
                                             }
                                             ?>
 
                                             <?php
                                             if ($bus36 > "35") {
-                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 36 -  MADIUN VIA TOL CIPALI '  . $bus36 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 36 -  MADIUN VIA TOL CIPALI '  . $bus36 . ' / 44 </h6>';
                                             } else {
-                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 36 -  MADIUN VIA TOL CIPALI '  . $bus36 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 36 -  MADIUN VIA TOL CIPALI '  . $bus36 . ' / 44 </h6>';
                                             }
                                             ?>
 
                                             <?php
                                             if ($bus37 > "35") {
-                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 37 -  MEDAN '  . $bus37 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 37 -  MEDAN '  . $bus37 . ' / 44 </h6>';
                                             } else {
-                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 37 -  MEDAN '  . $bus37 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 37 -  MEDAN '  . $bus37 . ' / 44 </h6>';
                                             }
                                             ?>
 
                                             <?php
                                             if ($bus38 > "35") {
-                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 38 -  PALEMBANG '  . $bus38 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 38 -  PALEMBANG '  . $bus38 . ' / 44 </h6>';
                                             } else {
-                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 38 -  PALEMBANG '  . $bus38 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 38 -  PALEMBANG '  . $bus38 . ' / 44 </h6>';
                                             }
                                             ?>
 
                                             <?php
                                             if ($bus39 > "35") {
-                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 39 -  PEKANBARU '  . $bus39 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 39 -  PEKANBARU '  . $bus39 . ' / 44 </h6>';
                                             } else {
-                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 39 -  PEKANBARU '  . $bus39 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 39 -  PEKANBARU '  . $bus39 . ' / 44 </h6>';
                                             }
                                             ?>
 
                                             <?php
                                             if ($bus40 > "35") {
-                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 40 -  PADANG '  . $bus40 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 40 -  PADANG '  . $bus40 . ' / 44 </h6>';
                                             } else {
-                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 40 -  PADANG '  . $bus40 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 40 -  PADANG '  . $bus40 . ' / 44 </h6>';
                                             }
                                             ?>
                                             {{-- aBJAD BUS --}}
                                             <?php
                                             if ($busa > "35") {
-                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS A -  SEMARANG VIA UTARA '  . $busa . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS A -  SEMARANG VIA UTARA '  . $busa . ' / 44 </h6>';
                                             } else {
-                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS A -  SEMARANG VIA UTARA '  . $busa . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS A -  SEMARANG VIA UTARA '  . $busa . ' / 44 </h6>';
                                             }
                                             ?>
 
                                             <?php
                                             if ($busb > "35") {
-                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS B -  SEMARANG VIA UTARA '  . $busb . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS B -  SEMARANG VIA UTARA '  . $busb . ' / 44 </h6>';
                                             } else {
-                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS B -  SEMARANG VIA UTARA '  . $busb . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS B -  SEMARANG VIA UTARA '  . $busb . ' / 44 </h6>';
                                             }
                                             ?>
                                             <?php
                                             if ($busc > "35") {
-                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS C -  SEMARANG VIA UTARA '  . $busc . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS C -  SEMARANG VIA UTARA '  . $busc . ' / 44 </h6>';
                                             } else {
-                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS C -  SEMARANG VIA UTARA '  . $busc . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS C -  SEMARANG VIA UTARA '  . $busc . ' / 44 </h6>';
                                             }
                                             ?>
                                             <?php
                                             if ($busd > "35") {
-                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS D -  SEMARANG VIA UTARA '  . $busd . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS D -  SEMARANG VIA UTARA '  . $busd . ' / 44 </h6>';
                                             } else {
-                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS D -  SEMARANG VIA UTARA '  . $busd . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS D -  SEMARANG VIA UTARA '  . $busd . ' / 44 </h6>';
                                             }
                                             ?>
 
@@ -447,118 +447,118 @@
 
                                             <?php
                                             if ($busf > "35") {
-                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS F -  SOLO/YOGYAKARTA VIA UTARA '  . $busf . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS F -  SOLO/YOGYAKARTA VIA UTARA '  . $busf . ' / 44 </h6>';
                                             } else {
-                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS F -  SOLO/YOGYAKARTA VIA UTARA '  . $busf . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS F -  SOLO/YOGYAKARTA VIA UTARA '  . $busf . ' / 44 </h6>';
                                             }
                                             ?>
 
                                             <?php
                                             if ($busg > "35") {
-                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS G -  SOLO/YOGYAKARTA VIA UTARA '  . $busg . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS G -  SOLO/YOGYAKARTA VIA UTARA '  . $busg . ' / 44 </h6>';
                                             } else {
-                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS G -  SOLO/YOGYAKARTA VIA UTARA '  . $busg . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS G -  SOLO/YOGYAKARTA VIA UTARA '  . $busg . ' / 44 </h6>';
                                             }
                                             ?>
 
                                             <?php
                                             if ($bush > "35") {
-                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS H -  SOLO/YOGYAKARTA VIA UTARA '  . $bush . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS H -  SOLO/YOGYAKARTA VIA UTARA '  . $bush . ' / 44 </h6>';
                                             } else {
-                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS H -  SOLO/YOGYAKARTA VIA UTARA '  . $bush . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS H -  SOLO/YOGYAKARTA VIA UTARA '  . $bush . ' / 44 </h6>';
                                             }
                                             ?>
 
                                             <?php
                                             if ($busi > "35") {
-                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS I -  SOLO/YOGYAKARTA VIA UTARA '  . $busi . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS I -  SOLO/YOGYAKARTA VIA UTARA '  . $busi . ' / 44 </h6>';
                                             } else {
-                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS I -  SOLO/YOGYAKARTA VIA UTARA '  . $busi . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS I -  SOLO/YOGYAKARTA VIA UTARA '  . $busi . ' / 44 </h6>';
                                             }
                                             ?>
 
                                             <?php
                                             if ($busj > "35") {
-                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS J -  YOGYAKARTA VIA SELATAN '  . $busj . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS J -  YOGYAKARTA VIA SELATAN '  . $busj . ' / 44 </h6>';
                                             } else {
-                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS J -  YOGYAKARTA VIA SELATAN '  . $busj . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS J -  YOGYAKARTA VIA SELATAN '  . $busj . ' / 44 </h6>';
                                             }
                                             ?>
 
                                             <?php
                                             if ($busk > "35") {
-                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS K -  YOGYAKARTA VIA SELATAN '  . $busk . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS K -  YOGYAKARTA VIA SELATAN '  . $busk . ' / 44 </h6>';
                                             } else {
-                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS K -  YOGYAKARTA VIA SELATAN '  . $busk . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS K -  YOGYAKARTA VIA SELATAN '  . $busk . ' / 44 </h6>';
                                             }
                                             ?>
 
                                             <?php
                                             if ($busl > "35") {
-                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS L -  YOGYAKARTA VIA SELATAN '  . $busl . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS L -  YOGYAKARTA VIA SELATAN '  . $busl . ' / 44 </h6>';
                                             } else {
-                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS L -  YOGYAKARTA VIA SELATAN '  . $busl . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS L -  YOGYAKARTA VIA SELATAN '  . $busl . ' / 44 </h6>';
                                             }
                                             ?>
 
                                             <?php
                                             if ($busm > "35") {
-                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS M -  YOGYAKARTA VIA SELATAN '  . $busm . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS M -  YOGYAKARTA VIA SELATAN '  . $busm . ' / 44 </h6>';
                                             } else {
-                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS M -  YOGYAKARTA VIA SELATAN '  . $busm . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS M -  YOGYAKARTA VIA SELATAN '  . $busm . ' / 44 </h6>';
                                             }
                                             ?>
                                             {{--  --}}
                                             {{--  --}}
                                             <?php
                                             if ($busn > "35") {
-                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS N -   YOGYAKARTA VIA TENGAH '  . $busn . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS N -   YOGYAKARTA VIA TENGAH '  . $busn . ' / 44 </h6>';
                                             } else {
-                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS N -   YOGYAKARTA VIA TENGAH '  . $busn . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS N -   YOGYAKARTA VIA TENGAH '  . $busn . ' / 44 </h6>';
                                             }
                                             ?>
                                             <?php
                                             if ($buso > "35") {
-                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS O -   YOGYAKARTA VIA TENGAH '  . $buso . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS O -   YOGYAKARTA VIA TENGAH '  . $buso . ' / 44 </h6>';
                                             } else {
-                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS O -   YOGYAKARTA VIA TENGAH '  . $buso . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS O -   YOGYAKARTA VIA TENGAH '  . $buso . ' / 44 </h6>';
                                             }
                                             ?>
                                             <?php
                                             if ($busp > "35") {
-                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS P -   YOGYAKARTA VIA TENGAH '  . $busp . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS P -   YOGYAKARTA VIA TENGAH '  . $busp . ' / 44 </h6>';
                                             } else {
-                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS P -   YOGYAKARTA VIA TENGAH '  . $busp . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS P -   YOGYAKARTA VIA TENGAH '  . $busp . ' / 44 </h6>';
                                             }
                                             ?>
                                             <?php
                                             if ($busq > "35") {
-                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS Q -   YOGYAKARTA VIA TENGAH '  . $busq . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS Q -   YOGYAKARTA VIA TENGAH '  . $busq . ' / 44 </h6>';
                                             } else {
-                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS Q -   YOGYAKARTA VIA TENGAH '  . $busq . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS Q -   YOGYAKARTA VIA TENGAH '  . $busq . ' / 44 </h6>';
                                             }
                                             ?>
                                             <?php
                                             if ($busr > "35") {
-                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS R -   YOGYAKARTA VIA TENGAH '  . $busr . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS R -   YOGYAKARTA VIA TENGAH '  . $busr . ' / 44 </h6>';
                                             } else {
-                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS R -   YOGYAKARTA VIA TENGAH '  . $busr . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS R -   YOGYAKARTA VIA TENGAH '  . $busr . ' / 44 </h6>';
                                             }
                                             ?>
 
                                             <?php
                                             if ($buss > "35") {
-                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS S -   PEKALONGAN '  . $buss . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS S -   PEKALONGAN '  . $buss . ' / 44 </h6>';
                                             } else {
-                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS S -   PEKALONGAN '  . $buss . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS S -   PEKALONGAN '  . $buss . ' / 44 </h6>';
                                             }
                                             ?>
 
                                             <?php
                                             if ($bust > "35") {
-                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS T -  MADIUN VIA TOL CIPALI - '  . $bust . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS T -  MADIUN VIA TOL CIPALI - '  . $bust . ' / 44 </h6>';
                                             } else {
-                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS T -  MADIUN VIA TOL CIPALI - '  . $bust . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS T -  MADIUN VIA TOL CIPALI - '  . $bust . ' / 44 </h6>';
                                             }
                                             ?>
                                         </div>
