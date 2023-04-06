@@ -314,9 +314,9 @@
                                             ?>
                                             <?php
                                             if ($bus29 > "35") {
-                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 29 - MALANG VIA TENGAH '  . $bus29 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 29 - PADANG '  . $bus29 . ' / 40 </h6>';
                                             } else {
-                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 29 - MALANG VIA TENGAH '  . $bus29 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 29 - PADANG '  . $bus29 . ' / 40 </h6>';
                                             }
                                             ?>
                                             <?php
@@ -344,9 +344,9 @@
                                             ?>
                                             <?php
                                             if ($bus33 > "35") {
-                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 33 -  MALANG VIA SELATAN '  . $bus33 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS 33 - PADANG '  . $bus33 . ' / 40 </h6>';
                                             } else {
-                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 33 -  MALANG VIA SELATAN '  . $bus33 . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS 33 - PADANG '  . $bus33 . ' / 40 </h6>';
                                             }
                                             ?>
 
@@ -556,9 +556,9 @@
 
                                             <?php
                                             if ($bust > "35") {
-                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS T -  Sukabumi - Cianjur - Padalarang - '  . $bust . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(255, 5, 5);"> BUS T -  MADIUN VIA TOL CIPALI - '  . $bust . ' / 40 </h6>';
                                             } else {
-                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS T -  Sukabumi - Cianjur - Padalarang - '  . $bust . ' / 40 </h6>';
+                                                echo '<h6 style="font-weight: bold;color: rgb(0, 0, 0);">BUS T -  MADIUN VIA TOL CIPALI - '  . $bust . ' / 40 </h6>';
                                             }
                                             ?>
                                         </div>
